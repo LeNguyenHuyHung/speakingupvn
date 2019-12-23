@@ -1,0 +1,378 @@
+﻿@media (max-width: 850px) {
+    .sup {
+        max-width: 0px;
+    }
+
+    h88 {
+        font-size: 31px;
+    }
+
+    h89 {
+        font-size: 23px;
+    }
+
+    .f-50-cfff-center {
+        font-size: 46px;
+    }
+
+    .f-50-cfff-center {
+        /*font-size: 46px;*/
+        font-size: 44px;
+    }
+
+    .f-36-cfff-center {
+        /*font-size: 33px;*/
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 720px) {
+    .detail-space-orange {
+        font-size: 23px;
+    }
+
+    .detail-robot-one {
+        /* font-size: 30px;*/
+        /*font-size: 32px;*/
+        font-size: 28px;
+    }
+
+    .f-24-c6f6f6f-left {
+        font-size: 22px;
+    }
+
+    .f-40-c1a1a1a-left {
+        font-size: 33px;
+    }
+
+    .onyx-block-head-img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 820px) {
+    /*.detail-leo-orange {
+        font-size: 23px;
+    }*/
+
+    h61 {
+        font-size: 23px;
+    }
+
+    h62 {
+        font-size: 20px;
+    }
+
+    .text30 {
+        font-size: 27px;
+    }
+
+    .text22 {
+        font-size: 21px;
+    }
+
+    .detail-leo-orange {
+        font-size: 21px;
+    }
+    /*Studio 13 for mac Artec3D*/
+    .img-3d-software-background-two {
+        background-size: 5000px;
+    }
+}
+
+@media (max-width: 420px) {
+    .text30 {
+        /*font-size: 22px;*/
+        /*Tri*/
+        font-size: 20px;
+    }
+
+
+    .text22 {
+        /*font-size: 17px;*/
+        /*Tri*/
+        font-size: 15px;
+    }
+
+    .meterial-block-one-all a {
+        font-size: 14px;
+    }
+
+    .title-top-right {
+        font-size: 15px;
+    }
+
+    .black-t {
+        font-size: 20px;
+    }
+
+    .detail {
+        font-size: 18px;
+    }
+
+    .detail-table {
+        font-size: 14px;
+    }
+
+    #logo-size {
+        margin-top: 10px !important;
+    }
+
+    h24 {
+        font-size: 18px;/*MVVLINH 8/10/2019*/
+    }
+
+    h30 {
+        /*font-size: 28px;*/
+        font-size: 24px;
+    }
+
+    h72 {
+        /* font-size: 33px;*/
+        font-size: 27px;
+    }
+    h73 {
+        font-size: 22px;
+    }
+    .font-spec-title-24-c848384-left {
+        font-size: 18px;
+    }
+
+    .font-spec-24-c333-center {
+        font-size: 18px;
+    }
+
+    .block-table-studio-spec-two-25per {
+        width: 28.5%;
+    }
+
+    .font-as-sensors-40-c333-left {
+        font-size: 35px;
+    }
+    .font-as-sensors-40-c333-center {
+        font-size: 35px;
+    }
+    .font-spec-60-cef4023-left {
+        font-size: 40px;
+    }
+    .block-detail-studio13-four-right h73 {
+        font-size: 19px;
+    } 
+    .link-spec {
+        font-size: 16px;
+    }
+    /* .detail1 {
+        padding: 0;
+        padding-left: 16px;
+    }
+    .detail {
+        padding: 0;
+        padding-left: 9px;
+    }*/
+    .text24 {
+        font-size: 19px !important;
+    }
+
+    .button-artec {
+        font-size: 19px;
+    }
+    /*h42 {
+        font-size: 17px;
+    }
+    .img15 {
+        width: 30px;
+    }
+    h25 {
+        font-size: 9px;
+    }*/
+    /* h53 {
+        font-size: 18px;
+    }
+       */
+    h51 {
+        font-size: 33px;
+    }
+
+    h52 {
+        font-size: 27px;
+    }
+
+    h54 {
+        /*font-size: 28px;*/
+        font-size: 22px;
+    }
+
+    h53 {
+        font-size: 20px !important;
+    }
+
+    h61 {
+        /* font-size: 20px;*/
+        font-size: 18px;
+    }
+
+    h62 {
+        font-size: 18px;
+    }
+
+    .detail-space-orange {
+        font-size: 18px;
+    }
+
+    h57 {
+        font-size: 22px;
+    }
+
+    .detail-ray-orange {
+        font-size: 23px;
+    }
+
+    .f-24-cfff-center {
+        font-size: 18px;
+    }
+
+    .onyx-f24b-fff {
+        font-size: 13px;
+    }
+
+    .onyx-f24-333 {
+        font-size: 13px;
+    }
+
+    /*Tri 19-8*/
+    .title-top-right {
+        font-size: 11px !important;
+    }
+
+    .banner-content h1 {
+        font-size: 28px !important;
+    }
+
+    .detail-leo-color-gray {
+        font-size: 20px !important;
+    }
+
+    .detail-leo-orange {
+        font-size: 17px !important;
+    }
+
+    /*h56 {
+        padding-top: 180px;
+    }*/
+
+    .detail-ray-orange {
+        font-size: 17px;
+    }
+
+    h57 {
+        font-size: 21px;
+    }
+
+    .block-detail-img-right-content-one {
+        top: 450px;
+    }
+
+    .white {
+        font-size: 20px
+    }
+
+    .black-t {
+        font-size: 15px;
+    }
+
+    /*markforge table*/
+    .x-series-f24b-000 {
+        font-size: 14px;
+    }
+
+    .x-series-table-spec-right-small {
+        width: 46.5%;
+    }
+
+    .x-series-table-spec-right {
+        width: 48.5%;
+    }
+
+    .x-series-f24-000 {
+        font-size: 8px;
+    }
+    h91 {
+        font-size: 25px;
+    }
+    h92 {
+        font-size: 20px;
+    }
+    h95 {
+        font-size: 19px;
+    }
+    .f-24-c6f6f6f-left {
+        font-size: 18px;
+    }
+    .title-top-right {
+        font-size: 15px;
+    }
+    }
+
+@media (max-width: 360px) {
+    .table4 {
+        font-size: 20px;
+    }
+
+    .text30 {
+        /*font-size: 21px;*/
+        font-size: 18px;
+    }
+
+    .text22 {
+        font-size: 16px;
+    }
+
+    h38 {
+        font-size: 21px;
+    }
+
+
+}
+/*@media (max-width: 375px) {
+    .text30 {
+        font-size: 21px;
+    }
+
+/*Tri 18-5*/
+
+
+
+
+
+
+
+@media (max-width: 615px) {
+    .detail-leo-color-gray {
+        font-size: 23px;
+    }
+    /*markforge table*/
+
+    /*.x-series-table-title {
+        float: left;
+    }
+
+    .x-series-table-spec-left {
+        float: left;
+    }
+    .x-series-table-spec-right-small{
+        float: left;
+    }
+    .x-series-table-spec-right{
+        float: left;
+    }
+    x-series-table-spec-right-small{
+        float: left;
+    }
+    .x-series-f24b-000 {
+        font-size: 17px;
+    }
+
+    .x-series-f24-000 {
+        font-size: 15px;
+    }*/
+}

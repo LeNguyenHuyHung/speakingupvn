@@ -1,0 +1,80 @@
+.menu-product-ul .menu-product-ul-li .menu-product-ul-li-ul {
+    /*opacity: 0;
+    visibility: hidden;*/
+    display:none!important;
+    transition: 0.8s;
+}
+
+.menu-product-ul .menu-product-ul-li:hover .menu-product-ul-li-ul {
+    /*opacity: 1;
+    visibility: visible;*/
+    display: block !important;
+    
+}
+
+.menu-product-ul-li-ul {
+    display: block !important;
+}
+
+.menu-product-ul-li {
+    margin-bottom: 21px;
+}
+
+.menu-product-ul li:nth-child(1) {
+    margin-bottom: -2px;
+    margin-top: 6px;
+}
+
+#services .services-content {
+    min-height: 346px!important;
+}
+
+.container .row .section-title {
+    margin-top: 40px !important;
+}
+/*SolutionPage*/
+li.nav-item-1.flag {
+    font-family: 'poppins', sans-serif;
+    margin: 12px 10px;
+}
+
+li.nav-item-1.flag img {
+    width: auto;
+}
+
+a.nav-link {
+    width: 97%;
+    height: 23px;
+}
+
+.navbar-nav .dropdown-menu {
+    padding: 7px 5px;
+}
+
+img.lazy {
+    width: auto;
+    height: 233px; /*233px*/
+    display: block;
+}
+    img.lazy.lazy-detailblog {
+        height: 100%;
+        width: 100%;
+    }
+div.lazy {
+   
+    height:100%; /*233px*/
+    display: block;
+}
+.numbers {
+    position: relative;
+}
+.number-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+.projects {
+    position: relative;
+}
+

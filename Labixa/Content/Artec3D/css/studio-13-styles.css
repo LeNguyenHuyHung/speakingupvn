@@ -1,0 +1,1348 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('/font/cordia-new/cordiab0.woff') format('woff'),
+		url('/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-studio13{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 153px;}
+
+.block-content-studio13-one{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-one{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as13-banner.jpg") 50% top no-repeat; background-size: cover; height: 750px;}
+.content-studio13-one-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-one{align-content: center; display: block; margin: 0; padding: 0; padding-top: 150px; width: 33%;}
+.block-detail-studio13-one-bottom{align-content: center; display: block; margin: 0; padding: 35px 20px;/*MVVLINH*/ width: 33%;}
+h60{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 20px; padding-top: 10px; width:100%; text-align: left; line-height: 1.5em; color:#333; font-size:40px;}
+h61{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 20px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:26px;}
+h62{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px 20px;/*MVVLINH*/ width:100%; text-align: left; line-height: 1.5em; color:#fff; font-size:26px; background: rgba(0,0,0,0.4); border-radius: 5px;}
+h63{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 5px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h64{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#fff; font-size:40px;}
+
+.block-content-studio13-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-two{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as-11-new-bg-1.png") 50% 50% no-repeat; background-size: cover; height: auto; background-color: #333;}
+.content-studio13-two-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-two{align-content: center; display: inline-block; padding: 0; padding-top: 150px; padding-right: 20px; margin: 0; width: 20%; position: relative; margin-top: 0; vertical-align: top;}
+.img-studio13-two{display: block; text-align: right;}
+.new-as11--left-border{position:absolute;width:2px;left:0;bottom:0;height:100%;background:linear-gradient(#807f7e,#ee4023);}
+.block-detail-studio13-two-left{align-content: center; display: inline-block; padding: 0; margin: 0; width: 25%; position: relative; vertical-align: top;}
+h65{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 150px; padding-left: 20px; width:100%; text-align: left; line-height: 1em; color:#F13F25; font-size:40px;}
+.block-detail-studio13-two-right{align-content: center; display: inline-block; padding: 150px 0; margin: 0; width: 50%; position: relative; vertical-align: top;}
+h66{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-left: 50px; width:100%; text-align: left; line-height: 1em; color:#fff; font-size:40px;}
+h67{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-left: 50px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:28px;}
+h68{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; padding-left: 50px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:24px;}
+
+.block-content-studio13-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-three{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-studio13-three-1070{align-content: center; display: block; padding: 0; padding-top: 50px; padding-bottom: 70px; margin: 0 auto; width: 1070px;}
+h69{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0 20px; padding-top: 10px; width:100%; text-align: center; line-height: 1.5em; color:#333; font-size:40px;}
+.block-detail-studio13-three-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-three-top-center{align-content: center; display: inline-block; padding: 0 15px; padding-top: 20px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-three-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-three-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-three-bottom-center{align-content: center; display: inline-block; padding: 0 15px; padding-top: 30px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+h70{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+h71{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-four{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as11-even-new-users-can.jpg") 50% top no-repeat; background-size: cover; height: 600px;}
+.content-studio13-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-four-right{align-content: center; display: inline-block; padding: 0; padding-right: 10%; margin: 0; width: 45%; vertical-align: top; float: right;}
+h72{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+h73{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-five{background-color: #ededed; background-size: cover; height: 300px;}
+.content-studio13-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-five-left{align-content: center; display: inline-block; padding: 0; padding-right: 10%; margin: 0; width: 50%; vertical-align: top; float: left;}
+.block-detail-studio13-five-right{align-content: center; display: inline-block; padding: 0; padding-right: 10%; margin: 0; width: 45%; vertical-align: top; float: right;}
+.img-studio13-five-right{align-content: center; display: block; padding: 15px 0; margin: 0; width:380px; height: 112px; vertical-align: top;}
+
+.block-content-studio13-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-six{background: url("/Content/Artec3D/images/artec/artec%20studio/13/easy-scanning-big.jpg") 50% top no-repeat; background-size: cover; height: 500px;}
+.content-studio13-six-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 100px; padding-right: 10%; margin: 0; width: 50%; vertical-align: top; float: left;}
+h74{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:30px;}
+h75{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:40px;}
+
+.block-content-studio13-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-seven{background-color:rgba(247,247,247,1.00); background-size: cover; height: auto;}
+.content-studio13-sevene-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+h76{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+h77{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:26px; vertical-align: top;}
+.block-img-studio13-seven{align-content: center; display:block; padding: 20px 0; margin: 0 auto; width: 100%;}
+.img-studio13-seven{align-content: center; display:block; padding: 0; margin: 0 auto; width:943px; height:629px;}
+.block-detail-studio13-seven-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-seven-top-center{align-content: center; display: inline-block; padding: 0 15px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-seven-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+h78{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 15px; width:100%; text-align: left; line-height: 1.3em; color:#575757; font-size:24px; vertical-align: top;}
+.detail-o{font-family: 'Roboto', sans-serif; font-size: 26px; color: #EF4023; font-weight: bold;}
+
+.block-content-studio13-e{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-e{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-e-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-e-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 66%; vertical-align: top;}
+.block-detail-studio13-e-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 32.5%; vertical-align: top;}
+.block-detail-studio13-e-small-left{align-content: center; display: inline-block; padding: 0; padding-left: 10px; padding-right: 20px; padding-top: 10px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-e-small-right{align-content: center; display: inline-block; padding: 0; padding-left: 20px; padding-right: 10px; padding-top: 10px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-studio13-e-small-right-f{align-content: center; display: inline-block; padding: 0; padding-left: 10px; padding-right: 20px; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+h79{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 15px; width:100%; text-align: left; line-height: 1.3em; color:#666666; font-size:22px; vertical-align: top;}
+
+.block-content-studio13-n{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-n{background: url("/Content/Artec3D/images/artec/artec%20studio/13/space.jpg") center center no-repeat; background-size: cover; height: auto;}
+.content-studio13-n-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-n-small-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; padding-top: 10px; margin: 0 auto; width: 30%; vertical-align: top;}
+.block-detail-studio13-n-small-right{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 69%; vertical-align: top;}
+h80{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:40px;}
+h81{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:24px;}
+
+.block-content-studio13-ten{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ten{background: url("/Content/Artec3D/images/artec/artec%20studio/13/workflow-big.jpg") 50% top no-repeat; background-size: 2000px; height: auto;}
+.content-studio13-ten-1070{align-content: center; display: block; padding: 200px 0; margin: 0 auto; width: 1070px;}
+h82{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:60px;}
+h83{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:44px;}
+
+.block-content-studio13-ev{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ev{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-ev-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+h84{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+h85{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 25px; padding-bottom: 15px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.wavy-divider{background: url("/Content/Artec3D/images/artec/artec%20studio/13/wavy-divider.png") center repeat-x; width:90%; background-size:30px 12px; height:15px; margin:30px auto 0;}
+.block-detail-studio13-ev-small-left{align-content: center; display: inline-block; padding: 20px 0; padding-right: 8px; margin: 0 auto; width: 44%; vertical-align: top;}
+.block-detail-studio13-ev-small-center{align-content: center; display: inline-block; padding: 20px 8px; margin: 0 auto; width: 27%; vertical-align: top;}
+.block-detail-studio13-ev-small-right{align-content: center; display: inline-block; padding: 20px 0; padding-left: 8px; margin: 0 auto; width: 28%; vertical-align: top;}
+h86{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 15px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top; border: 1px solid #ddd; border-radius: 5px;}
+.block-img-studio13-ev-small-top-left{align-content: center; display: inline-block; padding: 20px 0; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-img-studio13-ev-small-top-center{align-content: center; display: inline-block; padding: 20px 5px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-img-studio13-ev-small-top-right{align-content: center; display: inline-block; padding: 20px 0; padding-left: 10px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-img-studio13-ev-small-bottom-left{align-content: center; display: inline-block; padding: 20px 0; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-img-studio13-ev-small-bottom-center{align-content: center; display: inline-block; padding: 20px 5px; margin: 0 auto; width: 33%; vertical-align: top;}
+.step{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:20px; vertical-align: top;}
+.result{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 10px; width:100%; text-align: center; line-height: 1.3em; color:#666;/*MVVLINH*/ font-size:20px; vertical-align: top;}
+
+.block-content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-background-img-tw{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-tw-1070{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 1070px;}
+h87{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.block-img-studio13-tw-small{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff;}
+.block-img-studio13-tw-small-left1 {
+    align-content: center;
+    display: inline-block;
+    padding: 0 10%; /*padding-top: 20%*/
+    padding-top: 10%;
+    margin: 0 auto;
+    width: 49%;
+    vertical-align: middle;
+    background-color: #fff;
+}
+.block-img-studio13-tw-small-right1{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; clear: both;}
+.block-img-studio13-tw-small-left2{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; background-color: #fff;}
+.block-img-studio13-tw-small-right2{align-content: center; display: inline-block; padding: 0 10%; /*padding-top: 15%*/padding-top:10%; margin: 0 auto; width: 49%; vertical-align: middle; float: right; clear: both;}
+.block-img-studio13-tw-small-left3{align-content: center; display: inline-block; padding: 0 10%; /*padding-top: 12%*/padding-top:10%; margin: 0 auto; width: 49%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right3{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; clear: both;}
+.block-img-studio13-tw-small-left4{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; background-color: #fff;}
+.block-img-studio13-tw-small-right4 {
+    align-content: center;
+    display: inline-block;
+    padding: 0 10%; /*padding-top: 15%*/
+    padding-top: 10%;
+    margin: 0 auto;
+    width: 49%;
+    vertical-align: middle;
+    float: right;
+    clear: both;
+}
+.block-img-studio13-tw-small-left5 {
+    align-content: center;
+    display: inline-block;
+    padding: 0 10%; 
+    /*padding-top: 12%*/
+    padding-top: 10%;
+    margin: 0 auto;
+    width: 49%;
+    vertical-align: middle;
+    background-color: #fff;
+}
+.block-img-studio13-tw-small-right5{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; clear: both;}
+h88{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; /*font-size:40px*/ font-size:34px; vertical-align: middle;}
+h89{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+.img-tw-right1{padding-left: 7px; width: 542px; height: 542px;}
+.img-tw-left2{width: 535px; height: 535px;}
+
+.block-content-studio13-th{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-th{background-color: #333; background-size: cover; height: auto;}
+.content-studio13-th-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+h90{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 20px; width:100%; text-align: center; line-height: 1.1em; color:#EF4023; font-size:40px; vertical-align: middle;}
+.block-img-studio13-th-small-left{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 49%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px;}
+.block-img-studio13-th-small-right{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 49%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px; float: right;}
+h91{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 30px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h92{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 20px; padding-bottom: 30px; width:100%; text-align: left; line-height: 1.2em; color:#ddd; font-size:24px;}
+
+.block-content-studio13-ft{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ft{background: url("/Content/Artec3D/images/artec/artec%20studio/13/working-with-3d.jpg") center top no-repeat; background-size: cover; height: auto;}
+.content-studio13-ft-1070{align-content: center; display: block; padding: 110px 0; margin: 0 auto; width: 1070px;}
+.block-content-studio13-small-ft{align-content: center; display: block; padding: 50px 50px; margin: 0 auto; width: 100%;}
+h93{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h94{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:44px;}
+
+.block-content-studio13-fift{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-fift{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-fift-1070{align-content: center; display: block; padding: 75px/*MVVLinh*/ 0; margin: 0 auto; width: 1070px;}
+.block-img-studio13-fift-left{align-content: center; display: inline-block; padding: 20px 0; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-img-studio13-fift-right{align-content: center; display: inline-block; padding: 20px 0; margin: 0 auto; width: 49%; vertical-align: top;float: right;}
+.block-img-studio13-fift-small-left{align-content: center; display: inline-block; padding: 0 10px; margin: 0 auto; width: 50%; vertical-align: top; text-align: center;}
+.block-img-studio13-fift-small-right{align-content: center; display: inline-block; padding: 0 10px; margin: 0 auto; width: 50%; vertical-align: top; float: right; text-align: center;}
+h95{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-st{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-st-g{background-color: #f7f7f7; background-size: cover; height: auto;}
+.img-studio13-background-img-st-w{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-st-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 1070px;}
+.block-img-studio13-st-left{align-content: center; display: inline-block; padding: 150px 0; margin: 0 auto; width: 500px; vertical-align: top; position: absolute;}
+.block-studio13-st-right{align-content: center; display: table; display: table-cell; padding: 40px 0;/*MVVLINH*/ margin: 0 auto; width: 50%; vertical-align: top; position: relative;}
+.block-studio13-st-small-right{align-content: center; display: block; padding: 0; padding-bottom: 20px; margin: 0 auto; width: 50%; vertical-align: top; text-align: left; float: right;} 
+h96{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+h97{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.img-studio13-st-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 514px; height: 30px;}
+
+.block-content-studio13-set{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-set{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-set-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-set-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-bottom: 30px; padding-right: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-set-top-center{align-content: center; display: inline-block; padding: 0 15px; padding-top: 10px; padding-bottom: 30px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-set-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-bottom: 30px; padding-left: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-studio13-set-center{align-content: center; display: block; padding: 15px 100px; margin: 0 auto; width: 600px; vertical-align: top; background-color: #EF4023; border-radius: 5px;}
+h98{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align:center; line-height: 1.3em; color:#fff; font-size:28px; vertical-align: top;}
+h99{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align:left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+.block-detail-studio13-set-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 160px; vertical-align: top;}
+.block-detail-studio13-set-bottom-center{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 130px; vertical-align: top;}
+.block-detail-studio13-set-bottom-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 100px; vertical-align: top;}
+
+.content-studio13-footer-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 1070px;}
+/*end page overview*/
+
+
+.block-content-studio13-what-new-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-what-new-one-left{align-content: center; display: inline-block; padding: 0; padding-right: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-one-right{align-content: center; display: inline-block; padding: 0; padding-left: 15px; margin: 0 auto; width: 49%; vertical-align: top;}
+.font-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-28-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:28px; vertical-align: top;}
+.font-26-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:26px; vertical-align: top;}
+.img-studio13-what-new-one-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-one-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-top-center{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 32%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-bottom-center{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-one-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%;}
+.font-26-c000-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#000; font-size:26px; vertical-align: top;}
+.font-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.vdo-studio13-what-new-one-center{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 600px;}
+
+.block-content-studio13-what-new-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-two{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-what-new-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 15px; margin: 0 auto; width: 49%; vertical-align: top;}
+.img-studio13-what-new-two{align-content: center; display: block; padding: 10px 0; margin: 0; width: 530px;}
+.font-30-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top; font-weight: bold;}
+.font-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; /*font-size:24px*/font-size:18px; vertical-align: top;}
+.font-30-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; padding-bottom: 20px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top; font-weight: bold;}
+.font-24-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding: 0; padding-bottom: 10px; width:70%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-what-new-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-three{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-what-new-three-left{align-content: center; display: inline-block; padding: 0; padding-bottom: 50px; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-three-right{align-content: center; display: inline-block; padding: 0; padding-bottom: 50px; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-studio13-what-new-three-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 220px; vertical-align: top;}
+
+.as11-compare-wrapper{-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;position:relative;width:100%;height:100%;}
+.as11-compare-right img{max-height:100%;height:100% !important;position:absolute;right:0;max-width:none !important;}
+.as11-compare-left{height:100%;}
+.as11-compare-left img{width:100%;}
+.as11-compare-right{height:100%;bottom:0;right:0;position:absolute;overflow:hidden;}
+.as11-compare-divider{top:0;width:1px;height:100%;background:#e5e5e5;position:absolute;left:50%;}
+.as11-compare-divider:after{background:url("/Content/Artec3D/images/artec/artec%20studio/13/compare-divider-bg.png") center no-repeat;height:100%;content:" "; display:block;top:0;width:23px;position:absolute;left:-11px;}
+.img{align-content: center; display: block; margin: 0; padding: 0; width: 100%;}
+
+.block-content-studio13-what-new-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-four{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-what-new-four-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-four-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top;}
+.vdo-studio13-what-new-four-center{align-content: center; display: block; padding:0; padding-top: 10px; padding-bottom: 20px; margin: 0 auto; width: 100%;}
+
+.block-content-studio13-what-new-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-five{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-what-new-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-five{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+
+.block-content-studio13-what-new-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-six{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-six-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-what-new-six-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-six{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-six-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 350px; vertical-align: top;}
+.block-detail-studio13-what-new-six-small-bottom{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 250px; vertical-align: top;}
+.block-detail-studio13-what-new-six-left-bottom{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right-bottom{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-six-left-bottom{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right-bottom{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-six-small-bottom-one{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+/*end what's new*/
+
+
+.block-content-studio13-as-sensors-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-one{background:url("/Content/Artec3D/images/artec/artec%20studio/13/as-sensors-promo-bg.jpg") center 40% no-repeat; background-size: 1920px; height: 500px;}
+.content-studio13-as-sensors-one-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-as-sensors-one-left-30per{align-content: center; display: inline-block; padding:0; padding-top: 93px; padding-right: 20px; margin: 0 auto; width: 30%; vertical-align: top;}
+.font-as-sensors-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; padding-bottom: 100px;}
+.block-studio13-background-img-as-sensors-two{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-two{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.font-as-sensors-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-28-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+.block-studio13-background-img-as-sensors-two-{background:url("/Content/Artec3D/images/artec/artec%20studio/13/sensors-bg.jpg") center center no-repeat; background-size: cover; height: 350px;}
+.block-detail-studio13-as-sensors-two-left{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 50%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-two-right{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 49%; vertical-align: top; text-align: center; position: relative; top: 0;}
+.img-as-sensors-two{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 190px; height: 250px;}
+.font-as-sensors-50-cfff-blod-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:50px; font-weight: bold; vertical-align: top;}
+.block-detail-studio13-as-sensors-two-left-bottom{align-content: center; display: inline-block; padding:50px 20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-two-right-bottom{align-content: center; display: inline-block; padding:50px 20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.font-as-sensors-24-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.font-as-sensors-24-c666-center-bgwhite{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-as-sensors-background-img-three{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-as-sensors-three-1070{align-content: center; display: block; padding: 30px 0; margin: 0 auto; width: 1070px;}
+.font-as-sensors-40-c333-center-none-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-studio13-as-sensors-three-left{align-content: center; display: inline-block; padding:10px 15px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-three-center{align-content: center; display: inline-block; padding:10px 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-three-right{align-content: center; display: inline-block; padding:10px 15px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.img-as-sensors-three{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; height: 260px;}
+.font-as-sensors-30-cFF0000{font-family: 'Roboto', sans-serif; color:#FF0000; font-size:30px;}
+.font-as-sensors-30-c000-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#000; font-size:30px; vertical-align: top;}
+.block-studio13-background-as-sensors-three-bottom{background-color: #f0f0f0; background-size: cover; height: auto;}
+
+.block-content-studio13-as-sensors-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-four{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-four{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px; border-bottom: 1px solid #f0f0f0;}
+.font-as-sensors-28-c666-center-nopad{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-five{background:url("/Content/Artec3D/images/artec/artec%20studio/13/free-one-year-as-video.png") center bottom no-repeat; background-size: 1920px; height: auto;}
+.content-studio13-as-sensors-five-1070{align-content: center; display: block; padding: 0; padding-top: 50px; padding-bottom: 20px; margin: 0 auto; width: 1070px;}
+.block-detail-studio13-as-sensors-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.vdo-studio13-as-sensors-five-center{align-content: center; display: block; padding:0; padding-top: 20px; margin: 0 auto; width: 100%; height: 600px;}
+
+.block-content-studio13-as-sensors-footer{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color:#F5F5F5;}
+.content-studio13-as-sensors-footer-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 1070px;}
+/*end As of sensors*/
+
+
+.block-content-studio-spec-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio-background-studio-spec-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio-studio-spec-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.font-spec-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:24px; vertical-align: top;}
+.block-detail-studio-spec-one-left{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-one-center{align-content: center; display: inline-block; padding:20px 20px; margin: 0 auto; width: 33%; vertical-align: middle; text-align: center;}
+.block-detail-studio-spec-one-right{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.font-spec-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#666; font-size:24px; vertical-align: top;}
+.font-spec-60-cef4023-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#ef4023; font-size:60px; vertical-align: top;}
+.font-spec-60-c3a79bd-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#3a79bd; font-size:60px; vertical-align: top;}
+.block-detail-studio-spec-one-small-left{align-content: center; display: block; padding:30px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio-spec-one-small-right{align-content: center; display: block; padding:0; padding-top: 30px; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-spec-24-c333-blod-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:22px; vertical-align: top;}
+.font-spec-22-c999-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.1em; color:#999; font-size:22px; vertical-align: top;}
+
+.block-content-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio-background-spec-two{background-color: #f5f5f5; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.block-studio-background-fff-spec-two{background-color: #fff; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.content-studio-studio-spec-two-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 1070px;}
+.block-detail-studio-spec-two-left-25per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 25%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-right-74per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 74%; vertical-align: top; text-align: left;}
+.font-spec-36-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.block-detail-studio-spec-two-small-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-center{align-content: center; display: inline-block; padding:10px 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.font-spec-36-c333-center-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.font-spec-title-36-c848384-left-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 10px; padding-top: 50px; padding-bottom: 10px; width:100%; text-align: left; line-height: 1.1em; color:#848384; font-size:36px; vertical-align: top;}
+.block-table-bottom-line-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background:url("/Content/Artec3D/images/artec/artec%20studio/13/table-border.png") repeat-x bottom;}
+.block-table-bottom-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-table-studio-spec-two-25per{align-content: center; display: inline-block; padding: 0; padding-left: 10px 0; margin: 0 auto; width: 25%; vertical-align: top; text-align: center;}
+.block-table-studio-spec-two-24per{align-content: center; display: inline-block; padding:0; margin: 0 auto; width: 24%; vertical-align: top; text-align: center;}
+.font-spec-title-24-c848384-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 10px; width:100%; text-align: left; line-height: 1em; color:#848384; font-size:24px; vertical-align: top;}
+.font-spec-24-cef4023-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; width:100%; text-align: center; line-height: 1em; color:#ef4023; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; padding-right: 10px; width:100%; text-align: center; line-height: 1em; color:#333; font-size:24px; vertical-align: top;}
+.sup { position: relative; top: -5px; padding-left: 1px; font-size: 16px; color:#333; font-family: 'Roboto', sans-serif;}
+.link-spec{ color: #eb4322; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.link-spec:hover{ color: #333; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.font-spec-bottom-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#333; font-size:22px; vertical-align: top;}
+
+.w3-content{max-width:100%; margin:auto; position:relative;}
+.w3-btn-floating:hover{color:rgba(225,225,225,0.5);}
+.w3-btn-floating{-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;} 
+.w3-btn-floating{display:inline-block; text-align:center; color:rgba(225,225,225,0.3); background-color:rgba(0,0,0,0); position:relative; overflow:hidden; z-index:1; padding:0; border-radius:50%; cursor:pointer; font-size:20px;}
+.w3-btn-floating{width:30px; height:30px; line-height:32px;}
+.w3-btn-floating:disabled{cursor:not-allowed; opacity:0.3;}
+.w3-btn-floating,.w3-btn-floating:disabled:hover{box-shadow:none;}
+.w3-btn-floating,*[class*="w3-hover-"]
+{-webkit-transition:background-color .25s,color .15s,box-shadow .25s,opacity 0.25s,filter 0.25s,border 0.15s;transition:background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s}
+
+.w3-btn-floating2:hover{color:rgba(0,0,0,0.5);}
+.w3-btn-floating2{-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;} 
+.w3-btn-floating2{display:inline-block; text-align:center; color:rgba(0,0,0,0.3); background-color:rgba(0,0,0,0); position:relative; overflow:hidden; z-index:1; padding:0; border-radius:50%; cursor:pointer; font-size:20px;}
+.w3-btn-floating2{width:30px; height:30px; line-height:32px;}
+.w3-btn-floating2:disabled{cursor:not-allowed; opacity:0.3;}
+.w3-btn-floating2,.w3-btn-floating2:disabled:hover{box-shadow:none;}
+.w3-btn-floating2,*[class*="w3-hover-"]
+{-webkit-transition:background-color .25s,color .15s,box-shadow .25s,opacity 0.25s,filter 0.25s,border 0.15s;transition:background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s}
+
+
+@media (max-width:1024px){
+.content-studio13{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 155px;}
+	
+.block-content-studio13-one{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-one{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as13-banner.jpg") 50% top no-repeat; background-size: cover; height: 750px;}
+.content-studio13-one-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-one{align-content: center; display: block; margin: 0; padding: 0; padding-top: 100px; width: 35%;}
+.block-detail-studio13-one-bottom{align-content: center; display: block; margin: 0; padding: 50px 0; width: 35%;}
+	
+.block-content-studio13-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-two{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as-11-new-bg-1.png") 50% 50% no-repeat; background-size: cover; height: auto; background-color: #333;}
+.content-studio13-two-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-two{align-content: center; display: inline-block; padding: 0; padding-top: 150px; padding-right: 10px; margin: 0; width: 15%; position: relative; margin-top: 0; vertical-align: top;}
+.img-studio13-two{display: block; text-align: right;}
+.new-as11--left-border{position:absolute;width:2px;left:0;bottom:0;height:100%;background:linear-gradient(#807f7e,#ee4023);}
+.block-detail-studio13-two-left{align-content: center; display: inline-block; padding: 0; margin: 0; width: 25%; position: relative; vertical-align: top;}
+
+.block-content-studio13-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-three{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-studio13-three-1070{align-content: center; display: block; padding: 0; padding-top: 50px; padding-bottom: 70px; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-four{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as11-even-new-users-can.jpg") 50% top no-repeat; background-size: cover; height: 600px;}
+.content-studio13-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-four-right{align-content: center; display: inline-block; padding: 0; padding-right: 10%; margin: 0; width: 45%; vertical-align: top; float: right;}
+
+.block-content-studio13-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-five{background-color: #ededed; background-size: cover; height: 300px;}
+.content-studio13-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-five-left{align-content: center; display: inline-block; padding: 0; padding-right: 10%; margin: 0; width: 50%; vertical-align: top; float: left;}
+.block-detail-studio13-five-right{align-content: center; display: inline-block; padding: 0; padding-right: 10%; margin: 0; width: 45%; vertical-align: top; float: right;}
+.img-studio13-five-right{align-content: center; display: block; padding: 15px 0; margin: 0; width: 100%; vertical-align: top;}
+
+.block-content-studio13-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-six{background: url("/Content/Artec3D/images/artec/artec%20studio/13/easy-scanning-big.jpg") 50% top no-repeat; background-size: cover; height: 500px;}
+.content-studio13-six-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 100px; padding-right: 0; padding-left: 10%; margin: 0; width: 50%; vertical-align: top; float: left;}
+
+.block-content-studio13-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-seven{background-color:rgba(247,247,247,1.00); background-size: cover; height: auto;}
+.content-studio13-sevene-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-img-studio13-seven{align-content: center; display:block; padding: 20px 0; margin: 0 auto; width: 100%;}
+.img-studio13-seven{align-content: center; display:block; padding: 0; margin: 0 auto; width:943px; height:629px;}
+.block-detail-studio13-seven-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-seven-top-center{align-content: center; display: inline-block; padding: 0 15px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top;}
+.block-detail-studio13-seven-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 15px; margin: 0 auto; width: 33%; vertical-align: top;}
+.detail-o{font-family: 'Roboto', sans-serif; font-size: 26px; color: #EF4023; font-weight: bold;}
+
+.block-content-studio13-e{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-e{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-e-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-n{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-n{background: url("/Content/Artec3D/images/artec/artec%20studio/13/space.jpg") 0 50% no-repeat; background-size: 2000px; height: auto;}
+.content-studio13-n-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-ten{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ten{background: url("/Content/Artec3D/images/artec/artec%20studio/13/workflow-big.jpg") 50% top no-repeat; background-size: 2100px; height: auto;}
+.content-studio13-ten-1070{align-content: center; display: block; padding: 200px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-ev{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ev{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-ev-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.wavy-divider{background: url("/Content/Artec3D/images/artec/artec%20studio/13/wavy-divider.png") center repeat-x; width:90%; background-size:30px 12px; height:15px; margin:30px auto 0;}
+.block-detail-studio13-ev-small-left{align-content: center; display: inline-block; padding: 20px 0; padding-right: 8px; margin: 0 auto; width: 40%; vertical-align: top;}
+.block-detail-studio13-ev-small-center{align-content: center; display: inline-block; padding: 20px 8px; margin: 0 auto; width: 29%; vertical-align: top;}
+.block-detail-studio13-ev-small-right{align-content: center; display: inline-block; padding: 20px 0; padding-left: 8px; margin: 0 auto; width: 30%; vertical-align: top;}
+
+.block-content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-background-img-tw{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-tw-1070{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 90%;}
+h87{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.block-img-studio13-tw-small{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff;}
+.block-img-studio13-tw-small-left1{align-content: center; display: inline-block; padding: 0 10%; padding-top: 10%; margin: 0 auto; width: 49%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right1{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; clear: both;}
+.block-img-studio13-tw-small-left2{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; background-color: #fff;}
+.block-img-studio13-tw-small-right2{align-content: center; display: inline-block; padding: 0 10%; padding-top: 10%; margin: 0 auto; width: 49%; vertical-align: middle; float: right; clear: both;}
+.block-img-studio13-tw-small-left3{align-content: center; display: inline-block; padding: 0 10%; padding-top: 5%; margin: 0 auto; width: 49%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right3{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; clear: both;}
+.block-img-studio13-tw-small-left4{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; background-color: #fff;}
+.block-img-studio13-tw-small-right4{align-content: center; display: inline-block; padding: 0 10%; padding-top: 15%; margin: 0 auto; width: 49%; vertical-align: middle; float: right; clear: both;}
+.block-img-studio13-tw-small-left5{align-content: center; display: inline-block; padding: 0 10%; padding-top: 10%; margin: 0 auto; width: 49%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right5{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 50%; vertical-align: top; clear: both;}
+h88{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: middle;}
+h89{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+.img-tw-right1{padding-left: 10px; width: 101%; height: auto; vertical-align: top; text-align: center;/*MVVLINH 15/10/2019*/}
+.img-tw-left2{width: 100%; height: 100%; vertical-align: top;}
+
+.block-content-studio13-th{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-th{background-color: #333; background-size: cover; height: auto;}
+.content-studio13-th-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+h90{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 20px; width:100%; text-align: center; line-height: 1.1em; color:#EF4023; font-size:40px; vertical-align: middle;}
+.block-img-studio13-th-small-left{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 49%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px;}
+.block-img-studio13-th-small-right{align-content: center; display: inline-block; padding: 0; margin: 0 auto; width: 49%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px; float: right;}
+h91{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 30px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h92{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 20px; padding-bottom: 30px; width:100%; text-align: left; line-height: 1.2em; color:#ddd; font-size:24px;}
+
+.block-content-studio13-ft{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ft{background: url("/Content/Artec3D/images/artec/artec%20studio/13/working-with-3d.jpg") center top no-repeat; background-size: cover; height: auto;}
+.content-studio13-ft-1070{align-content: center; display: block; padding: 110px 0; margin: 0 auto; width: 90%;}
+.block-content-studio13-small-ft{align-content: center; display: block; padding: 50px 50px; margin: 0 auto; width: 100%;}
+
+.block-content-studio13-fift{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-fift{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-fift-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-st{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-st-g{background-color: #f7f7f7; background-size: cover; height: auto;}
+.img-studio13-background-img-st-w{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-st-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%;}
+.block-img-studio13-st-left{align-content: center; display: inline-block; padding: 150px 0; margin: 0 auto; width: 40%; vertical-align: top; position: absolute;}
+.block-studio13-st-right{align-content: center; display: table; display: table-cell; padding: 20px 0; margin: 0 auto; width: 50%; vertical-align: top; position: relative;}
+.block-studio13-st-small-right{align-content: center; display: block; padding: 0; padding-bottom: 20px; margin: 0 auto; width: 50%; vertical-align: top; text-align: left; float: right;} 
+.img-studio13-st-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%; height: 30px;}
+
+.block-content-studio13-set{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-set{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-set-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+
+.content-studio13-footer-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+/*end page overview*/
+
+
+.block-content-studio13-what-new-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.vdo-studio13-what-new-one-center{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 500px;}
+
+.block-content-studio13-what-new-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-two{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.img-studio13-what-new-two{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+
+.block-content-studio13-what-new-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-three{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-three-left{align-content: center; display: inline-block; padding: 0; padding-bottom: 100px; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-three-right{align-content: center; display: inline-block; padding: 0; padding-bottom: 100px; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-studio13-what-new-three-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 260px; vertical-align: top;}
+
+.as11-compare-wrapper{-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;position:relative;width:100%;height:100%;}
+.as11-compare-right img{max-height:100%;height:100% !important;position:absolute;right:0;max-width:none !important;}
+.as11-compare-left{height:100%;}
+.as11-compare-left img{width:100%;}
+.as11-compare-right{height:100%;bottom:0;right:0;position:absolute;overflow:hidden;}
+.as11-compare-divider{top:0;width:1px;height:100%;background:#e5e5e5;position:absolute;left:50%;}
+.as11-compare-divider:after{background:url("/Content/Artec3D/images/artec/artec%20studio/13/compare-divider-bg.png") center no-repeat;height:100%;content:" "; display:block;top:0;width:23px;position:absolute;left:-11px;}
+.img{align-content: center; display: block; margin: 0; padding: 0; width: 100%;}
+
+.block-content-studio13-what-new-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-four{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-what-new-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-five{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-five{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+
+.block-content-studio13-what-new-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-six{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-six-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-six-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 9px; margin: 0 auto; width: 49%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-six{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-six-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 420px; vertical-align: top;}
+.block-detail-studio13-what-new-six-small-bottom{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 320px; vertical-align: top;}
+/*end what's new*/
+
+
+.block-content-studio13-as-sensors-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-one{background:url("/Content/Artec3D/images/artec/artec%20studio/13/as-sensors-promo-bg.jpg") center 40% no-repeat; background-size: 1920px; height: 500px;}
+.content-studio13-as-sensors-one-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-as-sensors-one-left-30per{align-content: center; display: inline-block; padding:0; padding-top: 93px; padding-right: 20px; margin: 0 auto; width: 30%; vertical-align: top;}
+.font-as-sensors-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; padding-bottom: 100px;}
+.block-studio13-background-img-as-sensors-two{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-two{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-studio13-background-img-as-sensors-two-{background:url("/Content/Artec3D/images/artec/artec%20studio/13/sensors-bg.jpg") center center no-repeat; background-size: cover; height: 350px;}
+
+.block-content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-as-sensors-background-img-three{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-as-sensors-three-1070{align-content: center; display: block; padding: 30px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio13-as-sensors-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-four{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-four{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%; border-bottom: 1px solid #f0f0f0;}
+
+.block-content-studio13-as-sensors-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-five{background:url("/Content/Artec3D/images/artec/artec%20studio/13/free-one-year-as-video.png") center bottom no-repeat; background-size: 1920px; height: auto;}
+.vdo-studio13-as-sensors-five-center{align-content: center; display: block; padding:0; padding-top: 20px; margin: 0 auto; width: 100%; height: 500px;}
+
+.block-content-studio13-as-sensors-footer{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color:#F5F5F5;}
+.content-studio13-as-sensors-footer-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+/*end As of sensors*/
+
+
+.block-content-studio-spec-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio-background-studio-spec-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio-studio-spec-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+
+.block-content-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio-background-spec-two{background-color: #f5f5f5; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.block-studio-background-fff-spec-two{background-color: #fff; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.content-studio-studio-spec-two-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 90%;}
+.block-detail-studio-spec-two-left-25per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 25%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-right-74per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 74%; vertical-align: top; text-align: left;}
+.font-spec-36-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.block-detail-studio-spec-two-small-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-center{align-content: center; display: inline-block; padding:10px 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 10px; margin: 0 auto; width: 32%; vertical-align: top; text-align: center;}
+.font-spec-36-c333-center-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.font-spec-title-36-c848384-left-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 10px; padding-top: 50px; padding-bottom: 10px; width:100%; text-align: left; line-height: 1.1em; color:#848384; font-size:36px; vertical-align: top;}
+.block-table-bottom-line-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background:url("/Content/Artec3D/images/artec/artec%20studio/13/table-border.png") repeat-x bottom;}
+.block-table-bottom-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-table-studio-spec-two-25per{align-content: center; display: inline-block; padding: 0; padding-left: 10px 0; margin: 0 auto; width: 25%; vertical-align: top; text-align: center;}
+.block-table-studio-spec-two-24per{align-content: center; display: inline-block; padding:0; margin: 0 auto; width: 23.5%; vertical-align: top; text-align: center;}
+.font-spec-title-24-c848384-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 10px; width:100%; text-align: left; line-height: 1em; color:#848384; font-size:24px; vertical-align: top;}
+.font-spec-24-cef4023-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; width:100%; text-align: center; line-height: 1em; color:#ef4023; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; padding-right: 10px; width:100%; text-align: center; line-height: 1em; color:#333; font-size:24px; vertical-align: top;}
+.sup { position: relative; top: -5px; padding-left: 1px; font-size: 16px; color:#333; font-family: 'Roboto', sans-serif;}
+.link-spec{ color: #eb4322; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.link-spec:hover{ color: #333; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.font-spec-bottom-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#333; font-size:22px; vertical-align: top;}
+}
+
+@media (max-width:850px){
+.content-studio13{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 153px;}
+	
+.block-content-studio13-one{align-content: center; display: block; padding: 0; padding-top: 100px; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-one{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as13-banner.jpg") 50% top no-repeat; background-size: cover; height: 750px;}
+.block-detail-studio13-one{align-content: center; display: block; margin: 0; padding: 0; padding-top: 50px; width: 50%;}
+.block-detail-studio13-one-bottom{align-content: center; display: block; margin: 0; padding: 50px 0; width: 50%;}
+
+.block-content-studio13-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-two{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as-11-new-bg-1.png") 50% 50% no-repeat; background-size: cover; height: auto; background-color: #333;}
+.block-detail-studio13-two{align-content: center; display: inline-block; padding: 0; padding-top: 150px; padding-right: 20px; margin: 0; width: 45%; position: relative; margin-top: 0; vertical-align: top;}
+.img-studio13-two{display: block; text-align: right;}
+.new-as11--left-border{position:absolute;width:2px;left:0;bottom:0;height:100%;background:linear-gradient(#807f7e,#ee4023);}
+.block-detail-studio13-two-left{align-content: center; display: inline-block; padding: 0; margin: 0; width: 54%; position: relative; vertical-align: top;}
+h65{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 150px; padding-left: 20px; width:100%; text-align: left; line-height: 1em; color:#F13F25; font-size:40px;}
+.block-detail-studio13-two-right{align-content: center; display: inline-block; padding: 150px 0; margin: 0; width: 100%; position: relative; vertical-align: top;}
+h66{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-left: 0; width:100%; text-align: left; line-height: 1em; color:#fff; font-size:40px;}
+h67{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-left: 0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:28px;}
+h68{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; padding-left: 0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:24px;}
+
+.block-content-studio13-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-three{background-size: cover; height: auto; background-color: #f7f7f7;}
+h69{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0 20px; padding-top: 10px; width:100%; text-align: center; line-height: 1.5em; color:#333; font-size:40px;}
+.block-detail-studio13-three-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-three-top-center{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 15px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-studio13-three-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; padding-right: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-three-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; padding-left: 15px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-studio13-three-bottom-center{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-studio13-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 49%; vertical-align: top;}
+
+.block-content-studio13-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-four{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as11-even-new-users-can.jpg") 50% top no-repeat; background-size: cover; height: 600px;}
+.block-detail-studio13-four-right{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0; width: 50%; vertical-align: top; float: right;}
+
+.block-content-studio13-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-five{background-color: #ededed; background-size: cover; height: 250px;}
+.block-detail-studio13-five-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 50%; vertical-align: top; float: left;}
+.block-detail-studio13-five-right{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0; width: 49%; vertical-align: top; float: right;}
+.img-studio13-five-right{align-content: center; display: block; padding: 15px 0; margin: 0; width: 100%; vertical-align: top;}
+
+.block-content-studio13-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-six{background: url("/Content/Artec3D/images/artec/artec%20studio/13/easy-scanning-big.jpg") 50% top no-repeat; background-size: cover; height: 500px;}
+.block-detail-studio13-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 100px; padding-right: 10%; margin: 0; width: 50%; vertical-align: top; float: left;}
+
+.block-content-studio13-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-seven{background-color:rgba(247,247,247,1.00); background-size: cover; height: auto;}
+h76{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+h77{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:26px; vertical-align: top;}
+.block-img-studio13-seven{align-content: center; display:block; padding: 20px 0; margin: 0 auto; width: 100%;}
+.img-studio13-seven{align-content: center; display:block; padding: 0; margin: 0 auto; width:100%; height:100%;}
+.block-detail-studio13-seven-top-left{align-content: center; display: block; padding: 0; padding-top: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-seven-top-center{align-content: center; display: block; padding: 0; padding-top: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-seven-top-right{align-content: center; display: block; padding: 0; padding-top: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+h78{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 0; width:100%; text-align: left; line-height: 1.3em; color:#575757; font-size:24px; vertical-align: top;}
+.detail-o{font-family: 'Roboto', sans-serif; font-size: 26px; color: #EF4023; font-weight: bold;}
+
+.block-content-studio13-e{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-e{background-color: #fff; background-size: cover; height: auto;}
+.block-detail-studio13-e-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-small-left{align-content: center; display: block; padding: 0; padding-left: 0; padding-right: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-small-right{align-content: center; display: block; padding: 0; padding-left: 0; padding-right: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-small-right-f{align-content: center; display: block; padding: 0; padding-left: 0; padding-right: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+h79{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 15px; width:100%; text-align: left; line-height: 1.3em; color:#666666; font-size:22px; vertical-align: top;}
+
+.block-content-studio13-n{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-n{background: url("/Content/Artec3D/images/artec/artec%20studio/13/space.jpg") 0 top no-repeat; background-size: 2000px; height: auto;}
+.block-detail-studio13-n-small-left{align-content: center; display: block; padding: 0; padding-right: 0; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-n-small-right{align-content: center; display: block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+h80{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:40px;}
+h81{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:24px;}
+
+.block-content-studio13-ten{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ten{background: url("/Content/Artec3D/images/artec/artec%20studio/13/workflow-big.jpg") 50% top no-repeat; background-size: 2000px; height: auto;}
+.content-studio13-ten-1070{align-content: center; display: block; padding: 200px 0; margin: 0 auto; width: 90%;}
+h82{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:60px;}
+h83{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:44px;}
+
+.block-content-studio13-ev{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ev{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-ev-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+h84{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+h85{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 25px; padding-bottom: 15px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.wavy-divider{background: url("/Content/Artec3D/images/artec/artec%20studio/13/wavy-divider.png") center repeat-x; width:90%; background-size:30px 12px; height:15px; margin:30px auto 0;}
+.img-ev-small-center{align-content: center; display: block; padding: 0; margin: 0 auto; width: 380px;}
+.block-detail-studio13-ev-small-left{align-content: center; display: block; padding: 5px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-ev-small-center{align-content: center; display: block; padding: 5px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-ev-small-right{align-content: center; display: block; padding: 5px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+h86{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 15px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top; border: 1px solid #ddd; border-radius: 5px;}
+.block-img-studio13-ev-small-top-left{align-content: center; display: block; padding: 10px 0; padding-top: 20px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-top-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-top-right{align-content: center; display: block; padding: 10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-bottom-left{align-content: center; display: block; padding: 10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-bottom-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.step{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:20px; vertical-align: top;}
+.result{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 10px; width:100%; text-align: center; line-height: 1.3em; color:#F13F25; font-size:20px; vertical-align: top;}
+
+.block-content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-background-img-tw{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-tw-1070{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 90%;}
+h87{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.block-img-studio13-tw-small{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff; position: relative; height: 800px;}
+.block-img-studio13-tw-small-left1{align-content: center; display: inline-block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right1{align-content: center; display: inline-block; padding: 0 50px; padding-top: 40px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-tw-small-left2{align-content: center; display: block; padding: 0 50px; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff; position: absolute; top: 30%;}
+.block-img-studio13-tw-small-right2{align-content: center; display: block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: text-top; position: absolute; top: 0;}
+.block-img-studio13-tw-small-left3{align-content: center; display: inline-block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right3{align-content: center; display: inline-block; padding: 0 50px; padding-top: 40px; margin: 0 auto; width: 100%; vertical-align: top; clear: both;}
+.block-img-studio13-tw-small-left4{align-content: center; display: block; padding: 0 50px; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff; position: absolute; top: 30%;}
+.block-img-studio13-tw-small-right4{align-content: center; display: block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: text-top; position: absolute; top: 0;}
+.block-img-studio13-tw-small-left5{align-content: center; display: inline-block; padding: 0 20px; padding-top:10px;/*MVVLINH*/ margin: 0 auto; width: 100%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right5{align-content: center; display: inline-block; padding: 0; padding-left: 50px; padding-right: 50px; padding-top:10px;/*MVVLINH*/ margin: 0 auto; width: 100%; vertical-align: top;}
+h88{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: middle;}
+h89{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+.img-tw-right1{padding-left: 0px; width: 100%; height: 100%; margin: 0 auto;}
+.img-tw-left2{width: 100%; height: 100%; margin: 0 auto;}
+
+.block-content-studio13-th{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-th{background-color: #333; background-size: cover; height: 500px;}
+.content-studio13-th-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+h90{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 20px; width:100%; text-align: center; line-height: 1.1em; color:#EF4023; font-size:40px; vertical-align: middle;}
+.block-img-studio13-th-small-left{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px;}
+.block-img-studio13-th-small-right{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px; float: right;}
+h91{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 10px;/*MVVLINH*/ width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h92{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 20px; padding-bottom: 30px; width:100%; text-align: left; line-height: 1.2em; color:#ddd; font-size:24px;}
+
+.block-content-studio13-ft{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ft{background: url("/Content/Artec3D/images/artec/artec%20studio/13/working-with-3d.jpg") center top no-repeat; background-size: cover; height: auto;}
+.content-studio13-ft-1070{align-content: center; display: block; padding: 110px 0; margin: 0 auto; width: 90%;}
+.block-content-studio13-small-ft{align-content: center; display: block; padding: 50px 50px; margin: 0 auto; width: 100%;}
+h93{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h94{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:44px;}
+
+.block-content-studio13-fift{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-fift{background-color: #fff; background-size: cover; height: 600px;}
+.content-studio13-fift-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-img-studio13-fift-left{align-content: center; display: inline-block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-fift-right{align-content: center; display: inline-block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top;float: right;}
+.block-img-studio13-fift-small-left{align-content: center; display: inline-block; padding: 0 20px; margin: 0 auto; width: 50%; vertical-align: top; text-align: center;}
+.block-img-studio13-fift-small-right{align-content: center; display: inline-block; padding: 0 20px; margin: 0 auto; width: 50%; vertical-align: top; float: right; text-align: center;}
+h95{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-st{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-st-g{background-color: #f7f7f7; background-size: cover; height: auto;}
+.img-studio13-background-img-st-w{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-st-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%;}
+.block-img-studio13-st-left{align-content: center; display: inline-block; padding: 30px 0; margin: 0 auto; width: 500px; vertical-align: top; position: relative;}
+.block-studio13-st-right{align-content: center; display: table; display: table-cell; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top; position: relative;}
+.block-studio13-st-small-right{align-content: center; display: block; padding: 0; padding-bottom: 20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: left; float: right;} 
+h96{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+h97{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.img-studio13-st-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 514px; height: 30px;}
+
+.block-content-studio13-set{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-set{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-set-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-set-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-bottom: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-set-top-center{align-content: center; display: inline-block; padding: 0; padding-top: 0; padding-bottom: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-set-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 0; padding-bottom: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-studio13-set-center{align-content: center; display: block; padding: 15px 100px; margin: 0 auto; width: 600px; vertical-align: top; background-color: #EF4023; border-radius: 5px;}
+h98{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align:center; line-height: 1.3em; color:#fff; font-size:28px; vertical-align: top;}
+h99{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align:left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+.block-detail-studio13-set-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 160px; vertical-align: top;}
+.block-detail-studio13-set-bottom-center{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 130px; vertical-align: top;}
+.block-detail-studio13-set-bottom-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 100px; vertical-align: top;}
+/*end page overview*/
+
+
+.block-content-studio13-what-new-one{align-content: center; display: block; padding: 0; padding-top: 100px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-one-left{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-28-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:28px; vertical-align: top;}
+.font-26-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:26px; vertical-align: top;}
+.img-studio13-what-new-one-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-one-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-top-center{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 32%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-one-bottom-center{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-one-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%;}
+.font-26-c000-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#000; font-size:26px; vertical-align: top;}
+.font-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.vdo-studio13-what-new-one-center{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 400px;}
+
+.block-content-studio13-what-new-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-two{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.img-studio13-what-new-two{align-content: center; display: block; padding: 10px 0; margin: 0; width: 560px;}
+.font-30-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top; font-weight: bold;}
+.font-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.font-30-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0; padding-top: 30px; padding-bottom: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top; font-weight: bold;}
+.font-24-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0; padding-bottom: 10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-what-new-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-three{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-three-left{align-content: center; display: inline-block; padding: 0; padding-bottom: 50px; padding-right: 20px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-three-right{align-content: center; display: inline-block; padding: 0; padding-bottom: 50px; padding-left: 9px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-three-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 100%; vertical-align: top;}
+
+.as11-compare-wrapper{-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;position:relative;width:100%;height:100%;}
+.as11-compare-right img{max-height:100%;height:100% !important;position:absolute;right:0;max-width:none !important;}
+.as11-compare-left{height:100%;}
+.as11-compare-left img{width:100%;}
+.as11-compare-right{height:100%;bottom:0;right:0;position:absolute;overflow:hidden;}
+.as11-compare-divider{top:0;width:1px;height:100%;background:#e5e5e5;position:absolute;left:50%;}
+.as11-compare-divider:after{background:url("/Content/Artec3D/images/artec/artec%20studio/13/compare-divider-bg.png") center no-repeat;height:100%;content:" "; display:block;top:0;width:23px;position:absolute;left:-11px;}
+.img{align-content: center; display: block; margin: 0; padding: 0; width: 100%;}
+
+.block-content-studio13-what-new-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-four{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-four-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-four-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.vdo-studio13-what-new-four-center{align-content: center; display: block; padding:0; padding-top: 10px; padding-bottom: 20px; margin: 0 auto; width: 100%;}
+
+.block-content-studio13-what-new-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-five{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-five{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+
+.block-content-studio13-what-new-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-six{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-six-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-six-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-six{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-six-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-small-bottom{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-left-bottom{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right-bottom{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-six-left-bottom{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right-bottom{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-six-small-bottom-one{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+/*end what's new*/
+
+
+.block-content-studio13-as-sensors-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-one{background:url("/Content/Artec3D/images/artec/artec%20studio/13/as-sensors-promo-bg.jpg") 100% 30% no-repeat; background-size: 1000px; height: 550px;}
+.content-studio13-as-sensors-one-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-as-sensors-one-left-30per{align-content: center; display: inline-block; padding:0; padding-top: 350px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-as-sensors-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-two{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-two{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.font-as-sensors-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-28-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:20px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+.block-studio13-background-img-as-sensors-two-{background:url("/Content/Artec3D/images/artec/artec%20studio/13/sensors-bg.jpg") center 20% no-repeat; background-size: 100%; height: 800px;}
+.block-detail-studio13-as-sensors-two-left{align-content: center; display: block; padding:0; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-two-right{align-content: center; display: block; padding:0; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; background-color: #333;}
+.block-detail-studio13-as-sensors-two-top{align-content: center; display: block; padding:0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; background-color: #333;}
+.img-as-sensors-two{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 70px; height: 100%;}
+.font-as-sensors-50-cfff-blod-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:28px; font-weight: bold; vertical-align: top;}
+.block-detail-studio13-as-sensors-two-left-bottom{align-content: center; display: block; padding:0;padding-top: 330px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-two-right-bottom{align-content: center; display: block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; background-color: #fff;}
+.font-as-sensors-24-c666-center-bgwhite{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top; background-color: #fff;}
+
+.block-content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-as-sensors-background-img-three{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-as-sensors-three-1070{align-content: center; display: block; padding: 30px 0; margin: 0 auto; width: 90%;}
+.font-as-sensors-40-c333-center-none-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-studio13-as-sensors-three-left{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-three-center{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-three-right{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-as-sensors-three{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 340px; height: 260px;}
+.font-as-sensors-30-cFF0000{font-family: 'Roboto', sans-serif; color:#FF0000; font-size:30px;}
+.font-as-sensors-30-c000-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#000; font-size:30px; vertical-align: top;}
+.font-as-sensors-24-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.block-studio13-background-as-sensors-three-bottom{background-color: #f0f0f0; background-size: cover; height: auto;}
+
+.block-content-studio13-as-sensors-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-four{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-four{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%; border-bottom: 1px solid #f0f0f0;}
+.font-as-sensors-28-c666-center-nopad{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-five{background:url("/Content/Artec3D/images/artec/artec%20studio/13/free-one-year-as-video.png") center bottom no-repeat; background-size: 1920px; height: auto;}
+.content-studio13-as-sensors-five-1070{align-content: center; display: block; padding: 0; padding-top: 50px; padding-bottom: 20px; margin: 0 auto; width: 90%;}
+.block-detail-studio13-as-sensors-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.vdo-studio13-as-sensors-five-center{align-content: center; display: block; padding:0; padding-top: 20px; margin: 0 auto; width: 100%; height: 400px;}
+
+.block-content-studio13-as-sensors-footer{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color:#F5F5F5;}
+.content-studio13-as-sensors-footer-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+/*end As of sensors*/
+
+
+.block-content-studio-spec-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio-background-studio-spec-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio-studio-spec-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.font-spec-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:24px; vertical-align: top;}
+.block-detail-studio-spec-one-left{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-one-center{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; position: relative;}
+.img-studio-spec-one-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 400px;}
+.block-detail-studio-spec-one-right{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.font-spec-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#666; font-size:24px; vertical-align: top;}
+.font-spec-60-cef4023-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#ef4023; font-size:60px; vertical-align: top;}
+.font-spec-60-c3a79bd-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#3a79bd; font-size:60px; vertical-align: top;}
+.block-detail-studio-spec-one-small-left{align-content: center; display: block; padding:30px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio-spec-one-small-right{align-content: center; display: block; padding:0; padding-top: 30px; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-spec-24-c333-blod-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:22px; vertical-align: top;}
+.font-spec-22-c999-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.1em; color:#999; font-size:22px; vertical-align: top;}
+
+.block-content-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio-background-spec-two{background-color: #f5f5f5; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.block-studio-background-fff-spec-two{background-color: #fff; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.content-studio-studio-spec-two-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 90%;}
+.block-detail-studio-spec-two-left-25per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 25%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-right-74per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 74%; vertical-align: top; text-align: left;}
+.font-spec-36-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.block-detail-studio-spec-two-small-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 5px; margin: 0 auto; width: 30%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-center{align-content: center; display: inline-block; padding:10px 5px; margin: 0 auto; width: 36%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 5px; margin: 0 auto; width: 29%; vertical-align: top; text-align: center;}
+.font-spec-36-c333-center-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.font-spec-title-36-c848384-left-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 5px; padding-top: 50px; padding-bottom: 10px; width:100%; text-align: left; line-height: 1.1em; color:#848384; font-size:36px; vertical-align: top;}
+.block-table-bottom-line-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background:url("/Content/Artec3D/images/artec/artec%20studio/13/table-border.png") repeat-x bottom;}
+.block-table-bottom-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-table-studio-spec-two-25per{align-content: center; display: inline-block; padding: 0; padding-left: 10px 0; margin: 0 auto; width: 24.5%; vertical-align: top; text-align: center;}
+.block-table-studio-spec-two-24per{align-content: center; display: inline-block; padding:0; margin: 0 auto; width: 23.5%; vertical-align: top; text-align: center;}
+.font-spec-title-24-c848384-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; width:100%; text-align: left; line-height: 1em; color:#848384; font-size:24px; vertical-align: top;}
+.font-spec-24-cef4023-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; width:100%; text-align: center; line-height: 1em; color:#ef4023; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; padding-right: 10px; width:100%; text-align: center; line-height: 1em; color:#333; font-size:24px; vertical-align: top;}
+.sup { position: relative; top: -5px; padding-left: 1px; font-size: 16px; color:#333; font-family: 'Roboto', sans-serif;}
+.link-spec{ color: #eb4322; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.link-spec:hover{ color: #333; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.font-spec-bottom-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#333; font-size:22px; vertical-align: top;}
+}
+
+@media (max-width:500px){
+.content-studio13{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 153px;}
+	
+.block-content-studio13-one{align-content: center; display: block; padding: 0; padding-top: 100px; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-one{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as13-banner.jpg") 100% top no-repeat; background-size: 500px; height: auto;}
+.content-studio13-one-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-detail-studio13-one{align-content: center; display: block; margin: 0 auto; padding: 0; padding-top: 220px; width: 90%;}
+.block-detail-studio13-one-bottom{align-content: center; display: block; margin: 0 auto; padding:0; padding-top: 20px; width: 100%;}
+h60{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.5em; color:#333; font-size:40px;}
+h61{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:26px;}
+h62{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:20px 20px; width:100%; text-align: left; line-height: 1.5em; color:#fff; font-size:26px; background: #626262; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
+h63{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 5px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h64{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#fff; font-size:40px;}
+
+.block-content-studio13-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-two{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as-11-new-bg-1.png") 50% 50% no-repeat; background-size: cover; height: auto; background-color: #333;}
+.block-detail-studio13-two{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-right: 20px; margin: 0; width: 30%; position: relative; margin-top: 0; vertical-align: top;}
+.img-studio13-two{display: block; text-align: right;}
+.new-as11--left-border{position:absolute;width:2px;left:0;bottom:0;height:100%;background:linear-gradient(#807f7e,#ee4023);}
+.block-detail-studio13-two-left{align-content: center; display: inline-block; padding: 0; margin: 0; width: 64%; position: relative; vertical-align: top;}
+h65{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 50px; padding-left: 20px; width:100%; text-align: left; line-height: 1.2em; color:#F13F25; font-size:30px;}
+.block-detail-studio13-two-right{align-content: center; display: inline-block; padding: 50px 0; margin: 0; width: 100%; position: relative; vertical-align: top;}
+h66{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-left: 0; width:100%; text-align: left; line-height: 1em; color:#fff; font-size:40px;}
+h67{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-left: 0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:28px;}
+h68{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; padding-left: 0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:24px;}
+
+.block-content-studio13-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-three{background-size: cover; height: auto; background-color: #f7f7f7;}
+h69{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0 20px; padding-top: 10px; width:100%; text-align: center; line-height: 1.5em; color:#333; font-size:40px;}
+.block-detail-studio13-three-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-three-top-center{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-three-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-three-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-three-bottom-center{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+*{}
+.block-detail-studio13-four-right h72 {font-size: 28px;}
+.block-detail-studio13-four-right h73 {font-size: 22px;}
+.block-content-studio13-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-four{background: url("/Content/Artec3D/images/artec/artec%20studio/13/as11-even-new-users-can.jpg") left top no-repeat; background-size: 500px; height: 600px;}
+.content-studio13-four-1070{align-content: center; display: block; padding: 0; padding-top: 220px; margin: 0 auto; width: 90%;}
+.block-detail-studio13-four-right{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0; width: 100%; vertical-align: top; float: right;}
+
+.block-content-studio13-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.content-studio13-five-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%;}
+.img-studio13-background-img-five{background-color: #ededed; background-size: cover; height: 350px;}
+.block-detail-studio13-five-left{align-content: center; display: block; padding: 0; padding-right: 20px; margin: 0; width: 50%; vertical-align: top;}
+.block-detail-studio13-five-right{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0; width: 49%; vertical-align: top; float: right;}
+.img-studio13-five-right{align-content: center; display: block; padding: 15px 0; margin: 0; width: 100%; vertical-align: top;}
+
+.block-content-studio13-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-six{background: url("/Content/Artec3D/images/artec/artec%20studio/13/easy-scanning-big.jpg") 50% top no-repeat; background-size: cover; height: 500px;}
+.block-detail-studio13-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 100px; padding-right: 10%; margin: 0; width: 100%; vertical-align: top; float: left;}
+
+.block-content-studio13-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-seven{background-color:rgba(247,247,247,1.00); background-size: cover; height: auto;}
+h76{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top;}
+h77{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:26px; vertical-align: top;}
+.block-img-studio13-seven{align-content: center; display:block; padding: 20px 0; margin: 0 auto; width: 100%;}
+.img-studio13-seven{align-content: center; display:block; padding: 0; margin: 0 auto; width:100%; height:100%;}
+.block-detail-studio13-seven-top-left{align-content: center; display: block; padding: 0; padding-top: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-seven-top-center{align-content: center; display: block; padding: 0; padding-top: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-seven-top-right{align-content: center; display: block; padding: 0; padding-top: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+h78{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 0; width:100%; text-align: left; line-height: 1.3em; color:#575757; font-size:24px; vertical-align: top;}
+.detail-o{font-family: 'Roboto', sans-serif; font-size: 26px; color: #EF4023; font-weight: bold;}
+
+.block-content-studio13-e{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-e{background-color: #fff; background-size: cover; height: auto;}
+.block-detail-studio13-e-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-small-left{align-content: center; display: block; padding: 0; padding-left: 0; padding-right: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-small-right{align-content: center; display: block; padding: 0; padding-left: 0; padding-right: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-e-small-right-f{align-content: center; display: block; padding: 0; padding-left: 0; padding-right: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top;}
+h79{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 15px; width:100%; text-align: left; line-height: 1.3em; color:#666666; font-size:22px; vertical-align: top;}
+
+.block-content-studio13-n{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-n{background: url("/Content/Artec3D/images/artec/artec%20studio/13/space.jpg") 0 top no-repeat; background-size: 2000px; height: auto;}
+.block-detail-studio13-n-small-left{align-content: center; display: block; padding: 0; padding-right: 0; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-n-small-right{align-content: center; display: block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+h80{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:40px;}
+h81{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:24px;}
+
+.block-content-studio13-ten{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ten{background: url("/Content/Artec3D/images/artec/artec%20studio/13/workflow-big.jpg") 50% top no-repeat; background-size: 2000px; height: auto;}
+.content-studio13-ten-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%;}
+h82{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:60px;}
+h83{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:44px;}
+
+.block-content-studio13-ev{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ev{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-ev-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+h84{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+h85{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 25px; padding-bottom: 15px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.wavy-divider{background: url("/Content/Artec3D/images/artec/artec%20studio/13/wavy-divider.png") center repeat-x; width:90%; background-size:30px 12px; height:15px; margin:30px auto 0;}
+.img-ev-small-center{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-detail-studio13-ev-small-left{align-content: center; display: block; padding: 5px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-ev-small-center{align-content: center; display: block; padding: 5px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-ev-small-right{align-content: center; display: block; padding: 5px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+h86{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 15px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top; border: 1px solid #ddd; border-radius: 5px;}
+.block-img-studio13-ev-small-top-left{align-content: center; display: block; padding: 10px 0; padding-top: 20px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-top-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-top-right{align-content: center; display: block; padding: 10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-bottom-left{align-content: center; display: block; padding: 10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-ev-small-bottom-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.step{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:20px; vertical-align: top;}
+.result{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:15px 10px; width:100%; text-align: center; line-height: 1.3em; color:#F13F25; font-size:20px; vertical-align: top;}
+
+.block-content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-background-img-tw{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-tw{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-tw-1070{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 90%;}
+h87{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.block-img-studio13-tw-small{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff; position: relative; height: 700px;}
+.block-img-studio13-tw-small-left1{align-content: center; display: inline-block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right1{align-content: center; display: inline-block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-tw-small-left2{align-content: center; display: block; padding: 0; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff; position: absolute; top: 40%;}
+.block-img-studio13-tw-small-right2{align-content: center; display: block; padding: 0 10px; padding-top: 0; margin: 0 auto; width: 100%; vertical-align: text-top; position: absolute; top: 0;}
+.block-img-studio13-tw-small-left3{align-content: center; display: inline-block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right3{align-content: center; display: inline-block; padding: 0; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top; clear: both;}
+.block-img-studio13-tw-small-left4{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; background-color: #fff; position: absolute; top: 40%;}
+.block-img-studio13-tw-small-right4{align-content: center; display: block; padding: 0 20px; padding-top: 10%; margin: 0 auto; width: 100%; vertical-align: text-top; position: absolute; top: 0;}
+.block-img-studio13-tw-small-left5{align-content: center; display: inline-block; padding: 0 20px; padding-top: 5px;/*MVVLINH 15/10/2019*/ margin: 0 auto; width: 100%; vertical-align: middle; background-color: #fff;}
+.block-img-studio13-tw-small-right5{align-content: center; display: inline-block; padding: 0; padding-top: 30px; margin: 0 auto; width: 100%; vertical-align: top;}
+h88{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:27px; vertical-align: middle;}
+h89{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 0px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:20px; vertical-align: top;}
+.img-tw-right1{padding-left: 0px; width: 100%; height: 100%; margin: 0 auto;}
+.img-tw-left2{width: 100%; height: 100%; margin: 0 auto;}
+
+.block-content-studio13-th{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-th{background-color: #333; background-size: cover; height: 700px;}
+.content-studio13-th-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+h90{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-bottom: 20px; width:100%; text-align: center; line-height: 1.1em; color:#EF4023; font-size:32px; vertical-align: middle;}
+.block-img-studio13-th-small-left{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px;}
+.block-img-studio13-th-small-right{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top; border: 1px solid rgba(243,243,243,0.1); border-radius: 5px; float: right;}
+h91{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top:10px;/*MVVLINH 15/10/2019*/ width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:28px;}
+h92{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 30px; padding-top: 20px; padding-bottom: 30px; width:100%; text-align: left; line-height: 1.2em; color:#ddd; font-size:23px;}
+
+.block-content-studio13-ft{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-ft{background: url("/Content/Artec3D/images/artec/artec%20studio/13/working-with-3d.jpg") center top no-repeat; background-size: cover; height: auto;}
+.content-studio13-ft-1070{align-content: center; display: block; padding: 110px 0; margin: 0 auto; width: 90%;}
+.block-content-studio13-small-ft{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 100%;}
+h93{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:30px;}
+h94{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.2em; color:#fff; font-size:44px;}
+
+.block-content-studio13-fift{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-fift{background-color: #fff; background-size: cover; height: 650px;}
+.content-studio13-fift-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%;}
+.block-img-studio13-fift-left{align-content: center; display: inline-block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-img-studio13-fift-right{align-content: center; display: inline-block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top;float: right;}
+.block-img-studio13-fift-small-left{align-content: center; display: inline-block; padding: 0 20px; margin: 0 auto; width: 50%; vertical-align: top; text-align: center;}
+.block-img-studio13-fift-small-right{align-content: center; display: inline-block; padding: 0 20px; margin: 0 auto; width: 50%; vertical-align: top; float: right; text-align: center;}
+h95{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:21px; vertical-align: top;}
+
+.block-content-studio13-st{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-st-g{background-color: #f7f7f7; background-size: cover; height: auto;}
+.img-studio13-background-img-st-w{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-st-1070{align-content: center; display: block; padding: 20px 0; padding-top: 0; margin: 0 auto; width: 90%;}
+.block-img-studio13-st-left{align-content: center; display: inline-block; padding: 30px 0; margin: 0 auto; width: 100%; vertical-align: top; position: relative;}
+.block-studio13-st-right{align-content: center; display: table; display: table-cell; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top; position: relative;}
+.block-studio13-st-small-right{align-content: center; display: block; padding: 0; padding-bottom: 20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: left; float: right;} 
+h96{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+h97{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:21px; vertical-align: top;}
+.img-studio13-st-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%; height: 30px;}
+
+.block-content-studio13-set{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-studio13-background-img-set{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-set-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-set-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-bottom: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-set-top-center{align-content: center; display: inline-block; padding: 0; padding-top: 0; padding-bottom: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-set-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 0; padding-bottom: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-studio13-set-center{align-content: center; display: block; padding: 15px 0; margin: 0 auto; width: 100%; vertical-align: top; background-color: #EF4023; border-radius: 5px;}
+h98{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align:center; line-height: 1.3em; color:#fff; font-size:26px; vertical-align: top;}
+h99{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align:left; line-height: 1.3em; color:#fff; font-size:21px; vertical-align: top;}
+.block-detail-studio13-set-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 70px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-set-bottom-center{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 70px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-set-bottom-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 70px; margin: 0 auto; width: 100%; vertical-align: top;}
+/*end page overview*/
+
+
+.block-content-studio13-what-new-one{align-content: center; display: block; padding: 0; padding-top: 100px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-one-left{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-28-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:28px; vertical-align: top;}
+.font-26-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:26px; vertical-align: top;}
+.img-studio13-what-new-one-right{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-one-top-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: left;}
+.block-detail-studio13-what-new-one-top-center{align-content: center; display: inline-block; padding: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top; text-align: left;}
+.block-detail-studio13-what-new-one-top-right{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: left;}
+.block-detail-studio13-what-new-one-bottom-left{align-content: center; display: inline-block; padding: 0; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: left;}
+.block-detail-studio13-what-new-one-bottom-center{align-content: center; display: inline-block; padding: 0; padding-top: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: left;}
+.img-studio13-what-new-one-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%;}
+.font-26-c000-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#000; font-size:26px; vertical-align: top;}
+.font-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.vdo-studio13-what-new-one-center{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 250px;}
+
+.block-content-studio13-what-new-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-two{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.img-studio13-what-new-two{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.font-30-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top; font-weight: bold;}
+.font-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.font-30-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0; padding-top: 30px; padding-bottom: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:30px; vertical-align: top; font-weight: bold;}
+.font-24-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0; padding-bottom: 10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-what-new-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-three{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-three-left{align-content: center; display: inline-block; padding: 0; padding-bottom: 50px; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-three-right{align-content: center; display: inline-block; padding: 0; padding-bottom: 50px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-three-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 100%; vertical-align: top;}
+
+.as11-compare-wrapper{-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;position:relative;width:100%;height:100%;}
+.as11-compare-right img{max-height:100%;height:100% !important;position:absolute;right:0;max-width:none !important;}
+.as11-compare-left{height:100%;}
+.as11-compare-left img{width:100%;}
+.as11-compare-right{height:100%;bottom:0;right:0;position:absolute;overflow:hidden;}
+.as11-compare-divider{top:0;width:1px;height:100%;background:#e5e5e5;position:absolute;left:50%;}
+.as11-compare-divider:after{background:url("/Content/Artec3D/images/artec/artec%20studio/13/compare-divider-bg.png") center no-repeat;height:100%;content:" "; display:block;top:0;width:23px;position:absolute;left:-11px;}
+.img{align-content: center; display: block; margin: 0; padding: 0; width: 100%;}
+
+.block-content-studio13-what-new-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-four{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-four-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-four-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.vdo-studio13-what-new-four-center{align-content: center; display: block; padding:0; padding-top: 10px; padding-bottom: 20px; margin: 0 auto; width: 100%;}
+
+.block-content-studio13-what-new-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-five{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-what-new-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-five{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+
+.block-content-studio13-what-new-six{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-what-new-six{background-color: #f7f7f7; background-size: cover; height: auto;}
+.content-studio13-what-new-six-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-what-new-six-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-studio13-what-new-six{align-content: center; display: block; padding: 10px 0; margin: 0; width: 100%;}
+.block-detail-studio13-what-new-six-small{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-small-bottom{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; height: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-left-bottom{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right-bottom{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-six-left-bottom{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio13-what-new-six-right-bottom{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-what-new-six-small-bottom-one{align-content: center; display: block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+/*end what's new*/
+
+
+.block-content-studio13-as-sensors-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-one{background:url("/Content/Artec3D/images/artec/artec%20studio/13/as-sensors-promo-bg.jpg") 100% 20% no-repeat; background-size: 550px; height: 500px;}
+.content-studio13-as-sensors-one-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+.block-detail-studio13-as-sensors-one-left-30per{align-content: center; display: inline-block; padding:0; padding-top: 250px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-as-sensors-40-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-two{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-two{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 100%;}
+.font-as-sensors-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:90%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-as-sensors-28-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:90%; text-align: left; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+.block-studio13-background-img-as-sensors-two-{background:url("/Content/Artec3D/images/artec/artec%20studio/13/sensors-bg.jpg") center 20% no-repeat; background-size: 100%; height: 800px;}
+.block-detail-studio13-as-sensors-two-left{align-content: center; display: block; padding:0; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-two-right{align-content: center; display: block; padding:0; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; background-color: #333;}
+.img-as-sensors-two{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 70px;}
+.font-as-sensors-50-cfff-blod-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:28px; font-weight: bold; vertical-align: top;}
+.block-detail-studio13-as-sensors-two-left-bottom{align-content: center; display: block; padding:0;padding-top: 250px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-two-right-bottom{align-content: center; display: block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; background-color: #fff;}
+.block-detail-studio13-as-sensors-two-top{align-content: center; display: block; padding:0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; background-color: #333;}
+.font-as-sensors-24-c666-center-bgwhite{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 20px; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top; background-color: #fff;}
+
+.block-content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color: #F7F7F7;}
+.img-studio13-as-sensors-background-img-three{background: url("/Content/Artec3D/images/artec/artec%20studio/13/grey-bg.png") center top repeat-x;}
+.content-studio13-as-sensors-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; height: 107px; background-color: #fff;}
+.content-studio13-as-sensors-three-1070{align-content: center; display: block; padding: 30px 0; margin: 0 auto; width: 90%;}
+.font-as-sensors-40-c333-center-none-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-studio13-as-sensors-three-left{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-three-center{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-three-right{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-as-sensors-three{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 340px; height: 260px;}
+.font-as-sensors-30-cFF0000{font-family: 'Roboto', sans-serif; color:#FF0000; font-size:30px;}
+.font-as-sensors-30-c000-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#000; font-size:30px; vertical-align: top;}
+.font-as-sensors-24-c666-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.block-studio13-background-as-sensors-three-bottom{background-color: #f0f0f0; background-size: cover; height: auto;}
+
+.block-content-studio13-as-sensors-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-four{background-color: #fff; background-size: cover; height: auto;}
+.content-studio13-as-sensors-four{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%; border-bottom: 1px solid #f0f0f0;}
+.font-as-sensors-28-c666-center-nopad{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#666; font-size:28px; vertical-align: top;}
+
+.block-content-studio13-as-sensors-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio13-background-img-as-sensors-five{background:url("/Content/Artec3D/images/artec/artec%20studio/13/free-one-year-as-video.png") center bottom no-repeat; background-size: 1920px; height: auto;}
+.content-studio13-as-sensors-five-1070{align-content: center; display: block; padding: 0; padding-top: 50px; padding-bottom: 20px; margin: 0 auto; width: 90%;}
+.block-detail-studio13-as-sensors-five-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio13-as-sensors-five-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.vdo-studio13-as-sensors-five-center{align-content: center; display: block; padding:0; padding-top: 20px; margin: 0 auto; width: 100%; height: 220px;}
+
+.block-content-studio13-as-sensors-footer{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background-color:#F5F5F5;}
+.content-studio13-as-sensors-footer-1070{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 90%;}
+/*end As of sensors*/
+
+
+.block-content-studio-spec-one{align-content: center; display: block; padding: 0; padding-top: 60px; margin: 0 auto; width: 100%;}
+.block-studio-background-studio-spec-one{background-color: #fff; background-size: cover; height: auto;}
+.content-studio-studio-spec-one-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.font-spec-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:20px 0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:24px; vertical-align: top;}
+.block-detail-studio-spec-one-left{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-one-center{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; position: relative;}
+.img-studio-spec-one-center{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%;}
+.block-detail-studio-spec-one-right{align-content: center; display: inline-block; padding:20px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.font-spec-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#666; font-size:24px; vertical-align: top;}
+.font-spec-60-cef4023-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#ef4023; font-size:47px; vertical-align: top;}
+.font-spec-60-c3a79bd-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1em; color:#3a79bd; font-size:60px; vertical-align: top;}
+.block-detail-studio-spec-one-small-left{align-content: center; display: block; padding:30px 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-studio-spec-one-small-right{align-content: center; display: block; padding:0; padding-top: 30px; margin: 0 auto; width: 100%; vertical-align: top;}
+.font-spec-24-c333-blod-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:22px; vertical-align: top;}
+.font-spec-22-c999-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: left; line-height: 1.1em; color:#999; font-size:22px; vertical-align: top;}
+
+.block-content-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-studio-background-spec-two{background-color: #f5f5f5; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.block-studio-background-fff-spec-two{background-color: #fff; width: 100%; align-content: center; display: block; margin: 0 auto; padding: 0;}
+.content-studio-studio-spec-two-1070{align-content: center; display: block; padding: 0; margin: 0 auto; width: 90%;}
+.block-detail-studio-spec-two-left-25per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 25%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-right-74per{align-content: center; display: inline-block; padding:10px 0; margin: 0 auto; width: 74%; vertical-align: top; text-align: left;}
+.font-spec-36-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.block-detail-studio-spec-two-small-left{align-content: center; display: inline-block; padding:10px 0; padding-right: 5px; margin: 0 auto; width: 28%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-center{align-content: center; display: inline-block; padding:10px 5px; margin: 0 auto; width: 36%; vertical-align: top; text-align: center;}
+.block-detail-studio-spec-two-small-right{align-content: center; display: inline-block; padding:10px 0; padding-left: 5px; margin: 0 auto; width: 29%; vertical-align: top; text-align: center;}
+.font-spec-36-c333-center-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#333; font-size:36px; vertical-align: top;}
+.font-spec-title-36-c848384-left-num{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0 5px; padding-top: 50px; padding-bottom: 10px; width:100%; text-align: left; line-height: 1.1em; color:#848384; font-size:36px; vertical-align: top;}
+.block-table-bottom-line-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; background:url("/Content/Artec3D/images/artec/artec%20studio/13/table-border.png") repeat-x bottom;}
+.block-table-bottom-studio-spec-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.block-table-studio-spec-two-25per{align-content: center; display: inline-block; padding: 0; padding-left: 10px 0; margin: 0 auto; width: 24.5%; vertical-align: top; text-align: center;}
+.block-table-studio-spec-two-24per{align-content: center; display: inline-block; padding:0; margin: 0 auto; width: 23.5%; vertical-align: top; text-align: center;}
+.font-spec-title-24-c848384-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; width:100%; text-align: left; line-height: 1em; color:#848384; font-size:24px; vertical-align: top;}
+.font-spec-24-cef4023-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; width:100%; text-align: center; line-height: 1em; color:#ef4023; font-size:24px; vertical-align: top; font-weight: bold;}
+.font-spec-24-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 5px; padding-right: 10px; width:100%; text-align: center; line-height: 1em; color:#333; font-size:24px; vertical-align: top;}
+.sup { position: relative; top: -5px; padding-left: 1px; font-size: 16px; color:#333; font-family: 'Roboto', sans-serif;}
+.link-spec{ color: #eb4322; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.link-spec:hover{ color: #333; text-decoration: underline; font-family: 'Roboto', sans-serif; font-size:24px;}
+.font-spec-bottom-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:10px 0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#333; font-size:22px; vertical-align: top;}
+}

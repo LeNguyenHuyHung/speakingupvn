@@ -1,0 +1,243 @@
+@charset "utf-8";
+@font-face{
+	font-family: CordiaNew;
+	src: url('/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: CordiaNew;
+	src: url('/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('/font/cordia-new/cordiab0.woff') format('woff'),
+		url('/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.tab-a{
+	align-content: center;
+	margin: 0 auto;
+	width: 1070px;
+}
+	
+ul li {
+	font-family: CordiaNew;
+	font-size: 22px;
+    display: inline-block;
+    padding: 10px 0;
+  	outline: none;
+  	cursor: pointer;
+}
+
+ul {
+	padding: 0;
+	font-family: CordiaNew;
+	font-size: 22px;
+}
+
+/*a, a:visited, a:active { 
+	font-family: CordiaNew; 
+	font-size: 22px; 
+	color: #333; 
+	padding: 10px 15px; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	font-family: CordiaNew; 
+	font-size: 22px; 
+	color: #EF4023; 
+	padding: 10px 15px; 
+	text-decoration: underline; 
+}*/
+
+.text-link, .text-link:visited, .text-link:active{
+	font-family: CordiaNew; 
+	font-size: 22px; 
+	color: #333; 
+	padding: 10px 15px; 
+	text-decoration: none;
+}
+
+.text-link:hover { 
+	font-family: CordiaNew; 
+	font-size: 22px; 
+	color: #EF4023; 
+	padding: 10px 15px; 
+	text-decoration: underline; 
+}
+
+.tabscroll_activeNavi {
+	font-family: CordiaNew;
+	font-size: 22px;
+    background-color: #f1f1f1;
+	padding: 10px 0;
+}
+
+.tabscroll_activeNavi a, .tabscroll_activeNavi a:visited, .tabscroll_activeNavi a:active, .tabscroll_activeNavi a:hover { 
+	font-family: CordiaNew; 
+	color: #EF4023; 
+	background-color: #fff; 
+	padding: 10px 15px;  
+	text-decoration: none;
+}
+
+.line-tab-bottom{
+	border-bottom: 1px dotted #333;
+	line-height: 1em;
+}
+
+article {
+    margin: 0 auto;
+    padding: 0;
+	width: 100%;
+}
+	
+.tab-a-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	width: 50%;
+}
+.tab-a-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	width: 49%;
+}
+	
+.tab-studio {
+    overflow: hidden;
+    background-color: #f1f1f1;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+h51{
+	font-family:CordiaNew;
+	align-content: center;
+	font-size: 22px;
+	color: #333;
+	padding: 20px 0;
+	height: 30px;
+}
+
+h52{
+	font-family:CordiaNew;
+	font-size: 22px;
+	padding: 0 5px;
+	color: #ddd;
+}
+
+.link-orange-menu{
+	font-family: CordiaNew;
+	font-size: 22px;
+	align-content: center;
+	color: #EF4023;	
+	text-decoration-line: underline;
+    text-decoration-style: 1px solid;
+}
+
+.link-orange-menu:hover{
+	font-family: CordiaNew;
+	font-size: 22px;
+	align-content: center;
+	color: #000;	
+	text-decoration: none;
+}
+
+@media (max-width:1024px){
+.tab-studio {
+    overflow: hidden;
+    background-color: #f1f1f1;
+	width: 100%;
+	padding: 0 10px;
+}
+	
+.tab-a{
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+	
+.tab-a-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	width: 45%;
+}
+	
+.tab-a-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	width: 54%;
+}
+}
+
+@media (max-width:850px){
+.tab-studio {
+    overflow: hidden;
+    background-color: #f1f1f1;
+	width: 100%;
+}
+	
+.tab-a{
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+	
+.tab-a-left{
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 15px 10px;
+	width: 100%;
+}
+	
+.tab-a-right{
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #fff;
+}
+	
+h51{
+	font-family:CordiaNew;
+	align-content: center;
+	font-size: 22px;
+	color: #333;
+	padding: 20px 0;
+	height: 30px;
+}
+
+h52{
+	font-family:CordiaNew;
+	font-size: 22px;
+	padding: 20px 5px;
+	color: #ddd;
+}
+}
+
+@media (max-width:500px){
+.tab-a-right {
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ 
+	background-color: #fff;
+}
+
+/* [5] */
+.tab-a-right::-webkit-scrollbar {
+  display: none; 
+}
+}

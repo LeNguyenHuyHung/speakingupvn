@@ -1,0 +1,273 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('/font/cordia-new/cordiab0.woff') format('woff'),
+		url('/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-solidwork{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 100px;}
+
+.block-content-solidwork-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-one-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 1070px;}
+.block-detail-solidwork-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 100px; padding-bottom: 50px; padding-right: 30px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.img-solidwork-one{align-content: center; display: block; margin: 0; padding: 0; width: 540px; vertical-align: top;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-25-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:25px; vertical-align: top;}
+
+.block-content-solidwork-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-two-background{background-size: cover; height: auto; background-color: #fff;}
+.content-solidwork-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 1070px;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.f-24-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-two{align-content: center; display: block; margin: 0 auto; padding-bottom: 20px; width: 806px; vertical-align: top;}
+.block-detail-solidwork-two-left{align-content: center; display: inline-block; padding-bottom: 10px; padding-right: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; border-right: 1px solid #f5f5f5;}
+.block-detail-solidwork-two-right{align-content: center; display: inline-block; padding-bottom: 10px; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.f-40-c1a1a1a-center-padding-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 50px; padding-bottom:10px; width:60%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-two-left1{align-content: center; display: inline-block; padding: 0 50px; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right1{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.f-23-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle;}
+.img-solidwork-two-right1{align-content: center; display: block; margin: 0; padding: 0; width: 540px; vertical-align: middle;}
+.block-detail-solidwork-two-left2{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right2{align-content: center; display: inline-block; padding: 0 50px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-solidwork-two-left2{align-content: center; display: block; margin: 0; padding: 0; width: 540px; vertical-align: middle;}
+.f-23-c666-left-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle; font-style: italic;}
+.block-detail-solidwork-two-left3{align-content: center; display: inline-block; padding: 0 50px; padding-top: 50px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.block-detail-solidwork-two-right3{align-content: center; display: inline-block; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.img-solidwork-two-right3{align-content: center; display: block; margin: 0; padding: 0; width: 540px; vertical-align: top;}
+
+.block-content-solidwork-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-three-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-three-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 1070px;}
+.f-40-c1a1a1a-center-70per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:70%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-three{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top; border-bottom: 1px solid #ffffff;}
+.block-detail-solidwork-three-left{align-content: center; display: inline-block; padding: 0; padding-right: 10px; margin: 0 auto; width: 30%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-three-right{align-content: center; display: inline-block; padding: 0; padding-left: 10px; margin: 0 auto; width: 69.5%; vertical-align: top; text-align: center;}
+.block-img-solidwork-three-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 5px; margin: 0 auto; width: 50%; vertical-align: bottom; text-align: center; position: relative;}
+.block-img-solidwork-three-right{align-content: center; display: inline-block; padding-top: 10px; padding-left: 5px; margin: 0 auto; width: 45.5%; vertical-align: bottom; text-align: center; position: relative;}
+.f-28-c1a1a1a-left-bold{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:28px; vertical-align: top; font-weight: bold;}
+.f-24-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-three{align-content: center; display: block; margin: 0; padding: 0; width: 350px; vertical-align: bottom;}
+.f-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% - 0px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top1{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(48% + 20px);/*MVVLINH 1/10/2019*/ text-align: center;/*MVVLINH 1/10/2019*/ line-height: 1.2em;/*MVVLINH 1/10/2019*/ color:#fff; font-size:18px;/*MVVLINH 30/9/2019*/ background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top2{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% + 20px); text-align: center; line-height: 1.2em;/*MVVLINH 1/10/2019*/ color:#fff; font-size:18px;/*MVVLINH 30/9/2019*/ background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 192px;/*MVVLINH 1/10/2019*/ bottom: 5px; right:-21px;/*MVVLINH 1/10/2019*/}
+.block-detail-solidwork-three-bottom-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 66%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-left: 10px; margin: 0 auto; width: 360px; vertical-align: top; text-align: center;}
+.lable-f-26-cfff{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 15px 15px; text-align: left; line-height: 1.3em; background: #ef4023; border-radius: 4px; vertical-align: top; width: 100%;}
+.f-28-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:inline-block; margin:0; padding-left: 10px; text-align: left; line-height: 1.3em; color:#fff; font-size:28px; vertical-align: top; width: 90%;}
+.img-icon-solidwork-three{align-content: center; display: inline-block; margin: 0; padding: 0; background: url("../../images/artec/solidworks-cad/note-block__note.png") center center no-repeat #ffffff; border-radius: 15px; vertical-align: top; width: 28px; height: 28px;}
+
+.block-content-solidwork-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-four-background{background-size: cover; height: auto; background-color: #3a383a;}
+.content-solidwork-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 1070px;}
+.f-40-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:40px; vertical-align: top;}
+.f-26-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:26px; vertical-align: top;}
+.block-vdo-four{align-content: center; display: block; margin: 0 auto; padding: 20px 0; width: 700px; height: 395px;}
+
+.f-24-cfff-link-bottom{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top:5; width:100%; color:#fff; font-size:24px; line-height:1.5em;}
+.f-22-cddd--bottom{font-family: 'Roboto', sans-serif; align-content:center; display:block; text-align:center; margin:0 auto; padding:0; padding-top:10px; font-size:22px; color:#ddd;}
+.link-bottom{font-family: 'Roboto', sans-serif; margin:0; padding:0; color:#ddd; text-decoration: none;}
+.link-bottom:hover{font-family: 'Roboto', sans-serif; margin:0; padding:0; color:#fff; text-decoration: none;}
+.link-bottom:active{font-family: 'Roboto', sans-serif; margin:0; padding:0; color:#ddd; text-decoration: none;}
+
+
+@media (max-width:1024px){
+.block-content-solidwork-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-one-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.block-detail-solidwork-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 100px; padding-bottom: 50px; padding-right: 30px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.img-solidwork-one{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: top;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-25-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:25px; vertical-align: top;}
+
+.block-content-solidwork-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-two-background{background-size: cover; height: auto; background-color: #fff;}
+.content-solidwork-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.f-24-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-two{align-content: center; display: block; margin: 0 auto; padding-bottom: 20px; width: 806px; vertical-align: top;}
+.block-detail-solidwork-two-left{align-content: center; display: inline-block; padding-bottom: 10px; padding-right: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; border-right: 1px solid #f5f5f5;}
+.block-detail-solidwork-two-right{align-content: center; display: inline-block; padding-bottom: 10px; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.f-40-c1a1a1a-center-padding-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 50px; padding-bottom:10px; width:60%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-two-left1{align-content: center; display: inline-block; padding: 0 50px; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right1{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.f-23-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle;}
+.img-solidwork-two-right1{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: middle;}
+.block-detail-solidwork-two-left2{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right2{align-content: center; display: inline-block; padding: 0 50px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-solidwork-two-left2{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: middle;}
+.f-23-c666-left-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle; font-style: italic;}
+.block-detail-solidwork-two-left3{align-content: center; display: inline-block; padding: 0 50px; padding-top: 50px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.block-detail-solidwork-two-right3{align-content: center; display: inline-block; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.img-solidwork-two-right3{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: top;}
+
+.block-content-solidwork-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-three-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-three-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-70per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:70%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-three{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top; border-bottom: 1px solid #ffffff;}
+.block-detail-solidwork-three-left{align-content: center; display: inline-block; padding: 0; padding-right: 10px; margin: 0 auto; width: 30%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-three-right{align-content: center; display: inline-block; padding: 0; padding-left: 10px; margin: 0 auto; width: 69.5%; vertical-align: top; text-align: center;}
+.block-img-solidwork-three-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 5px; margin: 0 auto; width: 45.9%; vertical-align: bottom; text-align: center; position: relative;}
+.block-img-solidwork-three-right{align-content: center; display: inline-block; padding-top: 10px; padding-left: 5px; margin: 0 auto; width: 45.9%; vertical-align: bottom; text-align: center; position: relative;}
+.f-28-c1a1a1a-left-bold{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:28px; vertical-align: top; font-weight: bold;}
+.f-24-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-three{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: bottom;}
+.f-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% - 0px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top1{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% + 20px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top2{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% + 20px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 180px; bottom: 5px;}
+.block-detail-solidwork-three-bottom-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 60%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-left: 10px; margin: 0 auto; width: 39%; vertical-align: top; text-align: center;}
+.lable-f-26-cfff{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 15px 15px; text-align: left; line-height: 1.3em; background: #ef4023; border-radius: 4px; vertical-align: top; width: 100%;}
+.f-28-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:inline-block; margin:0; padding-left: 10px; text-align: left; line-height: 1.3em; color:#fff; font-size:28px; vertical-align: top; width: 85%;}
+.img-icon-solidwork-three{align-content: center; display: inline-block; margin: 0; padding: 0; background: url("../../images/artec/solidworks-cad/note-block__note.png") center center no-repeat #ffffff; border-radius: 15px; vertical-align: top; width: 28px; height: 28px;}
+
+.block-content-solidwork-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-four-background{background-size: cover; height: auto; background-color: #3a383a;}
+.content-solidwork-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+.f-40-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:40px; vertical-align: top;}
+.f-26-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:26px; vertical-align: top;}
+.block-vdo-four{align-content: center; display: block; margin: 0 auto; padding: 20px 0; width: 700px; height: 395px;}
+}
+
+
+@media (max-width:880px){
+.block-content-solidwork-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-one-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.block-detail-solidwork-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-solidwork-one{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: top;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-25-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:25px; vertical-align: top;}
+
+.block-content-solidwork-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-two-background{background-size: cover; height: auto; background-color: #fff;}
+.content-solidwork-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.f-24-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-two{align-content: center; display: block; margin: 0 auto; padding-bottom: 20px; width: 100%; vertical-align: top;}
+.block-detail-solidwork-two-left{align-content: center; display: block; padding-bottom: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; border-right: none; border-bottom: 1px solid #f5f5f5;}
+.block-detail-solidwork-two-right{align-content: center; display: block; padding-bottom: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.f-40-c1a1a1a-center-padding-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 50px; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-two-left1{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right1{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.f-23-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle;}
+.img-solidwork-two-right1{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: middle;}
+.block-detail-solidwork-two-left2{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right2{align-content: center; display: inline-block; padding: 10px 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-solidwork-two-left2{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: middle;}
+.f-23-c666-left-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle; font-style: italic;}
+.block-detail-solidwork-two-left3{align-content: center; display: inline-block; padding: 0 10px; padding-top: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.block-detail-solidwork-two-right3{align-content: center; display: inline-block; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.img-solidwork-two-right3{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: top;}
+
+.block-content-solidwork-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-three-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-three-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-70per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:70%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-three{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top; border-bottom: 1px solid #ffffff;}
+.block-detail-solidwork-three-left{align-content: center; display: block; padding: 0; padding-right: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; }
+.block-detail-solidwork-three-right{align-content: center; display: block; padding: 0; padding-left: 0; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-img-solidwork-three-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 49.5%; vertical-align: bottom; text-align: center; position: relative;}
+.block-img-solidwork-three-right{align-content: center; display: inline-block; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 49.5%; vertical-align: bottom; text-align: center; position: relative;}
+.f-28-c1a1a1a-left-bold{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:28px; vertical-align: top; font-weight: bold;}
+.f-24-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-three{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: bottom;}
+.f-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% - 0px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top1{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% + 20px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top2{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% + 20px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 175px; bottom: 5px;}
+.block-detail-solidwork-three-bottom-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 60%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-left: 10px; margin: 0 auto; width: 39%; vertical-align: top; text-align: center;}
+.lable-f-26-cfff{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 15px 15px; text-align: left; line-height: 1.3em; background: #ef4023; border-radius: 4px; vertical-align: top; width: 100%;}
+.f-28-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:inline-block; margin:0; padding-left: 10px; text-align: left; line-height: 1.3em; color:#fff; font-size:28px; vertical-align: top; width: 85%;}
+.img-icon-solidwork-three{align-content: center; display: inline-block; margin: 0; padding: 0; background: url("../../images/artec/solidworks-cad/note-block__note.png") center center no-repeat #ffffff; border-radius: 15px; vertical-align: top; width: 28px; height: 28px;}
+
+.block-content-solidwork-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-four-background{background-size: cover; height: auto; background-color: #3a383a;}
+.content-solidwork-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+.f-40-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:40px; vertical-align: top;}
+.f-26-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:26px; vertical-align: top;}
+.block-vdo-four{align-content: center; display: block; margin: 0 auto; padding: 20px 0; width: 100%; height: 395px;}
+}
+
+
+@media (max-width:660px){
+.block-content-solidwork-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-one-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.block-detail-solidwork-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-solidwork-one{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: top;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-25-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:25px; vertical-align: top;}
+
+.block-content-solidwork-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-two-background{background-size: cover; height: auto; background-color: #fff;}
+.content-solidwork-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.f-24-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-two{align-content: center; display: block; margin: 0 auto; padding-bottom: 20px; width: 100%; vertical-align: top;}
+.block-detail-solidwork-two-left{align-content: center; display: block; padding-bottom: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; border-right: none; border-bottom: 1px solid #f5f5f5;}
+.block-detail-solidwork-two-right{align-content: center; display: block; padding-bottom: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-24-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:24px; vertical-align: top;}
+.f-40-c1a1a1a-center-padding-top{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 50px; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-two-left1{align-content: center; display: inline-block; padding: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right1{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.f-23-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle;}
+.img-solidwork-two-right1{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: middle;}
+.block-detail-solidwork-two-left2{align-content: center; display: inline-block; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.block-detail-solidwork-two-right2{align-content: center; display: inline-block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.img-solidwork-two-left2{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: middle;}
+.f-23-c666-left-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:23px; vertical-align: middle; font-style: italic;}
+.block-detail-solidwork-two-left3{align-content: center; display: inline-block; padding: 0; padding-top: 10px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-solidwork-two-right3{align-content: center; display: inline-block; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-solidwork-two-right3{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: top;}
+
+.block-content-solidwork-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-three-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-solidwork-three-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-70per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-solidwork-three{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 100%; vertical-align: top; border-bottom: 1px solid #ffffff;}
+.block-detail-solidwork-three-left{align-content: center; display: block; padding: 0; padding-right: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; }
+.block-detail-solidwork-three-right{align-content: center; display: block; padding: 0; padding-left: 0; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-img-solidwork-three-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: bottom; text-align: center; position: relative;}
+.block-img-solidwork-three-right{align-content: center; display: inline-block; padding-top: 10px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: bottom; text-align: center; position: relative;}
+.f-28-c1a1a1a-left-bold{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:28px; vertical-align: top; font-weight: bold;}
+.f-24-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.2em; color:#1a1a1a; font-size:24px; vertical-align: top;}
+.img-solidwork-three{align-content: center; display: block; margin: 0; padding: 0; width: 100%; vertical-align: bottom;}
+.f-22-c666-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% - 0px); text-align: left; line-height: 1em; color:#fff; font-size:22px; background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 5px; bottom: 5px;}
+.f-22-c666-left-top1{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(45% + 20px);/*MVVLINH 3/10/2019*/ text-align: left; line-height: 1.2em;/*MVVLINH 3/10/2019*/ color:#fff; font-size:16px;/*MVVLINH 30/9/2019*/ background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 1px; bottom: 5px;}
+.f-22-c666-left-top2{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 0 5px; max-width: calc(100% + 20px); text-align: left; line-height: 1.2em;/*MMVVLINH 3/10/2019*/ color:#fff; font-size:16px;/*MVVLINH 30/9/2019*/ background: #666; border-radius: 2px; vertical-align: bottom; position: absolute; left: 190px; bottom: 5px; right:1px;/*MVVLINH 3/10/2019*/}
+.block-detail-solidwork-three-bottom-left{align-content: center; display: inline-block; padding-top: 10px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-solidwork-three-bottom-right{align-content: center; display: inline-block; padding: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.lable-f-26-cfff{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding: 15px 15px; text-align: left; line-height: 1.3em; background: #ef4023; border-radius: 4px; vertical-align: top; width: 100%;}
+.f-28-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:inline-block; margin:0; padding-left: 10px; text-align: left; line-height: 1.3em; color:#fff; font-size:28px; vertical-align: top; width: 85%;}
+.img-icon-solidwork-three{align-content: center; display: inline-block; margin: 0; padding: 0; background: url("../../images/artec/solidworks-cad/note-block__note.png") center center no-repeat #ffffff; border-radius: 15px; vertical-align: top; width: 28px; height: 28px;}
+
+.block-content-solidwork-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-solidwork-four-background{background-size: cover; height: auto; background-color: #3a383a;}
+.content-solidwork-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+.f-40-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:40px; vertical-align: top;}
+.f-26-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:26px; vertical-align: top;}
+.block-vdo-four{align-content: center; display: block; margin: 0 auto; padding: 20px 0; width: 100%; height: 395px;}
+}
+
+

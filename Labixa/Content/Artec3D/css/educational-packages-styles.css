@@ -1,0 +1,1360 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('/font/cordia-new/cordiab0.woff') format('woff'),
+		url('/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-education-bottom{
+	align-content:center;
+	width:1070px;
+	margin:0 auto;
+	padding:0;
+	background:#fff;
+}
+
+.content-education{
+	align-content:center;
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	padding-top: 153px;
+	background:#fff;
+}
+
+.img-education-background-content-img-one{
+	background: url("/Content/Artec3D/images/artec/educational/education-title%402x.jpg") center bottom no-repeat;
+	background-size:1920px;
+	/*background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;*/
+	min-height: 600px;
+}
+
+.content-education-background-img-one-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	width: 1070px;
+	font-size: 24px;
+}
+
+.box-left-content-one{
+	align-content:center;
+	display: inline-table;
+	margin: 0;
+	padding: 50px 0;
+	width: 40%;
+	position: relative;
+}
+
+h51{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 10px;
+	width:100%;
+	text-align: left;
+	line-height: 1.2em;
+	color:#2B2A29;
+	font-size:46px;
+}
+
+h52{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 15px;
+	width:100%;
+	line-height: 1.2em;
+	color:#4A4947;
+	font-size:30px;
+}
+
+.link-orange{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0;
+	padding:0;
+	padding-top: 20px;
+	line-height: 0.8em;
+	color:#EF4023;
+	font-size:26px;
+	font-weight: bold;
+	border-bottom: 1px dashed #EF4023;
+	width:220px;
+}
+
+.link-orange:hover{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0;
+	padding:0;
+	padding-top: 20px;
+	line-height: 0.8em;
+	color:#EF4023;
+	font-size:26px;
+	font-weight: bold;
+	border-bottom: none;
+	width:220px;
+}
+
+.link-orange:active{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0;
+	padding:0;
+	padding-top: 20px;
+	line-height: 0.8em;
+	color:#EF4023;
+	font-size:26px;
+	font-weight: bold;
+	border-bottom: 1px dashed #EF4023;
+	width:220px;
+}
+
+.education-background-content-two{
+	align-content:center;
+	display: block;
+	width:100%;
+	margin:0 auto;
+	padding: 0;
+	background:#4B494A;
+}
+
+.content-education-background-two-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 1070px;
+	font-size: 24px;
+}
+
+.box-center-content-two{
+	align-content:center;
+	display: block;
+	margin: 0 auto;
+	padding: 70px 0;
+	width: 100%;
+}
+
+h53{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 10px;
+	width:100%;
+	text-align: center;
+	line-height: 1.2em;
+	color:#F9F9F9;
+	font-size:40px;
+}
+
+h54{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 20px;
+	width:100%;
+	line-height: 1.3em;
+	color:#F9F9F9;
+	font-size:24px;
+}
+
+.img-education-background-content-img-three{
+	background-image:url("/Content/Artec3D/images/artec/educational/education-block-education%402x.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 700px;
+}
+
+.content-education-background-img-three-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	width: 1070px;
+	font-size: 24px;
+}
+
+.education-background-content-four{
+	align-content:center;
+	display: block;
+	width:100%;
+	margin:0 auto;
+	padding: 0;
+	background:#fff;
+}
+
+.content-education-background-four-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 1070px;
+	font-size: 24px;
+}
+
+.table-content-four-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 20px;
+	width: 50%
+}
+
+.table-content-four-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	width: 50%
+}
+
+h55{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 15px;
+	width:100%;
+	text-align: left;
+	line-height: 1.2em;
+	color:#2B2A29;
+	font-size:24px;
+}
+
+.img-education-background-content-img-five{
+	background-image:url("/Content/Artec3D/images/artec/educational/education-block-research%402x.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 700px;
+}
+
+.content-education-background-img-five-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	width: 1070px;
+	font-size: 24px;
+}
+
+.table-content-six-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 20px;
+	padding-bottom: 80px;
+	width: 50%
+}
+
+.table-content-six-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	padding-bottom: 80px;
+	width: 50%
+}
+
+h56{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 10px;
+	width:100%;
+	text-align: center;
+	line-height: 1.2em;
+	color:#2B2A29;
+	font-size:46px;
+}
+
+.table-content-seven-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 20px;
+	width: 50%
+}
+
+.table-content-seven-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	width: 50%
+}
+
+.table-content-seven-small-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 20px;
+	width: 50%
+}
+
+.table-content-seven-small-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 20px;
+	width: 50%
+}
+
+h57{
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 10px;
+	width:100%;
+	text-align: center;
+	line-height: 1.2em;
+	color:#585858;
+	font-size:24px;
+}
+
+.education-background-content-eight{
+	align-content:center;
+	display: block;
+	width:100%;
+	margin:0 auto;
+	padding: 0;
+	background: #F7F7F7;
+}
+
+.content-education-background-eight-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 1070px;
+	font-size: 24px;
+}
+
+.research-block{
+	padding:270px 0;
+	margin-bottom:40px;
+}
+
+.research-block h58{
+	background: url("/images/artec/educational/ResearchShape.svg") no-repeat;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 40px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:70px;
+	position: relative;
+}
+
+.education-block{
+	padding:270px 0;
+	margin-bottom:40px;
+}
+
+.education-block h59{
+	background: url("/images/artec/educational/EducationShape.svg") no-repeat;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 40px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:70px;
+	position: relative;
+}
+
+h60{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 26px;
+	font-weight: bold;
+	width: 100%;
+	color: #000;
+}
+
+.block-detail-eight{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 25px 15px;
+	background: #fff;
+	border: 1px solid #ECECEC;
+	border-radius: 8px;
+}
+
+h61{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	width: 100%;
+	color: #000;
+}
+
+h62{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 36px;
+	width: 100%;
+	color: #000;
+	line-height: 1em;
+}
+
+h63{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	font-size: 24px;
+	width: 100%;
+	color: #7E7E7E;
+}
+
+h64{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	font-size: 36px;
+	width: 100%;
+	color: #7E7E7E;
+	line-height: 1em;
+	text-decoration: line-through;
+}
+
+.col-all-table-content-eight{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	width: 100%;
+}
+
+.col-1-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-2-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-3-table-content-eight-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-4-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-5-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-6-table-content-eight-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-7-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-8-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0 8px;
+	padding-bottom: 20px;
+	width: 33%;
+}
+
+.col-all-2-table-content-eight{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.block-2-table-eight-bg-orange{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	padding: 10px 10px;
+	margin: 0 auto;
+	font-size: 24px;
+	color: #fff;
+	background:#DF4228;
+	border-radius: 5px;
+	text-align: center;
+	width: 350px;
+}
+
+.block-3-detail-eight-color-grey{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	padding: 10px 0;
+	margin: 0 auto;
+	font-size: 24px;
+	color:#5D5D5D;
+	text-align: center;
+	width: 100%;
+}
+
+.block-all-table-nine{
+	align-content: center;
+	display: block;
+	padding: 0;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.block-1-detail-nine{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	padding: 20px 0;
+	margin: 0 auto;
+	font-size: 24px;
+	color:#212121;
+	width: 100%;
+}
+
+.block-all-2-table-nine{
+	align-content: center;
+	display: block;
+	padding: 10px 0;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.col-1-table-content-nine-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 49%;
+}
+
+.col-2-table-content-nine-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 50%;
+}
+/* MaiVanVuongLinh(09/18/2019)*/
+.block-detail-nine {
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    display: block;
+    margin: 0;
+    padding: 25px 15px;
+    background: #F9F9F9;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+   /*height: 230px;*/ 
+    height: 282px;
+}
+/* MaiVanVuongLinh(09/18/2019)*/
+.block-detail-2-nine {
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    display: block;
+    margin: 0;
+    padding: 25px 15px;
+    background: #F9F9F9;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    /*height: 280px;*/
+    height: 357px;
+}
+
+
+
+h65{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	font-size: 24px;
+	width: 100%;
+	color:#3C3C3C;
+}
+@media (max-width:1024px){
+.content-education-bottom{
+	align-content:center;
+	width:90%;
+	margin:0 auto;
+	padding:0;
+	background:#fff;
+}
+
+.img-education-background-content-img-one{
+	background-size:auto 500px;
+	background-position:70% 0;
+	min-height:500px;
+}
+
+.content-education-background-img-one-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height:auto;
+	width: 90%;
+	font-size: 24px;
+}
+
+.content-education-background-two-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	font-size: 24px;
+}
+
+.img-education-background-content-img-three{
+	background-image:url("/Content/Artec3D/images/artec/educational/education-block-education%402x.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 700px;
+}
+	
+.content-education-background-img-three-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	width: 90%;
+	font-size: 24px;
+}
+	
+.education-block{
+	padding:100px 0;
+	margin-bottom:40px;
+	width: 100%;
+}
+	
+.education-block h59{
+	background: url("/images/artec/educational/EducationShape.svg") no-repeat;
+	background-size:100% 100%;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 210px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:70px;
+	position: relative;
+}
+	
+.content-education-background-four-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 90%;
+	font-size: 24px;
+}
+	
+.img-education-background-content-img-five{
+	background-image:url("/Content/Artec3D/images/artec/educational/education-block-research%402x.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 700px;
+}
+	
+.content-education-background-img-five-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	width: 90%;
+	font-size: 24px;
+}
+	
+.research-block{
+	padding:100px 0;
+	margin-bottom:40px;
+	width: 100%;
+}
+
+.research-block h58{
+	background: url("/images/artec/educational/ResearchShape.svg") no-repeat;
+	background-size:100% 100%;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 210px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:70px;
+	position: relative;
+}
+	
+.content-education-background-eight-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 90%;
+	font-size: 24px;
+}
+}
+
+@media (max-width:820px){
+.img-education-background-content-img-one{
+	background-size:auto 400px;
+	background-position:55% 0;
+	min-height:400px;
+}
+	
+.content-education-background-img-one-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	width: 90%;
+	font-size: 24px;
+}
+	
+.box-left-content-one{
+	align-content:center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+	padding-bottom: 70px;
+	width: 60%;
+	position: relative;
+}
+	
+.img-education-background-content-img-three{
+	background-image:url("/Content/Artec3D/images/artec/educational/education-block-education%402x.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+	
+.content-education-background-img-three-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	width: 90%;
+	font-size: 24px;
+}
+	
+.education-block{
+	padding:10px 0;
+	margin-bottom:40px;
+	width: 100%;
+}
+	
+.education-block h59{
+	background: url("/images/artec/educational/EducationShape.svg") no-repeat;
+	background-size:100% 100%;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 220px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:60px;
+	position: relative;
+}
+	
+.img-education-background-content-img-five{
+	background-image:url("/Content/Artec3D/images/artec/educational/education-block-research%402x.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+	
+.content-education-background-img-five-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 400px;
+	width: 90%;
+	font-size: 24px;
+}
+	
+.research-block{
+	padding:10px 0;
+	margin-bottom:40px;
+	width: 100%;
+}
+
+.research-block h58{
+	background: url("/images/artec/educational/ResearchShape.svg") no-repeat;
+	background-size:100% 100%;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 220px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:60px;
+	position: relative;
+}
+	
+.table-content-seven-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 0;
+	width: 100%
+}
+
+.table-content-seven-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-left: 0;
+	width: 100%
+}
+	
+.box-center-content-two{
+	align-content:center;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 100%;
+}
+	
+.col-1-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 49%;
+}
+
+.col-2-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 50%;
+}
+
+.col-3-table-content-eight-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 49%;
+}
+
+.col-4-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 50%;
+}
+
+.col-5-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 49%;
+}
+
+.col-6-table-content-eight-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 50%;
+}
+
+.col-7-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	width: 49%;
+}
+
+.col-8-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 50%;
+}
+	
+.col-1-table-content-nine-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-2-table-content-nine-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+	
+.block-detail-nine{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 25px 15px;
+	background:#F9F9F9;
+	border: 1px solid #ECECEC;
+	border-radius: 8px;
+	height: auto;
+}
+
+.block-detail-2-nine{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0;
+	padding: 25px 15px;
+	background:#F9F9F9;
+	border: 1px solid #ECECEC;
+	border-radius: 8px;
+	height: auto;
+}
+}
+
+@media (max-width:570px){
+.box-left-content-one{
+	align-content:center;
+	display: inline-table;
+	margin: 0;
+	padding: 50px 5%;
+	width: 100%;
+	position: relative;
+	min-height:400px;
+}
+	
+.img-education-background-content-img-one{
+	background-size:auto 400px;
+	background-position:70% 0;
+	min-height:400px;
+}
+
+.content-education-background-img-one-size-1070{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	width: 100%;
+	font-size: 24px;
+	background-color:rgba(255,255,255,0.8);
+}
+	
+.table-content-four-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 0;
+	width: 100%
+}
+	
+.table-content-four-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-left: 0;
+	width: 100%
+}
+	
+.table-content-six-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	width: 100%
+}
+	
+.table-content-six-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-left: 0;
+	padding-bottom: 50px;
+	width: 100%
+}
+	
+.table-content-seven-small-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	width: 100%
+}
+	
+.table-content-seven-small-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	width: 100%
+}
+	
+.education-block h59{
+	background: none;
+	background-size:100% 100%;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 220px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:60px;
+	position: relative;
+}
+	
+.research-block h58{
+	background: none;
+	background-size:100% 100%;
+	font-family: 'Roboto', sans-serif;
+	align-content:center;
+	display:block;
+	margin:0 auto;
+	padding:0;
+	padding-top: 220px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	line-height: 1.2em;
+	color:#fff;
+	font-size:60px;
+	position: relative;
+}
+	
+.col-1-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-2-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-3-table-content-eight-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-4-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-5-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-6-table-content-eight-right{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-7-table-content-eight-left{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.col-8-table-content-eight-center{
+	align-content: center;
+	display: inline-table;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	width: 100%;
+}
+	
+.block-2-table-eight-bg-orange{
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	display: block;
+	padding: 10px 10px;
+	margin: 0 auto;
+	font-size: 24px;
+	color: #fff;
+	background:#DF4228;
+	border-radius: 5px;
+	text-align: center;
+	width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

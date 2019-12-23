@@ -1,0 +1,47 @@
+﻿body {
+    position: relative !important;
+    font-size: 16px !important;
+    line-height: 1.65 !important;
+    overflow-x: hidden !important;
+    font-family: "Roboto",sans-serif !important;
+    color: black !important;
+    text-decoration:
+}
+ul.blog-meta.list-style {
+    display: inline-block;
+    margin-top: 10px;
+}
+.title {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #004699;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.jobDescription ul li, .qualifications ul li, .additionalInformation ul li {
+    list-style: disc !important;
+    margin-left: 17px;
+}
+.blog-content h4 a {
+    color: #004699 !important;
+}
+.Recruiment h3 {
+    font-size: 16px !important;
+    color: #363636 !important;
+}
+.blog-content .read-text {
+    top: 10px;
+    color: white!important;
+}
+/*.blog-content .read-text::after {
+    right: -252px;
+    bottom: -9px;
+    width: 357px;
+    height: 1px;
+    background-color: #000000;
+}*/
+.section-padding {
+    padding-top:0;
+}

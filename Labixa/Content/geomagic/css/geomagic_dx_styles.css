@@ -1,0 +1,191 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('https://www.datadesign.co.th/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('https://www.datadesign.co.th/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('https://www.datadesign.co.th/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('https://www.datadesign.co.th/font/cordia-new/cordiab0.woff') format('woff'),
+		url('https://www.datadesign.co.th/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-geomagic-dx{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 100px;}
+
+.block-content-geomagic-dx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-one-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 1070px;}
+.block-detail-geomagic-dx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 50px; padding-right: 80px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-detail-geomagic-dx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-28-cf23e12-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#f23e12; font-size:28px; vertical-align: top;}
+.f-25-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:25px; width:100%; text-align: left; line-height: 1.3em; color:#1a1a1a; font-size:25px; vertical-align: top;}
+.block-vdo-one{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 100%; height: 337px;}
+
+.block-content-geomagic-dx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-geomagic-dx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 1070px;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:50%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-geomagic-dx-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; }
+.block-detail-geomagic-dx-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-30-c303030-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.1em; color:#303030; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-dx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-three-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 1070px;}
+.f-30-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:30px; vertical-align: top;}
+.f-40-c1a1a1a-center-40per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:40px; width:40%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-bg-three{background: url("../../images/geomagic/geomagic-design-x/periodical_bg.png") 50% top no-repeat; background-size: 1920px; height: auto;}
+.block-detail-geomagic-dx-three-left{align-content: center; display: inline-block; padding: 30px 50px; margin: 0 auto; width: 49.55%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 50%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__1.png"); background-size: 540px; background-position: right center; background-repeat: no-repeat; height: 330px;}
+.f-40-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-24-c5e5e5e-left-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-geomagic-dx-three-left-middle{align-content: center; display: inline-block; padding: 0; padding-top: 30px; margin: 0 auto; width: 50%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__2.png"); background-size: 535px; background-position: left center; background-repeat: no-repeat; height: 330px;}
+.block-detail-geomagic-dx-three-right-middle{align-content: center; display: inline-block;  margin: 0 auto; padding: 30px 50px; width: 49.55%; vertical-align: middle; text-align: center;}
+.block-detail-geomagic-dx-three-left-bottom{align-content: center; display: inline-block; padding: 30px 50px; margin: 0 auto; width: 49.55%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 50%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__3.png"); background-size: 540px; background-position: right center; background-repeat: no-repeat; height: 330px;}
+.f-40-c1a1a1a-center-100per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 40px; padding-bottom:20px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.slach-style{color: #eb4322; font-family: 'Roboto', sans-serif; font-size:24px; font-weight: bold;}
+.block-detail-geomagic-dx-three{align-content: center; display: block; padding-left: 100px; margin: 0; padding-bottom: 30px; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #eeeeee;}
+.f-24-c5e5e5e-left-three-a{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.1em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top:10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-button-link{align-content: center; display: block; padding-top:10px; padding-bottom: 30px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #337ab7; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.img-geomagic-dx{align-content: center; display: block; padding-top: 10px; margin: 0 auto;}
+
+
+@media (max-width:1024px){
+.block-content-geomagic-dx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-one-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.block-detail-geomagic-dx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 50px; padding-right: 80px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-detail-geomagic-dx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-28-cf23e12-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#f23e12; font-size:28px; vertical-align: top;}
+.f-25-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:25px; width:100%; text-align: left; line-height: 1.3em; color:#1a1a1a; font-size:25px; vertical-align: top;}
+.block-vdo-one{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 100%; height: 337px;}
+
+.block-content-geomagic-dx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-geomagic-dx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:50%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-geomagic-dx-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; }
+.block-detail-geomagic-dx-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-30-c303030-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.1em; color:#303030; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-dx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-three-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 90%;}
+.f-30-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:30px; vertical-align: top;}
+.f-40-c1a1a1a-center-40per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:40px; width:40%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-bg-three{background: url("../../images/geomagic/geomagic-design-x/periodical_bg.png") 50% top no-repeat; background-size: 1920px; height: auto;}
+.block-detail-geomagic-dx-three-left{align-content: center; display: inline-block; padding: 30px 50px; margin: 0 auto; width: 49.55%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 50%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__1.png"); background-size: 540px; background-position: 70% center; background-repeat: no-repeat; height: 330px;}
+.f-40-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-24-c5e5e5e-left-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-geomagic-dx-three-left-middle{align-content: center; display: inline-block; padding: 0; padding-top: 30px; margin: 0 auto; width: 50%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__2.png"); background-size: 535px; background-position: 60% center; background-repeat: no-repeat; height: 330px;}
+.block-detail-geomagic-dx-three-right-middle{align-content: center; display: inline-block;  margin: 0 auto; padding: 30px 50px; width: 49.55%; vertical-align: middle; text-align: center;}
+.block-detail-geomagic-dx-three-left-bottom{align-content: center; display: inline-block; padding: 30px 50px; margin: 0 auto; width: 49.55%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 50%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__3.png"); background-size: 540px; background-position: left center; background-repeat: no-repeat; height: 330px;}
+.f-40-c1a1a1a-center-100per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 40px; padding-bottom:20px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.slach-style{color: #eb4322; font-family: 'Roboto', sans-serif; font-size:24px; font-weight: bold;}
+.block-detail-geomagic-dx-three{align-content: center; display: block; padding-left: 100px; margin: 0; padding-bottom: 30px; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #eeeeee;}
+.f-24-c5e5e5e-left-three-a{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.1em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top:10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-button-link{align-content: center; display: block; padding-top:10px; padding-bottom: 30px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #337ab7; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.img-geomagic-dx{align-content: center; display: block; padding-top: 10px; margin: 0 auto;}
+}
+
+
+@media (max-width:880px){
+.block-content-geomagic-dx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-one-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-one-1070{align-content: center; display: block; padding-top: 50px; margin: 0 auto; width: 90%;}
+.block-detail-geomagic-dx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 0; padding-right: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; }
+.block-detail-geomagic-dx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left:0; padding-bottom: 20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-50-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:50px; vertical-align: top;}
+.f-28-cf23e12-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.1em; color:#f23e12; font-size:28px; vertical-align: top;}
+.f-25-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:25px; width:100%; text-align: left; line-height: 1.3em; color:#1a1a1a; font-size:25px; vertical-align: top;}
+.block-vdo-one{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 100%; height: 337px;}
+
+.block-content-geomagic-dx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-geomagic-dx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:60%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-detail-geomagic-dx-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-geomagic-dx-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-30-c303030-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.1em; color:#303030; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-dx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-three-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 90%;}
+.f-30-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:30px; vertical-align: top;}
+.f-40-c1a1a1a-center-40per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:40px; width:70%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-bg-three{background: url("../../images/geomagic/geomagic-design-x/periodical_bg.png") 50% top no-repeat; background-size: 2200px; height: auto;}
+.block-detail-geomagic-dx-three-left{align-content: center; display: inline-block; padding: 30px 50px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__1.png"); background-size: 540px; background-position: center center; background-repeat: no-repeat; height: 330px; background-color: #b4b4b4;}
+.f-40-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-24-c5e5e5e-left-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-geomagic-dx-three-left-middle{align-content: center; display: inline-block; padding: 0; padding-top: 30px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__2.png"); background-size: 540px; background-position: center center; background-repeat: no-repeat; height: 330px; background-color: #f0f0f0;}
+.block-detail-geomagic-dx-three-right-middle{align-content: center; display: inline-block;  margin: 0 auto; padding: 30px 50px; width: 100%; vertical-align: middle; text-align: center;}
+.block-detail-geomagic-dx-three-left-bottom{align-content: center; display: inline-block; padding: 30px 50px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__3.png"); background-size: 540px; background-position: right center; background-repeat: no-repeat; height: 330px; background-color: #f0f0f0;}
+.f-40-c1a1a1a-center-100per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 40px; padding-bottom:20px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.slach-style{color: #eb4322; font-family: 'Roboto', sans-serif; font-size:24px; font-weight: bold;}
+.block-detail-geomagic-dx-three{align-content: center; display: block; padding-left: 0; margin: 0; padding-bottom: 30px; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #eeeeee;}
+.f-24-c5e5e5e-left-three-a{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.1em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top:10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-button-link{align-content: center; display: block; padding-top:10px; padding-bottom: 30px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #337ab7; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.img-geomagic-dx{align-content: center; display: block; padding-top: 10px; margin: 0 auto;}
+}
+
+@media (max-width:660px){
+.block-content-geomagic-dx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-geomagic-dx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+
+.block-content-geomagic-dx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-dx-three-background{background-size: cover; height: auto; background-color: #fff;}
+.content-geomagic-dx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 40px; margin: 0 auto; width: 90%;}
+.f-30-c1a1a1a-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:10px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:30px; vertical-align: top;}
+.f-40-c1a1a1a-center-40per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-bottom:40px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.block-bg-three{background: url("../../images/geomagic/geomagic-design-x/periodical_bg.png") 50% top no-repeat; background-size: cover; height: auto;}
+.block-detail-geomagic-dx-three-left{align-content: center; display: inline-block; padding: 30px 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__1.png"); background-size: 380px; background-position: center center; background-repeat: no-repeat; height: 330px; background-color: #b4b4b4;}
+.f-40-c1a1a1a-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-24-c5e5e5e-left-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-geomagic-dx-three-left-middle{align-content: center; display: inline-block; padding: 0; padding-top: 30px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__2.png"); background-size: 450px; background-position: center center; background-repeat: no-repeat; height: 330px; background-color: #f0f0f0;}
+.block-detail-geomagic-dx-three-right-middle{align-content: center; display: inline-block;  margin: 0 auto; padding: 30px 10px; width: 100%; vertical-align: middle; text-align: center;}
+.block-detail-geomagic-dx-three-left-bottom{align-content: center; display: inline-block; padding: 30px 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; }
+.block-detail-geomagic-dx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; background-image: url("../../images/geomagic/geomagic-design-x/ultimate__3.png"); background-size: 330px; background-position: right center; background-repeat: no-repeat; height: 330px; background-color: #f0f0f0;}
+.f-40-c1a1a1a-center-100per{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top: 40px; padding-bottom:20px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: top;}
+.slach-style{color: #eb4322; font-family: 'Roboto', sans-serif; font-size:24px; font-weight: bold;}
+.block-detail-geomagic-dx-three{align-content: center; display: block; padding-left: 0; margin: 0; padding-bottom: 30px; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #eeeeee;}
+.f-24-c5e5e5e-left-three-a{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.1em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding-top:10px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-button-link{align-content: center; display: block; padding-top:10px; padding-bottom: 30px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #337ab7; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 3px 10px; margin: 0 auto; width: 130px; vertical-align: top; text-align: center; color: #fff; font-size: 24px; font-weight: bold; background-color: #338adc; border-radius: 5px; border: 1px solid #2273bf; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.img-geomagic-dx{align-content: center; display: block; padding-top: 10px; margin: 0 auto;}
+}
+

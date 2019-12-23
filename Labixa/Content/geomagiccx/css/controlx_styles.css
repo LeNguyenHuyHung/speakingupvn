@@ -1,0 +1,291 @@
+@charset "utf-8";
+@font-face{
+	font-family: CordiaNew;
+	src: url('https://datadesign.co.th/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('https://datadesign.co.th/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: CordiaNew;
+	src: url('https://datadesign.co.th/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('https://datadesign.co.th/font/cordia-new/cordiab0.woff') format('woff'),
+		url('https://datadesign.co.th/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-geomagic-cx{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 100px;}
+
+.block-content-geomagic-cx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-one-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-one-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 1070px;}
+.block-geomagic-cx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 50px; padding-right: 30px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left; }
+.block-geomagic-cx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.f-40-c1a1a1a-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.img-geomagic-cx-one{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 520px;}
+.img-geomagic-cx-one-left{align-content: center; display: block; padding: 10px 0px; margin: 0; width: 450px;}
+.block-geomagic-cx-one-left-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 15px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-one-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 15px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c333-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-cx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-two-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 1070px;}
+.img-geomagic-cx-two{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 100%;}
+.block-geomagic-cx-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-40-c1a1a1a-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:10px 0px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-22-c666-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; padding-bottom: 20px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+.f-22-c666-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+
+.block-content-geomagic-cx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-three-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 1070px;}
+.f-40-c1a1a1a-center-three{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-three-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right{align-content: center; display: inline-block; padding: 0; padding-left: 100px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: left;}
+.img-geomagic-cx-three{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 497px;}
+.f-30-c1a1a1a-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:20px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle; font-weight: bold;}
+.slach-style{color: #eb4322; font-family:CordiaNew; font-size:24px; font-weight: bold; display: inline-block;}
+.f-24-c333-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+.block-geomagic-cx-three-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-top:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-middle:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-left-middle{align-content: center; display: inline-block; padding: 0; padding-left: 100px; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-middle{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-right{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 468px;}
+.block-geomagic-cx-three-left-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left; border-right: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-left-bottom:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; top: 50%; right: -10px; margin-top: -10px; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #adadad #adadad #f7f7f7 #f7f7f7;}
+.block-geomagic-cx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-geomagic-cx-three-left-in-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-in-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-left-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 174px;}
+.img-geomagic-cx-three-right-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 184px;}
+
+.block-content-geomagic-cx-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-four-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 1070px;}
+.f-40-c1a1a1a-center-four{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-four-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #ededed;}
+.block-geomagic-cx-four-left-top{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-right-top{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+.f-22-c333-left-four{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+.block-geomagic-cx-four-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #ededed;}
+.block-geomagic-cx-four-left-middle{align-content: center; display: inline-block; padding:0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-left-in-middle{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-center-in-middle{align-content: center; display: inline-block; padding:20px 0px; padding-left: 10px; margin: 0; width: 50%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-middle{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+.block-geomagic-cx-four-bottom{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-bottom{align-content: center; display: inline-block; padding:0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-in-bottom{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-center-in-bottom{align-content: center; display: inline-block; padding:20px 0px; padding-left: 10px; margin: 0; width: 50%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-bottom{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+
+@media (max-width:1024px){
+.block-content-geomagic-cx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-one-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-one-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.block-geomagic-cx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 50px; padding-right: 30px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left; }
+.block-geomagic-cx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 10px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.f-40-c1a1a1a-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.img-geomagic-cx-one{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 100%;}
+.img-geomagic-cx-one-left{align-content: center; display: block; padding: 10px 0px; margin: 0; width: 450px;}
+.block-geomagic-cx-one-left-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 15px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-one-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 15px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c333-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-cx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-two-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.img-geomagic-cx-two{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 100%;}
+.block-geomagic-cx-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-40-c1a1a1a-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:10px 0px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-22-c666-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; padding-bottom: 20px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+.f-22-c666-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+
+.block-content-geomagic-cx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-three-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-three{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-three-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right{align-content: center; display: inline-block; padding: 0; padding-left: 100px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: left;}
+.img-geomagic-cx-three{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 100%;}
+.f-30-c1a1a1a-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:20px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle; font-weight: bold;}
+.slach-style{color: #eb4322; font-family:CordiaNew; font-size:24px; font-weight: bold; display: inline-block;}
+.f-24-c333-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+.block-geomagic-cx-three-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-top:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-middle:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-left-middle{align-content: center; display: inline-block; padding: 0; padding-left: 100px; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-middle{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-right{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 100%;}
+.block-geomagic-cx-three-left-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left; border-right: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-left-bottom:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; top: 50%; right: -10px; margin-top: -10px; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #adadad #adadad #f7f7f7 #f7f7f7;}
+.block-geomagic-cx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.block-geomagic-cx-three-left-in-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-in-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-left-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 174px;}
+.img-geomagic-cx-three-right-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 184px;}
+
+.block-content-geomagic-cx-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-four-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-four{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-four-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #ededed;}
+.block-geomagic-cx-four-left-top{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-right-top{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+.f-22-c333-left-four{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+.block-geomagic-cx-four-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #ededed;}
+.block-geomagic-cx-four-left-middle{align-content: center; display: inline-block; padding:0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-left-in-middle{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-center-in-middle{align-content: center; display: inline-block; padding:20px 0px; padding-left: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-middle{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+.block-geomagic-cx-four-bottom{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-bottom{align-content: center; display: inline-block; padding:0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-in-bottom{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-center-in-bottom{align-content: center; display: inline-block; padding:20px 0px; padding-left: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-bottom{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+}
+
+@media (max-width:880px){
+.block-content-geomagic-cx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-one-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-one-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.block-geomagic-cx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 50px; padding-right: 0px; margin: 0; width: 100%; vertical-align: middle; text-align: left; }
+.block-geomagic-cx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.f-40-c1a1a1a-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.img-geomagic-cx-one{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 520px;}
+.img-geomagic-cx-one-left{align-content: center; display: block; padding: 10px 0px; margin: 0; width: 450px;}
+.block-geomagic-cx-one-left-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 15px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-one-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 15px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c333-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-cx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-two-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.img-geomagic-cx-two{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 100%;}
+.block-geomagic-cx-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 20px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 20px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-40-c1a1a1a-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:10px 0px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-22-c666-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; padding-bottom: 20px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+.f-22-c666-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+
+.block-content-geomagic-cx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-three-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-three{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-three-left{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right{align-content: center; display: inline-block; padding-bottom: 20px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: left;}
+.img-geomagic-cx-three{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 497px;}
+.f-30-c1a1a1a-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:20px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle; font-weight: bold;}
+.slach-style{color: #eb4322; font-family:CordiaNew; font-size:24px; font-weight: bold; display: inline-block;}
+.f-24-c333-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+.block-geomagic-cx-three-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-top:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-middle:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-left-middle{align-content: center; display: inline-block; padding-top: 20px; padding-left: 0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-middle{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-right{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 468px;}
+.block-geomagic-cx-three-left-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-right: none; position: relative;}
+.block-geomagic-cx-three-left-bottom:before{content: ''; display: block; width: 18px; height: 18px; border: none; position: absolute; top: 50%; right: -10px; margin-top: -10px; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #adadad #adadad #f7f7f7 #f7f7f7;}
+.block-geomagic-cx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.block-geomagic-cx-three-left-in-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-in-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-left-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 174px;}
+.img-geomagic-cx-three-right-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 184px;}
+
+.block-content-geomagic-cx-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-four-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-four{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-four-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #ededed;}
+.block-geomagic-cx-four-left-top{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-right-top{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+.f-22-c333-left-four{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+.block-geomagic-cx-four-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: 1px solid #ededed;}
+.block-geomagic-cx-four-left-middle{align-content: center; display: inline-block; padding:0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-left-in-middle{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-center-in-middle{align-content: center; display: inline-block; padding:20px 0px; padding-left: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-middle{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+.block-geomagic-cx-four-bottom{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-bottom{align-content: center; display: inline-block; padding:0px; padding-right: 10px; margin: 0; width: 66.3%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-in-bottom{align-content: center; display: inline-block; padding:20px 0px; padding-right: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-center-in-bottom{align-content: center; display: inline-block; padding:20px 0px; padding-left: 10px; margin: 0; width: 49.5%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-bottom{align-content: center; display: inline-block; padding: 20px 0px; padding-left: 10px; margin: 0; width: 33%; vertical-align:top; text-align: left;}
+}
+
+@media (max-width:600px){
+.block-content-geomagic-cx-one{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-one-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-one-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.block-geomagic-cx-one-left{align-content: center; display: inline-block; padding: 0; padding-top: 50px; padding-bottom: 50px; padding-right: 0px; margin: 0; width: 100%; vertical-align: middle; text-align: left; }
+.block-geomagic-cx-one-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.f-40-c1a1a1a-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:10px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.img-geomagic-cx-one{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-one-left{align-content: center; display: block; padding: 10px 0px; margin: 0; width: 80%;}
+.block-geomagic-cx-one-left-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-one-right-bottom{align-content: center; display: inline-block; padding: 0; padding-top: 0px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-24-c333-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-geomagic-cx-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-two-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-two-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.img-geomagic-cx-two{align-content: center; display: block; padding: 20px 0px; margin: 0; width: 100%;}
+.block-geomagic-cx-two-left{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left; }
+.block-geomagic-cx-two-right{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-40-c1a1a1a-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:10px 0px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.f-22-c666-left{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; padding-bottom: 20px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+.f-22-c666-left-two{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-top:10px; width:100%; text-align: left; line-height: 1.3em; color:#666; font-size:22px; vertical-align: top;}
+
+.block-content-geomagic-cx-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-three-background{background-size: cover; height: auto; background-color:#f7f7f7;}
+.content-geomagic-cx-three-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-three{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-three-left{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right{align-content: center; display: inline-block; padding-bottom: 20px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: left;}
+.img-geomagic-cx-three{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 100%;}
+.f-30-c1a1a1a-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding-bottom:20px; width:100%; text-align: left; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle; font-weight: bold;}
+.slach-style{color: #eb4322; font-family:CordiaNew; font-size:24px; font-weight: bold; display: inline-block;}
+.f-24-c333-left-three{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+.block-geomagic-cx-three-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-top:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-bottom: 1px solid #adadad; position: relative;}
+.block-geomagic-cx-three-middle:before{content: ''; display: block; width: 18px; height: 18px; border: 1px solid; position: absolute; bottom: -10px; left: 22%; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #f7f7f7 #adadad #adadad #f7f7f7;}
+.block-geomagic-cx-three-left-middle{align-content: center; display: inline-block; padding-top: 20px; padding-left: 0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-middle{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-right{align-content: center; display: block; padding: 20px 0px; margin: 0 auto; width: 100%;}
+.block-geomagic-cx-three-left-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0; width: 100%; vertical-align: middle; text-align: left; border-right: none; position: relative;}
+.block-geomagic-cx-three-left-bottom:before{content: ''; display: block; width: 18px; height: 18px; border: none; position: absolute; top: 50%; right: -10px; margin-top: -10px; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); background: #f7f7f7; border-color: #adadad #adadad #f7f7f7 #f7f7f7;}
+.block-geomagic-cx-three-right-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.block-geomagic-cx-three-left-in-bottom{align-content: center; display: inline-block; padding: 0; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: left;}
+.block-geomagic-cx-three-right-in-bottom{align-content: center; display: inline-block; padding: 0; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.img-geomagic-cx-three-left-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 174px;}
+.img-geomagic-cx-three-right-bottom{align-content: center; display: block; padding: 50px 0px; margin: 0 auto; width: 184px;}
+
+.block-content-geomagic-cx-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-geomagic-cx-four-background{background-size: cover; height: auto; background-color:#fff;}
+.content-geomagic-cx-four-1070{align-content: center; display: block; padding-top: 50px; padding-bottom: 50px; margin: 0 auto; width: 90%;}
+.f-40-c1a1a1a-center-four{font-family:CordiaNew; align-content:center; display:block; margin:0 auto; padding:10px 0px; width:100%; text-align: center; line-height: 1.1em; color:#1a1a1a; font-size:40px; vertical-align: middle;}
+.block-geomagic-cx-four-top{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: none;}
+.block-geomagic-cx-four-left-top{align-content: center; display: inline-block; padding:10px 0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left; border-right: 1px solid #ededed;}
+.block-geomagic-cx-four-right-top{align-content: center; display: inline-block; padding: 10px 0px; padding-left: 0px; margin: 0; width: 100%; vertical-align:top; text-align: left;}
+.f-22-c333-left-four{font-family:CordiaNew; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+.block-geomagic-cx-four-middle{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left; border-bottom: none;}
+.block-geomagic-cx-four-left-middle{align-content: center; display: inline-block; padding:0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left; border-right: none;}
+.block-geomagic-cx-four-left-in-middle{align-content: center; display: inline-block; padding:10px 0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left; border-right: none;}
+.block-geomagic-cx-four-center-in-middle{align-content: center; display: inline-block; padding:10px 0px; padding-left: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-middle{align-content: center; display: inline-block; padding: 10px 0px; padding-left: 0px; margin: 0; width: 100%; vertical-align:top; text-align: left;}
+.block-geomagic-cx-four-bottom{align-content: center; display: block; padding: 0; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-bottom{align-content: center; display: inline-block; padding:0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-left-in-bottom{align-content: center; display: inline-block; padding:10px 0px; padding-right: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left; border-right: none;}
+.block-geomagic-cx-four-center-in-bottom{align-content: center; display: inline-block; padding:10px 0px; padding-left: 0px; margin: 0; width: 100%; vertical-align: top; text-align: left;}
+.block-geomagic-cx-four-right-bottom{align-content: center; display: inline-block; padding: 10px 0px; padding-left: 0px; margin: 0; width: 100%; vertical-align:top; text-align: left;}
+}
+

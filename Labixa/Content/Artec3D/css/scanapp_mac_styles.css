@@ -1,0 +1,304 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('/font/cordia-new/cordiab0.woff') format('woff'),
+		url('/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-scanapp-mac{align-content:center; width:100%; margin:0 auto; padding:0; padding-top: 100px;}
+
+.block-content-scanapp-mac-one{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-one{background: url("/Content/Artec3D/images/artec/scanapp_mac/crankshaft.jpg") 50% 20% no-repeat; background-size: 2000px; height: auto;}
+.content-scanapp-mac-one-1070{align-content: center; display: block; padding: 0; padding-top: 180px; margin: 0 auto; width: 1070px;}
+.block-lable-one{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.lable-one{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 10px 15px; margin: 0 auto; width:55%; vertical-align: top; text-align: center; background-color: #f13f11; border-radius: 5px;}
+.f-50-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:50px; vertical-align: top;}
+.f-36-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:36px; vertical-align: top;}
+.sup { position: relative; top: -10px; left: 5px; padding-left: 1px; font-size: 32px; color:#fff; font-family: 'Roboto', sans-serif;}
+.block-button-link{align-content: center; display: block; padding: 70px 15px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #f03f24; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: rgb(212, 48, 21); border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #ef4023; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.f-24-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top; font-weight: bold;}
+
+.block-content-scanapp-mac-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.f-40-c000-center{font-family: 'Roboto', sans-serif; line-height: 1.3em; color:#000; font-size:40px; vertical-align: top;}
+.f-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-scanapp-mac-two-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 30px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 30px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c333-left-two{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-scanapp-mac-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-three-background{background-size: cover; height: auto; background-color: #ffff;}
+.content-scanapp-mac-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.f-40-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 35px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+
+.block-content-scanapp-mac-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-four-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.f-24-c5e5e5e-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; width:65%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.block-detail-scanapp-mac-four-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-four-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-four-center{align-content: center; display: inline-block; padding: 0; padding-left: 7px; padding-top:20px; margin: 0 auto; width: 32.5%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-four-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.img-scanapp-mac-four{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 340px;}
+.f-22-c666-center-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#666; font-size:22px; vertical-align: top; font-style: italic;}
+
+.block-content-scanapp-mac-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-five-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.block-detail-scanapp-mac-five-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-five-center{align-content: center; display: inline-block; padding: 0; padding-left: 7px; padding-top:20px; margin: 0 auto; width: 32.5%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-five-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.f-30-c333-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c666-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#666; font-size:24px; vertical-align: top;;}
+
+.block-content-scanapp-mac-six{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-six{background: url("/Content/Artec3D/images/artec/scanapp_mac/space.jpg") 50% 20% no-repeat; background-size: 1920px; height: auto;}
+.content-scanapp-mac-six-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 1070px; vertical-align: middle;}
+.block-detail-scanapp-mac-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 35%; vertical-align: middle; text-align: center; }
+.block-detail-scanapp-mac-six-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; margin: 0 auto; width: 64.5%; vertical-align: middle; text-align: center;}
+.f-40-cfff-left-six{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:40px; vertical-align: middle;}
+.img-scanapp-mac-six{align-content: center; display: block; margin: 0 auto; padding: 0; width: 806px;}
+
+.block-content-scanapp-mac-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-seven-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-seven-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 1070px;}
+.f-30-c333-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-seven-bottom{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 40px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+
+
+@media (max-width:1024px){
+.block-content-scanapp-mac-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-one{background: url("/Content/Artec3D/images/artec/scanapp_mac/crankshaft.jpg") 5% top no-repeat; background-size: 1350px; height: auto;}
+.content-scanapp-mac-one-1070{align-content: center; display: block; padding: 0; padding-top: 230px; margin: 0 auto; width: 90%;}
+.block-lable-one{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.lable-one{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 10px 15px; margin: 0 auto; width:65%; vertical-align: top; text-align: center; background-color: #f13f11; border-radius: 5px;}
+.f-50-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:50px; vertical-align: top;}
+.f-36-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:36px; vertical-align: top;}
+.sup { position: relative; top: -10px; left: 5px; padding-left: 1px; font-size: 32px; color:#fff; font-family: 'Roboto', sans-serif;}
+.block-button-link{align-content: center; display: block; padding: 60px 15px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #f03f24; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: rgb(212, 48, 21); border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #ef4023; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.f-24-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top; font-weight: bold;}
+
+.block-content-scanapp-mac-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-40-c000-center{font-family: 'Roboto', sans-serif; line-height: 1.3em; color:#000; font-size:40px; vertical-align: top;}
+.f-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-scanapp-mac-two-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 30px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-left: 30px; margin: 0 auto; width: 49.5%; vertical-align: top; text-align: center;}
+.f-24-c333-left-two{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-scanapp-mac-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-three-background{background-size: cover; height: auto; background-color: #ffff;}
+.content-scanapp-mac-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-40-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 35px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+
+.block-content-scanapp-mac-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-four-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-24-c5e5e5e-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; width:65%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.block-detail-scanapp-mac-four-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-four-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-four-center{align-content: center; display: inline-block; padding: 0; padding-left: 7.5px; padding-right: 7.5px; padding-top:20px; margin: 0 auto; width: 32.5%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-four-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.img-scanapp-mac-four{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 100%;}
+.f-22-c666-center-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#666; font-size:22px; vertical-align: top; font-style: italic;}
+
+.block-content-scanapp-mac-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-five-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-scanapp-mac-five-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-five-center{align-content: center; display: inline-block; padding: 0; padding-left: 7px; padding-top:20px; margin: 0 auto; width: 32.5%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-five-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.f-30-c333-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c666-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#666; font-size:24px; vertical-align: top;;}
+
+.block-content-scanapp-mac-six{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-six{background: url("/Content/Artec3D/images/artec/scanapp_mac/space.jpg") 50% 20% no-repeat; background-size: 1920px; height: auto;}
+.content-scanapp-mac-six-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%; vertical-align: middle;}
+.block-detail-scanapp-mac-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 35%; vertical-align: middle; text-align: center; }
+.block-detail-scanapp-mac-six-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; margin: 0 auto; width: 64.5%; vertical-align: middle; text-align: center;}
+.f-40-cfff-left-six{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:40px; vertical-align: middle;}
+.img-scanapp-mac-six{align-content: center; display: block; margin: 0 auto; padding: 0; width: 100%;}
+
+.block-content-scanapp-mac-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-seven-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-seven-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-30-c333-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-seven-bottom{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 40px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+}
+
+
+@media (max-width:880px){
+.block-content-scanapp-mac-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-one{background: url("/Content/Artec3D/images/artec/scanapp_mac/crankshaft.jpg") left top no-repeat; background-size: 1350px; height: auto;}
+.content-scanapp-mac-one-1070{align-content: center; display: block; padding: 0; padding-top: 230px; margin: 0 auto; width: 90%;}
+.block-lable-one{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.lable-one{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 10px 15px; margin: 0 auto; width:88%; vertical-align: top; text-align: center; background-color: #f13f11; border-radius: 5px;}
+.f-50-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:50px; vertical-align: top;}
+.f-36-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:36px; vertical-align: top;}
+.sup { position: relative; top: -10px; left: 5px; padding-left: 1px; font-size: 32px; color:#fff; font-family: 'Roboto', sans-serif;}
+.block-button-link{align-content: center; display: block; padding: 50px 15px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #f03f24; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: rgb(212, 48, 21); border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #ef4023; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.f-24-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top; font-weight: bold;}
+
+.block-content-scanapp-mac-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-40-c000-center{font-family: 'Roboto', sans-serif; line-height: 1.3em; color:#000; font-size:40px; vertical-align: top;}
+.f-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-scanapp-mac-two-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-24-c333-left-two{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-scanapp-mac-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-three-background{background-size: cover; height: auto; background-color: #ffff;}
+.content-scanapp-mac-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-40-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 35px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+
+.block-content-scanapp-mac-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-four-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-24-c5e5e5e-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; width:65%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.block-detail-scanapp-mac-four-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-four-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-four-center{align-content: center; display: inline-block; padding: 0; padding-left: 7.5px; padding-right: 7.5px; padding-top:20px; margin: 0 auto; width: 32.5%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-four-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.img-scanapp-mac-four{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 100%;}
+.f-22-c666-center-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#666; font-size:22px; vertical-align: top; font-style: italic;}
+
+.block-content-scanapp-mac-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-five-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-scanapp-mac-five-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-five-center{align-content: center; display: inline-block; padding: 0; padding-left: 7px; padding-top:20px; margin: 0 auto; width: 32.5%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-five-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 20px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.f-30-c333-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c666-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#666; font-size:24px; vertical-align: top;;}
+
+.block-content-scanapp-mac-six{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-six{background: url("/Content/Artec3D/images/artec/scanapp_mac/space.jpg") 50% 20% no-repeat; background-size: 1920px; height: auto;}
+.content-scanapp-mac-six-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%; vertical-align: middle;}
+.block-detail-scanapp-mac-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; }
+.block-detail-scanapp-mac-six-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.f-40-cfff-left-six{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:40px; vertical-align: middle;}
+.img-scanapp-mac-six{align-content: center; display: block; margin: 0 auto; padding: 0; width: 100%;}
+
+.block-content-scanapp-mac-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-seven-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-seven-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-30-c333-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-seven-bottom{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 40px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+}
+
+
+@media (max-width:660px){
+.block-content-scanapp-mac-one{align-content: center; display: block; padding: 0; padding-top: 50px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-one{background: url("/Content/Artec3D/images/artec/scanapp_mac/crankshaft.jpg") 20% top no-repeat; background-size: 1350px; height: auto;}
+.content-scanapp-mac-one-1070{align-content: center; display: block; padding: 0; padding-top: 100px; margin: 0 auto; width: 90%;}
+.block-lable-one{align-content: center; display: block; padding: 10px 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.lable-one{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 10px 15px; margin: 0 auto; width:100%; vertical-align: top; text-align: center; background-color: #f13f11; border-radius: 5px;}
+.f-50-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.1em; color:#fff; font-size:50px; vertical-align: top;}
+.f-36-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:10px 0; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:36px; vertical-align: top;}
+.sup { position: relative; top: -10px; left: 5px; padding-left: 1px; font-size: 32px; color:#fff; font-family: 'Roboto', sans-serif;}
+.block-button-link{align-content: center; display: block; padding: 50px 15px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.button-link{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #f03f24; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:hover{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: rgb(212, 48, 21); border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.button-link:active{font-family: 'Roboto', sans-serif; align-content: center; display: block; padding: 5px 15px; margin: 0 auto; width: 150px; vertical-align: top; text-align: center; color: #fff; font-size: 28px; font-weight: bold; background-color: #ef4023; border-radius: 5px; border: 1px solid #d43015; box-shadow: 0 1px 0 0 rgba(0,0,0,0.3); text-decoration: none;}
+.f-24-cfff-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-bottom: 10px; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top; font-weight: bold;}
+
+.block-content-scanapp-mac-two{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-two-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-two-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-40-c000-center{font-family: 'Roboto', sans-serif; line-height: 1.3em; color:#000; font-size:40px; vertical-align: top;}
+.f-40-c333-center{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.block-detail-scanapp-mac-two-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-two-left{align-content: center; display: inline-block; padding: 0; padding-top: 30px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-two-right{align-content: center; display: inline-block; padding: 0; padding-top: 0; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-24-c333-left-two{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-scanapp-mac-three{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-three-background{background-size: cover; height: auto; background-color: #ffff;}
+.content-scanapp-mac-three-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-40-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:40px; vertical-align: top;}
+.f-24-c5e5e5e-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-three{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 35px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+
+.block-content-scanapp-mac-four{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-four-background{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-scanapp-mac-four-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-24-c5e5e5e-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 30px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-four{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.block-detail-scanapp-mac-four-all{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-scanapp-mac-four-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-four-center{align-content: center; display: inline-block; padding: 0; padding-left: 0; padding-right: 0; padding-top:20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-four-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.img-scanapp-mac-four{align-content: center; display: block; margin: 0 auto; padding: 10px 0; width: 100%;}
+.f-22-c666-center-italic{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 10px; width:100%; text-align: center; line-height: 1.1em; color:#666; font-size:22px; vertical-align: top; font-style: italic;}
+
+.block-content-scanapp-mac-five{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-five-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-five-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.block-detail-scanapp-mac-five-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 0; margin: 0 auto; width:100%; vertical-align: top; text-align: center; }
+.block-detail-scanapp-mac-five-center{align-content: center; display: inline-block; padding: 0; padding-left: 0; padding-top:20px; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-scanapp-mac-five-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top; text-align: center;}
+.f-30-c333-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c666-left-five{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0; padding-top: 20px; width:100%; text-align: left; line-height: 1.2em; color:#666; font-size:24px; vertical-align: top;;}
+
+.block-content-scanapp-mac-six{align-content: center; display: block; padding: 0; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-background-six{background: url("/Content/Artec3D/images/artec/scanapp_mac/space.jpg") 50% 20% no-repeat; background-size: 1920px; height: auto;}
+.content-scanapp-mac-six-1070{align-content: center; display: block; padding: 20px 0; margin: 0 auto; width: 90%; vertical-align: middle;}
+.block-detail-scanapp-mac-six-left{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-right: 20px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center; }
+.block-detail-scanapp-mac-six-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: middle; text-align: center;}
+.f-40-cfff-left-six{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#fff; font-size:40px; vertical-align: middle;}
+.img-scanapp-mac-six{align-content: center; display: block; margin: 0 auto; padding: 0; width: 100%;}
+
+.block-content-scanapp-mac-seven{align-content: center; display: block; padding: 0; margin: 0 auto; width: 100%;}
+.img-scanapp-mac-seven-background{background-size: cover; height: auto; background-color: #fff;}
+.content-scanapp-mac-seven-1070{align-content: center; display: block; padding: 50px 0; margin: 0 auto; width: 90%;}
+.f-30-c333-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+.f-24-c5e5e5e-center-seven{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 20px; width:100%; text-align: center; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.f-30-c333-center-seven-bottom{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0 auto; padding:0; padding-top: 40px; width:100%; text-align: center; line-height: 1.3em; color:#333; font-size:30px; vertical-align: top;}
+}
+
+
+
+
+
+
+

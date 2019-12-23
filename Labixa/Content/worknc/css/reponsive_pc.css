@@ -1,0 +1,126 @@
+﻿
+/*Btn Artec3D*/
+.button-artec {
+    align-content: center;
+    display: block;
+    background: rgba(132, 184, 24, 1);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px 20px;
+    margin: 0;
+    width: 250px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Sofware page input Artec3D*/
+
+.sdk-f-50-cf03f24-left {
+    line-height: 0.8em;
+}
+    .sdk-f-50-cf03f24-left:hover {
+        line-height: 0.8em;
+    }
+
+.dx-f-50-cf03f24-left {
+    line-height: 0.9em;
+}
+    .dx-f-50-cf03f24-left:hover {
+        line-height: 0.9em;
+    }
+
+.f-50-cf03f24-left {
+    line-height: 0.9em;
+}
+
+    .f-50-cf03f24-left:hover {
+        line-height: 0.9em;
+    }
+
+    .f-50-cfff-left {
+        line-height: 0.9em;
+    }
+
+    .f-50-cfff-left:hover {
+        line-height: 0.9em;
+    }
+
+    .slw-f-50-cf03f24-left {
+        line-height: 0.9em;
+    }
+
+    .slw-f-50-cf03f24-left:hover {
+        line-height: 0.9em;
+    }
+
+.ff-f-50-cf03f24-left {
+    line-height: 0.9em;
+}
+.ff-f-50-cf03f24-left:hover{
+    line-height: 0.9em;
+}
+
+.cx-f-50-cf03f24-left{
+    line-height: 0.9em;
+}
+
+    .cx-f-50-cf03f24-left:hover {
+        line-height: 0.9em;
+    }
+
+.cx-f-50-cf03f24-left{
+    line-height: 0.9em;
+}
+
+.cx-f-50-cf03f24-left:hover{
+    line-height: 0.9em;
+}
+
+.warp-f-50-cf03f24-left {
+    line-height: 0.9em;
+}
+
+    .warp-f-50-cf03f24-left:hover {
+        line-height: 0.9em;
+    }
+
+/*artecSpaceSpider*/
+h53 {
+    font-size: 19px;
+}
+/*artecevalite*/
+.detail-inline-orange {
+    font-size: 32px;
+}
+    /*18-5*/
+    .detail-inline {
+    font-size: 20px;
+}
+
+h57 {
+    font-size: 20px;
+}
+
+/*19-8*/
+/*a:link{
+    color:white;
+}*/
+
+/*20-8Quy*/
+.onyx-container {
+    padding-top: 0;
+}
+/*29-8Quy*/
+/*.img-3d-software-two {
+    bottom: -352px;
+}*/
+.f-24-cfff-left {
+    font-size: 19px;
+}
+/*30-8Quy*/
+h54 {
+    font-size: 21px;
+}

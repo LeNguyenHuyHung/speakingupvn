@@ -1,0 +1,323 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('font/cordia-new/cordiab0.woff') format('woff'),
+		url('font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-3d-software{align-content:center; width:100%; margin:0 auto; padding:0px; padding-top: 100px;}
+
+.block-content-3d-software-one{align-content: center; display: block; padding: 0px; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-one{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-3d-software-one-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 1070px;}
+.block-detail-3d-software-left{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-right: 50px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-3d-software-right{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.f-50-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:50px; vertical-align: top;}
+.f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+.img-3d-software-one{align-content: center; display: block; margin: 0 auto; padding: 50px 0px; width: 612px;}
+.img-3d-software-background-one-white{background-size: cover; height: auto; background-color: #fff; padding-bottom: 50px;}
+.img-3d-software-two{align-content: center; display: block; margin: 0 auto; padding: 0px; width: 679px; position: absolute; /*bottom: -180px;*/ left: 0; right: 700px;}
+.block-3d-software-one-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 1070px;}
+.block-detail-3d-software-left-middle{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-3d-software-right-middle{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 50px; margin: 0 auto; width: 50%; vertical-align: top;}
+.f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:50%; text-align: center; line-height: 0.7em; color:#f03f24!important; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24; text-decoration: none;}
+.f-50-cf03f24-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:50%; text-align: center; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0); text-decoration: none;}
+.f-24-c5e5e5e-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; padding-bottom: 100px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-3d-software-bottom{align-content: center; display: block; padding: 0px; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-bottom-left{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-3d-software-bottom-center{align-content: center; display: inline-block; padding: 0px 10px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-3d-software-bottom-right{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 32%; vertical-align: top; text-align: center;}
+.f-24-c333-left-blod{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top; font-weight: bold;}
+.f-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+
+.block-content-3d-software-two{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-two{background: url("/Content/Artec3D/images/artec/3d_software/3d-softw-scanapp-bg.jpg") center top no-repeat; background-size: 2000px; height: auto;}
+.content-3d-software-two-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 1070px;}
+.block-detail-3d-software-left-two{align-content: center; display: inline-block; padding: 0px; padding-top: 40px; padding-right: 10px; margin: 0 auto; width: 35%; vertical-align: top;}
+.block-detail-3d-software-right-two{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 15px; margin: 0 auto; width: 64%; vertical-align: top;}
+.f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:260px; text-align: left; line-height: 0.7em; color:#fff; font-size:50px; vertical-align: top; text-decoration: none; border-bottom: 1px solid #fff;}
+.f-50-cfff-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:260px; text-align: left; line-height: 0.7em; color:#fff; font-size:50px; vertical-align: top; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0);}
+.sup { position: relative; top: -45px; left: 265px; padding-left: 1px; font-size: 28px; color:#fff; font-family: 'Roboto', sans-serif;}
+.img-3d-software-mac-two{align-content: center; display: block; margin: 0 auto; padding: 50px 0px; width: 100%;}
+.f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-three{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-three{background-size: 1500px; height: 477px; background-color: #f7f7f7;}
+.content-3d-software-three-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 1070px;}
+.block-detail-3d-software-left-three{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 10px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-3d-software-right-three{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.img-3d-software-sdk-three{align-content: center; display: block; margin: 0 auto; padding: 0px; width: 100%;}
+.sdk-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:60%; text-align: center;line-height:0.7em; color:#f03f24!important; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24; text-decoration: none;}
+    .sdk-f-50-cf03f24-left:hover {
+        font-family: 'Roboto', sans-serif;
+        align-content: center;
+        display: block;
+        margin: 0;
+        padding: 0px;
+        padding-top: 50px;
+        width: 60%;
+        text-align: center;
+        line-height: 0.7em;
+        color: #f03f24;
+        font-size: 50px;
+        vertical-align: top;
+        border-bottom: 1px solid rgba(255,255,255,0);
+        text-decoration: none;
+    }
+.sdk-f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-four{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%; padding-bottom: 50px;}
+.img-3d-software-background-four{background-size: cover; height: auto; background-color: #fff;}
+.content-3d-software-four-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 1070px;}
+.block-detail-3d-software-four-all{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; margin: 0 auto; width: 100%; vertical-align: top;}
+.img-3d-software-four-all{align-content: center; display: block; margin: 0 auto; padding-top: 30px; width: 570px;}
+.block-detail-3d-software-left-four{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 20px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-3d-software-right-four{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-3d-software-right-four-bottom{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.dx-f-50-cf03f24-left {
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    display: block;
+    margin: 0;
+    padding: 0px;
+    padding-top: 50px;
+    width: 297px;
+    text-align: left;
+    line-height: 0.7em;
+    color: #f03f24 !important;
+    font-size: 50px;
+    vertical-align: top;
+    border-bottom: 1px solid #f03f24;
+    text-decoration: none;
+}
+.ff-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:294px; text-align: left; line-height: 0.7em; color:#f03f24!important; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24; text-decoration: none;}
+.warp-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:242px; text-align: left; line-height: 0.7em; color:#f03f24!important; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24; text-decoration: none;}
+.slw-f-50-cf03f24-left {
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    display: block;
+    margin: 0;
+    padding: 0px;
+    padding-top: 50px;
+    width: 425px;
+    text-align: left;
+    line-height: 0.7em;
+    color: #f03f24 !important;
+    font-size: 50px;
+    vertical-align: top;
+    border-bottom: 1px solid #f03f24;
+    text-decoration: none;
+}
+.cx-f-50-cf03f24-left {
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+    display: block;
+    margin: 0;
+    padding: 0px;
+    padding-top: 50px;
+    width: 299px;
+    text-align: left;
+    line-height: 0.7em;
+    color: #f03f24 !important;
+    font-size: 50px;
+    vertical-align: top;
+    border-bottom: 1px solid #f03f24;
+    text-decoration: none;
+}
+.dx-f-50-cf03f24-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:297px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0); text-decoration: none;}
+.ff-f-50-cf03f24-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:294px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0); text-decoration: none;}
+.warp-f-50-cf03f24-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:242px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0); text-decoration: none;}
+.slw-f-50-cf03f24-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:425px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0); text-decoration: none;}
+.cx-f-50-cf03f24-left:hover{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:299px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0); text-decoration: none;}
+.all-f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:30px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-five{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-five{background: url("/Content/Artec3D/images/artec/3d_software/3d-sftw-education-bg.jpg") center top no-repeat; background-size: 1900px; height: auto;}
+.content-3d-software-five-1070{align-content: center; display: block; padding-top: 90px; padding-bottom: 140px; margin: 0 auto; width: 1070px;}
+.block-detail-3d-software-left-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 20px; margin: 0 auto; width: 60%; vertical-align: top;}
+.block-detail-3d-software-right-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 39%; vertical-align: top;}
+.atst-f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:50px; vertical-align: top; text-decoration: none;}
+.atst-f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+.atst-f-24-cfff-leftp10{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-bottom{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%; background-color: #fff;}
+.content-3d-software-bottom-1070{align-content: center; display: block; padding-top: 10px; padding-bottom: 30px; margin: 0 auto; width: 1070px;}
+
+/*09/18/2019,Mai Văn Vương Linh*/
+
+/*@media (max-width:1550px){
+
+.img-3d-software-two{align-content: center; display: block; margin: 0 auto; padding: 0px; width: 600px; position: absolute; bottom: -300px; left: 0; right: 700px;}
+}*/
+@media (max-width:1280px){
+.img-3d-software-two{align-content: center; display: block; margin: 0 auto; padding: 0px; width: 600px; position: absolute; bottom: -250px; left: 0; right: 700px;}
+}
+
+
+@media (max-width:1024px){
+.block-content-3d-software-one{align-content: center; display: block; padding: 0px; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-one{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-3d-software-one-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-right: 50px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-3d-software-right{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 15px; margin: 0 auto; width: 50%; vertical-align: top;}
+.f-50-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:50px; vertical-align: top;}
+.f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+.img-3d-software-one{align-content: center; display: block; margin: 0 auto; padding: 50px 0px; width: 100%;}
+.img-3d-software-background-one-white{background-size: cover; height: auto; background-color: #fff; padding-bottom: 50px;}
+.img-3d-software-two{align-content: center; display: block; margin: 0 auto; padding: 0px; padding-top: 30px; width: 100%; position: relative; bottom: 0; left: 0; right: 0;}
+.block-3d-software-one-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-middle{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.block-detail-3d-software-right-middle{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 50px; margin: 0 auto; width: 50%; vertical-align: top;}
+.f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:230px; text-align: center; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.f-24-c5e5e5e-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; padding-bottom: 100px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-3d-software-bottom{align-content: center; display: block; padding: 0px; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-bottom-left{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; padding-right: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-3d-software-bottom-center{align-content: center; display: inline-block; padding: 0px 10px; padding-top: 10px; margin: 0 auto; width: 33%; vertical-align: top; text-align: center;}
+.block-detail-3d-software-bottom-right{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; padding-left: 10px; margin: 0 auto; width: 32%; vertical-align: top; text-align: center;}
+.f-24-c333-left-blod{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top; font-weight: bold;}
+.f-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+
+.block-content-3d-software-two{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-two{background: url("/Content/Artec3D/images/artec/3d_software/3d-softw-scanapp-bg.jpg") center top no-repeat; background-size: 2000px; height:560px;}
+.content-3d-software-two-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-two{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-right: 10px; margin: 0 auto; width: 35%; vertical-align: top;}
+.block-detail-3d-software-right-two{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 15px; margin: 0 auto; width: 64%; vertical-align: top;}
+.f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:260px; text-align: center; line-height: 0.7em; color:#fff; font-size:50px; vertical-align: top; border-bottom: 1px solid #fff;}
+.sup { position: relative; top: -55px; left: 270px; padding-left: 1px; font-size: 28px; color:#fff; font-family: 'Roboto', sans-serif;}
+.img-3d-software-mac-two{align-content: center; display: block; margin: 0 auto; padding: 30px 0px; width: 100%;}
+.f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-three{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-three{background-size: 1500px; height: 416px; background-color: #f7f7f7;}
+.content-3d-software-three-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-three{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 10px; margin: 0 auto; width: 50%; vertical-align: top;}
+.block-detail-3d-software-right-three{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.img-3d-software-sdk-three{align-content: center; display: block; margin: 0 auto; padding: 0px; width: 450px;}
+.sdk-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:310px; text-align: center; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.sdk-f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-four{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%; padding-bottom: 50px;}
+.img-3d-software-background-four{background-size: cover; height: auto; background-color: #fff;}
+.content-3d-software-four-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-four-all{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; margin: 0 auto; width: 100%; vertical-align: top;}
+.img-3d-software-four-all{align-content: center; display: block; margin: 0 auto; padding-top: 30px; width: 570px;}
+.block-detail-3d-software-left-four{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right-four{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 0; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right-four-bottom{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 49%; vertical-align: top;}
+.dx-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:297px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.ff-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:294px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.warp-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:242px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.slw-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:425px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.cx-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:299px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.all-f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:30px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-five{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-five{background: url("/Content/Artec3D/images/artec/3d_software/3d-sftw-education-bg.jpg") center top no-repeat; background-size: 1900px; height: auto;}
+.content-3d-software-five-1070{align-content: center; display: block; padding-top: 90px; padding-bottom: 140px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 20px; margin: 0 auto; width: 55%; vertical-align: top;}
+.block-detail-3d-software-right-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 44%; vertical-align: top;}
+.atst-f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:50px; vertical-align: top;}
+.atst-f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+.atst-f-24-cfff-leftp10{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-bottom{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%; background-color: #fff;}
+.content-3d-software-bottom-1070{align-content: center; display: block; padding-top: 10px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+}
+
+@media (max-width:850px){
+.block-content-3d-software-one{align-content: center; display: block; padding: 0px; padding-top: 40px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-one{background-size: cover; height: auto; background-color: #f7f7f7;}
+.content-3d-software-one-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right{align-content: center; display: inline-block; padding: 0; padding-top: 20px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.img-3d-software-one{align-content: center; display: block; margin: 0 auto; padding: 50px 0px; width: 100%;}
+.img-3d-software-background-one-white{background-size: cover; height: auto; background-color: #fff; padding-bottom: 50px;}
+.img-3d-software-two{align-content: center; display: block; margin: 0 auto; padding: 0px; padding-top: 30px; width: 100%; position: relative; bottom: 0; left: 0; right: 0;}
+.block-3d-software-one-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-middle{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right-middle{align-content: center; display: inline-block; padding: 0px; padding-top: 20px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:230px; text-align: center; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.f-24-c5e5e5e-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; padding-bottom: 50px; width:100%; text-align: left; line-height: 1.3em; color:#5e5e5e; font-size:24px; vertical-align: top;}
+.block-detail-3d-software-bottom{align-content: center; display: block; padding: 0; padding-top: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-bottom-left{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; padding-right: 0px; margin: 0px auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-3d-software-bottom-center{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; margin: 0px auto; width: 100%; vertical-align: top; text-align: center;}
+.block-detail-3d-software-bottom-right{align-content: center; display: inline-block; padding: 0px; padding-top: 10px; padding-left: 0px; margin: 0px auto; width: 100%; vertical-align: top; text-align: center;}
+.f-24-c333-left-blod{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top; font-weight: bold;}
+.f-22-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:22px; vertical-align: top;}
+
+.block-content-3d-software-two{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-two{background: url("/Content/Artec3D/images/artec/3d_software/3d-softw-scanapp-bg.jpg") center top no-repeat; background-size: 2000px; height:auto;}
+.content-3d-software-two-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-two{align-content: center; display: block; padding: 0px; padding-top: 20px; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right-two{align-content: center; display: block; padding: 0px; padding-top: 20px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:260px; text-align: center; line-height: 0.7em; color:#fff; font-size:50px; vertical-align: top; border-bottom: 1px solid #fff;}
+.sup { position: relative; top: -55px; left: 270px; padding-left: 1px; font-size: 28px; color:#fff; font-family: 'Roboto', sans-serif;}
+.img-3d-software-mac-two{align-content: center; display: block; margin: 0 auto; padding: 30px 0px; width: 100%;}
+.f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-three{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-three{background-size: 1500px; height: auto; background-color: #f7f7f7;}
+.content-3d-software-three-1070{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-three{align-content: center; display: block; padding: 0px; padding-top: 50px; padding-right: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right-three{align-content: center; display: block; padding: 0px; padding-top: 30px; padding-bottom: 30px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.img-3d-software-sdk-three{align-content: center; display: block; margin: 0 auto; padding: 0px; width: 100%;}
+.sdk-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:310px; text-align: center; line-height: 0.7em; color:#f03f24; font-size:50px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.sdk-f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:20px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+
+.img-3d-software-four-all{align-content: center; display: block; margin: 0 auto; padding-top: 30px; width: 100%;}
+	
+.block-content-3d-software-five{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-five{background: url("/Content/Artec3D/images/artec/3d_software/3d-sftw-education-bg.jpg") center top no-repeat; background-size: 1900px; height: auto;}
+.content-3d-software-five-1070{align-content: center; display: block; padding-top: 30px; padding-bottom: 100px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-right: 20px; margin: 0 auto; width: 55%; vertical-align: top;}
+.block-detail-3d-software-right-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 20px; margin: 0 auto; width: 44%; vertical-align: top;}
+.atst-f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:50px; vertical-align: top;}
+.atst-f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+.atst-f-24-cfff-leftp10{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+
+.block-content-3d-software-bottom{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%; background-color: #fff;}
+.content-3d-software-bottom-1070{align-content: center; display: block; padding-top: 10px; padding-bottom: 30px; margin: 0 auto; width: 90%;}
+}
+
+@media (max-width:570px){
+.img-3d-software-four-all{align-content: center; display: block; margin: 0 auto; padding-top: 30px; width: 100%;}
+}
+
+@media (max-width:420px){
+.f-50-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 50px; width:100%; text-align: left; line-height: 1.1em; color:#333; font-size:40px; vertical-align: top;}
+.f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:190px; text-align: center; line-height: 0.9em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+
+.f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 40px; width:210px; text-align: center; line-height: 0.7em; color:#fff; font-size:40px; vertical-align: top; border-bottom: 1px solid #fff;}
+.sup { position: relative; top: -45px; left: 215px; padding-left: 1px; font-size: 28px; color:#fff; font-family: 'Roboto', sans-serif; width:0;}
+
+.sdk-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:245px; text-align: center; line-height: 0.9em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+
+.img-3d-software-four-all{align-content: center; display: block; margin: 0 auto; padding-top: 30px; width: 100%;}
+.dx-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:238px; text-align: left; line-height: 0.9em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.ff-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:236px; text-align: left; line-height: 0.7em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.warp-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:195px; text-align: left; line-height: 0.9em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.slw-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:342px; text-align: left; line-height: 0.9em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.cx-f-50-cf03f24-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:241px; text-align: left; line-height: 0.9em; color:#f03f24; font-size:40px; vertical-align: top; border-bottom: 1px solid #f03f24;}
+.all-f-24-c333-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding-top:30px; width:100%; text-align: left; line-height: 1.3em; color:#333; font-size:24px; vertical-align: top;}
+	
+.block-content-3d-software-five{align-content: center; display: block; padding: 0px; margin: 0 auto; width: 100%;}
+.img-3d-software-background-five{background: url("/Content/Artec3D/images/artec/3d_software/3d-sftw-education-bg.jpg") center top no-repeat; background-size: 1900px; height: auto;}
+.content-3d-software-five-1070{align-content: center; display: block; padding-top: 0px; padding-bottom: 70px; margin: 0 auto; width: 90%;}
+.block-detail-3d-software-left-five{align-content: center; display: inline-block; padding: 0px; padding-top: 0px; padding-right:0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.block-detail-3d-software-right-five{align-content: center; display: inline-block; padding: 0px; padding-top: 50px; padding-left: 0px; margin: 0 auto; width: 100%; vertical-align: top;}
+.atst-f-50-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 20px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:40px; vertical-align: top;}
+.atst-f-24-cfff-left{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 30px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+.atst-f-24-cfff-leftp10{font-family: 'Roboto', sans-serif; align-content:center; display:block; margin:0; padding:0px; padding-top: 10px; width:100%; text-align: left; line-height: 1.3em; color:#fff; font-size:24px; vertical-align: top;}
+}

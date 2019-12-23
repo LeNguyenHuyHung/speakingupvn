@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordia0.eot') format('embedded-opentype'),
+		url('../...font/cordia-new/cordia0.html') format('woff'),
+		url('/font/cordia-new/cordia0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('/font/cordia-new/cordiab0.eot') format('embedded-opentype'),
+		url('/font/cordia-new/cordiab0.woff') format('woff'),
+		url('/font/cordia-new/cordiab0.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+dl > div {
+  background: #FFF;
+}
+
+dt {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 200px;
+  z-index: 5;
+}
+
+dd {
+  font-family: 'Roboto', sans-serif;
+}
+
+dd + dd {
+  border-top: 1px solid #CCC;
+}
+
+@media (max-width:850px){
+dt {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 260px;
+  z-index: 5;
+}
+
+}

@@ -1,0 +1,10 @@
+﻿.footer {
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    background: rgba(0,26,87,1);
+    margin: 0 auto;
+    padding: 25px 0;
+}

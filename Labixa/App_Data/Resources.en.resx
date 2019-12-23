@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Accessories_Rise" xml:space="preserve">
+    <value>Accessories</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address: 40/9 Bui Vien, Pham Ngu Lao Ward,  1st Dist, Ho Chi Minh City</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Dress_Rise" xml:space="preserve">
+    <value>Dress</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Mail: pioneertravel.21st@gmail.com</value>
+  </data>
+  <data name="FAVORITE_PRODUCT" xml:space="preserve">
+    <value>FAVORITE PRODUCT</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Home_Rise" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="HotelsDirectory" xml:space="preserve">
+    <value>Hotel Directory</value>
+  </data>
+  <data name="Information_Rise" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone: 0937 775 838</value>
+  </data>
+  <data name="Product_Rise" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Rise_about" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rise_AbouUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Rise_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Rise_AddressDetail" xml:space="preserve">
+    <value>68A, Dan Thang 1 Tan Thoi Nhi Ward, Hoc Mon District, Ho Chi Minh City</value>
+  </data>
+  <data name="Rise_BlogNews" xml:space="preserve">
+    <value>NEWS</value>
+  </data>
+  <data name="Rise_Card" xml:space="preserve">
+    <value>Shopping Cart</value>
+  </data>
+  <data name="Rise_Footer_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rise_News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Rise_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Rise_Product_new" xml:space="preserve">
+    <value>NEW PRODUCTS</value>
+  </data>
+  <data name="Rise_PurchasePolicy" xml:space="preserve">
+    <value>Purchase Policy</value>
+  </data>
+  <data name="Rise_ReturnPolicy" xml:space="preserve">
+    <value>Return Policy</value>
+  </data>
+  <data name="Rise_TableSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Shirt_Rise" xml:space="preserve">
+    <value>Shirt</value>
+  </data>
+  <data name="skirt_Rise" xml:space="preserve">
+    <value>Skirt</value>
+  </data>
+  <data name="SupportOnline" xml:space="preserve">
+    <value>Support Online</value>
+  </data>
+  <data name="Rise_CardDisc" xml:space="preserve">
+    <value>no products in the shopping cart</value>
+  </data>
+  <data name="Rise_Confirm" xml:space="preserve">
+    <value>Payment confirmation</value>
+  </data>
+  <data name="Rise_Continutes" xml:space="preserve">
+    <value>Continutes</value>
+  </data>
+  <data name="Rise_customInfo" xml:space="preserve">
+    <value>CUSTOMER INFORMATION</value>
+  </data>
+  <data name="Rise_DeleteCard" xml:space="preserve">
+    <value>Delete Shopping Card</value>
+  </data>
+  <data name="Rise_DiscountCode" xml:space="preserve">
+    <value>Discount code</value>
+  </data>
+  <data name="Rise_NameCus" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Rise_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Rise_Order" xml:space="preserve">
+    <value>Order Information</value>
+  </data>
+  <data name="Rise_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Rise_paymentInfo" xml:space="preserve">
+    <value>Payment Information</value>
+  </data>
+  <data name="Rise_PhoneCus" xml:space="preserve">
+    <value>Telephone Number</value>
+  </data>
+  <data name="Rise_Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="Rise_Related" xml:space="preserve">
+    <value>Related products</value>
+  </data>
+  <data name="Rise_Thanks" xml:space="preserve">
+    <value>Thanks for buy product at store.</value>
+  </data>
+  <data name="Rise_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Rise_UseCode" xml:space="preserve">
+    <value>Use Code</value>
+  </data>
+  <data name="Btn_Send_Message" xml:space="preserve">
+    <value>SEND A MESSAGE</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Call Us !</value>
+  </data>
+  <data name="Card_Gate" xml:space="preserve">
+    <value>3D Content Gateway</value>
+  </data>
+  <data name="Card_Gate_detail" xml:space="preserve">
+    <value>Create a virtual space from 3D scanning</value>
+  </data>
+  <data name="Card_Manufacturing" xml:space="preserve">
+    <value>3D Intelligent Manufacturing</value>
+  </data>
+  <data name="Card_Manufacturing_detail" xml:space="preserve">
+    <value>Create knowledge about 3D products from digital processes</value>
+  </data>
+  <data name="Card_Process" xml:space="preserve">
+    <value>3D Process Management</value>
+  </data>
+  <data name="Card_Process_detail" xml:space="preserve">
+    <value>Freely integrating 3D digital processes</value>
+  </data>
+  <data name="Card_Visualization" xml:space="preserve">
+    <value>3D Realistic Visualization</value>
+  </data>
+  <data name="Card_Visualization_detail" xml:space="preserve">
+    <value>Linking reality and virtual reality To display 3D data</value>
+  </data>
+  <data name="Clients" xml:space="preserve">
+    <value>Clients</value>
+  </data>
+  <data name="Contact_us" xml:space="preserve">
+    <value>CONTACT US</value>
+  </data>
+  <data name="Drop_us_message" xml:space="preserve">
+    <value>Drop Us A Line</value>
+  </data>
+  <data name="Feedbacks" xml:space="preserve">
+    <value>Feedbacks</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="Question_Contact_after" xml:space="preserve">
+    <value>To Work with Data Design Vietnam? Let's Talk About It</value>
+  </data>
+  <data name="Question_Contact_before" xml:space="preserve">
+    <value>Do You Have Any </value>
+  </data>
+  <data name="Solution" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="Solution_Product" xml:space="preserve">
+    <value>3D Solution Product</value>
+  </data>
+  <data name="Solution_Product_detail" xml:space="preserve">
+    <value>Your imagination can come true with "Smart 3D technology" that will help you easily create a virtual model in 3D. Data Design Viet Nam engage to support the best products and softwares.</value>
+  </data>
+  <data name="Solution_Product_title" xml:space="preserve">
+    <value>Product Management</value>
+  </data>
+  <data name="Type_your_message" xml:space="preserve">
+    <value>Type your message</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Visit Us !</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome To Data Design Viet Nam</value>
+  </data>
+  <data name="What_We_Do" xml:space="preserve">
+    <value>What We Do</value>
+  </data>
+  <data name="Your_email" xml:space="preserve">
+    <value>Your E-mail</value>
+  </data>
+  <data name="Your_name" xml:space="preserve">
+    <value>Your name</value>
+  </data>
+  <data name="Your_Subject" xml:space="preserve">
+    <value>Your Subject</value>
+  </data>
+  <data name="Address_contact" xml:space="preserve">
+    <value>Floor 7, Scetpa building, 19A Cong hoa Street, Ward 12, Tan Binh District, HCMC, Viet Nam</value>
+  </data>
+  <data name="Contact_us_email" xml:space="preserve">
+    <value>Contact us !</value>
+  </data>
+  <data name="What_we_know" xml:space="preserve">
+    <value>Bussiness Field</value>
+  </data>
+  <data name="Read_more" xml:space="preserve">
+    <value>READ MORE</value>
+  </data>
+  <data name="Branding" xml:space="preserve">
+    <value>Branding</value>
+  </data>
+  <data name="Branding_detail" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit</value>
+  </data>
+  <data name="Clean_Code" xml:space="preserve">
+    <value>3D MACHINING</value>
+  </data>
+  <data name="Clean_Code_detail" xml:space="preserve">
+    <value>High-precision simulation is performed in virtual space by generating control data for NC machine tools at manufacturing sites from 3D content created by upstream processes. We will operate processing machines using verified control data, and will accumulate company know-how in manufacturing by bridging the gap with reality.</value>
+  </data>
+  <data name="Creative_Design" xml:space="preserve">
+    <value>3D PRINTING</value>
+  </data>
+  <data name="Creative_Design_detail" xml:space="preserve">
+    <value>3D printing technology has enabled us to create innovative designs and functionality that could not be achieved with conventional cutting and shaping processes. We have expanded to include not only resins and metals, but also carbon fibers and ceramics, etc., and we have now entered an era where we can select the most suitable 3D printer according to our needs. We provide 3D printing solutions that solve problems in both software and hardware.</value>
+  </data>
+  <data name="DIGITAL_TRANSFORMATION" xml:space="preserve">
+    <value>DIGITAL TRANSFORMATION</value>
+  </data>
+  <data name="Our_Services" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="Our_Services_Detail" xml:space="preserve">
+    <value>Our service detail</value>
+  </data>
+  <data name="Slide_description" xml:space="preserve">
+    <value>is a 3D process coordinator that intelligently designs digital virtual space. With advanced 3D technology</value>
+  </data>
+  <data name="Support247" xml:space="preserve">
+    <value>24/7 Support</value>
+  </data>
+  <data name="Support_detail" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="User_Experience" xml:space="preserve">
+    <value>3D GUIDANCE</value>
+  </data>
+  <data name="User_Experience_detail" xml:space="preserve">
+    <value>There is a growing demand for digital guides that use laser and image projectors to direct work on analog sites, such as large assemblies that are difficult to automate and automate. By linking advanced 3D mapping technology already used in the aircraft and military industries with front- and back-end digital processes, work efficiency is improved in the general manufacturing and construction / building industries.</value>
+  </data>
+  <data name="User_Interface" xml:space="preserve">
+    <value>3D MEASUREMENT</value>
+  </data>
+  <data name="User_Interface_detail" xml:space="preserve">
+    <value>By capturing 3D scan / measured digital data and design data, it is possible to perform high-precision three-dimensional measurement according to any standard. Integrate the inspection / measurement workflow, perform professional quality control with simple operation, and find out the location and cause of the failure in a short time. This integrated 3D measurement technology eliminates manufacturing rework and significantly improves productivity.</value>
+  </data>
+  <data name="What_Can_We_Do" xml:space="preserve">
+    <value>What Can Data Design Viet Nam Do for You?</value>
+  </data>
+  <data name="scroll_down" xml:space="preserve">
+    <value>SCROLL DOWN</value>
+  </data>
+  <data name="3DPrinting" xml:space="preserve">
+    <value>3D Printing</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="3D Software" xml:space="preserve">
+    <value>3D Software</value>
+  </data>
+  <data name="AS of sensors" xml:space="preserve">
+    <value>AS of sensors</value>
+  </data>
+  <data name="What's new" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Mainfunction" xml:space="preserve">
+    <value>Main function</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="Case_Study" xml:space="preserve">
+    <value>Case Study</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="Movie" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="Erro_email" xml:space="preserve">
+    <value>Not a valid email address</value>
+  </data>
+  <data name="Success_email" xml:space="preserve">
+    <value>A valid email address!</value>
+  </data>
+  <data name="3D MACHING" xml:space="preserve">
+    <value>3D MACHING</value>
+  </data>
+  <data name="3D MODELING" xml:space="preserve">
+    <value>3D MODELING</value>
+  </data>
+  <data name="3D PRINTING" xml:space="preserve">
+    <value>3D PRINTING</value>
+  </data>
+  <data name="3D SCANNING" xml:space="preserve">
+    <value>3D SCANNING</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="Details Blog" xml:space="preserve">
+    <value>Details Blog</value>
+  </data>
+  <data name="Overview Blog" xml:space="preserve">
+    <value>Overview Blog</value>
+  </data>
+  <data name="Continue_Reading" xml:space="preserve">
+    <value>Continue Reading</value>
+  </data>
+  <data name="BlogClassic" xml:space="preserve">
+    <value>Blog Classic</value>
+  </data>
+  <data name="Blog_News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Blog_Technology" xml:space="preserve">
+    <value>Technology</value>
+  </data>
+  <data name="PlaceHolderBlogSearch" xml:space="preserve">
+    <value>Searching blogs</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Apply Now</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Recruitment</value>
+  </data>
+  <data name="ShowAllBlog" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="MODELING_3D" xml:space="preserve">
+    <value>3D MODELING</value>
+  </data>
+  <data name="MODELING_3D_Detail" xml:space="preserve">
+    <value>Because the captured 3D model is an as-is representation of reality, it can not be used effectively in the next digital process without modification. 3D remodeling technology adds value to 3D models and generates 3D content that can be leveraged in the next digital process.</value>
+  </data>
+  <data name="SCANNING_3D" xml:space="preserve">
+    <value>3D SCANNING</value>
+  </data>
+  <data name="SCANNING_3D_Detail" xml:space="preserve">
+    <value>The technology to replace real objects with digital content has evolved rapidly, and it has become possible to capture 3D models in the same way as shooting video. From small parts that fit in the palm of the hand, to people and cars, to railways, ships, planes, factories and important cultural properties, anyone can easily digitize anywhere using 3D capturing devices for various applications. The gateway to taking advantage of digital processes begins with 3D scanning technology.</value>
+  </data>
+  <data name="Logo_product" xml:space="preserve">
+    <value>Our partner</value>
+  </data>
+  <data name="Key_Shot" xml:space="preserve">
+    <value>KeyShot</value>
+  </data>
+  <data name="Outstanding_Product" xml:space="preserve">
+    <value>Outstanding product</value>
+  </data>
+  <data name="ContentArtect" xml:space="preserve">
+    <value>Artec 3D is a global leader in 3D scanning technology, providing the best and most comprehensive 3D scanners and post-processing software applicable in a wide range of industries such as : Reverse Engineering, Industrial Design, Manufacturing, Healthcare, Science, Education, Art and Design. The popular products are Eva, Ray, Space Spider, Leo, and Eva Lite. The scanners create highly accurate 3D models of objects with various textures, sizes and geometries.</value>
+  </data>
+  <data name="ContentGeomagic" xml:space="preserve">
+    <value>Geomagic Design X is an all-round, professional reverse engineering software with a smart combination of history-based CAD with 3D scan data processing, letting you produce feature-based, editable solid models compatible with your existing CAD software. Geomagic Design X complements your entire design ecosystem, with native output to SOLIDWORKS®, Siemens NX®, Solid Edge, Autodesk Inventor®, PTC Creo® and Pro/ENGINEER®. Now, you can scan virtually anything and create manufacturing-ready designs.</value>
+  </data>
+  <data name="ContentKeyShot" xml:space="preserve">
+    <value>KeyShot is everything you need to create amazing visuals fast. The real-time 3D rendering workflow displays results instantly and reduces the time it takes to create realistic product shots. From scientifically accurate material and environment presets to advanced material editing and animation, creating interactive product visuals or sales and marketing imagery has never been easier. Addressing the visualization needs of designers, engineers, marketing professionals, photographers and CG specialists. KeyShot breaks down the complexity of creating photographic images and animations from 3D digital data. It makes the workflow become easily with support for the widest number of 3D file formats on both Mac and PC.</value>
+  </data>
+  <data name="ContentWorkNC" xml:space="preserve">
+    <value>WORKNC is used by all western, Japanese and Korean automotive makers and well-known OEMs from a range of other industries. It is also the best of breed, complementary CAM software that enhances all design and manufacturing systems by providing the most reliable, efficient, easy-to-program cutter paths, resulting in unmatched productivity and safety. Many products such as WORKNC Licenses, WORKNC Add-ons, WORK Advanced Functionalities, WORK Translator, and WORK Designer support for the CAD/CAM</value>
+  </data>
+  <data name="ProfileCompany" xml:space="preserve">
+    <value>Ngay tại tên công ty đã thể hiện hình thức công việc của chúng tôi: Chúng tôi  “thiết kế" những “dữ liệu” sử dụng cho công nghệ kỹ thuật số 3D
+
+Như một cuộc cách mạng trong sản xuất, Chúng tôi thúc đẩy cơ chế tự động hóa bằng các công nghệ thông tin tiên tiến như AL, IoT, robot, các thiết bị xử lý cạnh và quy trình robot tự động (RPA). Chúng tôi đề xuất “ Công nghệ 3D thông minh” giúp xử lý mô hình hóa trong không gian kỹ thuật số ảo và hỗ trợ đổi mới kỹ thuật số trong lĩnh vực sản xuất.
+
+1989	Datadesign Co, Ltd. Formed in Nagoya, Japan as a software&#xB;	development service provider&#xB;
+1993	Began sales of the world’s first Windows-based 3D CAD/CAM&#xB;	system
+1994	Began sales and support of 3D automatic CAM modules and&#xB;	digital solutions for mold and die makers&#xB;1996	Opened office in Tokyo region for expanded nationwide coverage&#xB;&#xB;2000	Opened affiliate in Pune, India&#xB;2001	Joint development of an automated machine tool process planning&#xB;	and management system with Toyota Central Labs&#xB;2002	Opened affiliate software development/support office in Bangkok,&#xB;	Thailand
+2003	Opened subsidiary company 3DS Co, Ltd. For online sales/support&#xB;2005	Opened software development affiliate in Ho Chi Minh City, Vietnam&#xB;&#xB;2008	Began Microsoft-based open PLM/portal development service&#xB;2009	Began sales/support of laser projection technology for aerospace&#xB;	industry&#xB;2010	Obtained class 3 medical device sales permit and entered medical&#xB;	and healthcare fields&#xB;	Began digital CAD/CAM system sales/implantation support service&#xB;2012	Opened solutions center in Yokohama to expand business coverage&#xB;	Entered 3D additive manufacturing business&#xB;2013	Moved to larger HQ office in central Nagoya&#xB;	Entered into alliance with global CAM provider Vero Software&#xB;2014	Entered 3D scanning and reverse engineering solution market&#xB;2016	Entered into alliance with 3D solution provider Autodesk&#xB;&#xB;2017	Entered IoT solutions market using AI/RPA technologies&#xB;2019	Entered digital guidance market using AR/MR technologies
+Các kỹ thuật viên chuyên nghiệp của chúng tôi sẽ phân tích các quy trình làm việc hiện tại để đưa ra các giải pháp phù hợp cho mỗi quá trình cồng việc của khách hàng.
+Chúng tôi sẽ giúp bạn xây dựng quy trình kỹ thuật số riêng bằng cách điều chỉnh riêng các vấn đề. Điều mà không thể giải quyết bằng các phần mềm được bán rộng rãi trên thị trường.
+Một đội ngũ đầy kinh nghiệm và đội ngũ đầy kỹ thuật lựa chọn các công cụ kỹ thuật số tốt nhất và điều phối các quy trình kỹ thuật số..
+Chúng tôi có đội ngũ hỗ trợ sau khi bán hàng chuyên cung cấp các dịch vụ bảo trì vận hành, phân tích, phản hồi và cải tiến.
+Tên công ty       	DataDesign Co., Ltd.&#xB;
+Năm thành lập		12 tháng 5 1989&#xB;
+Vốn đầu tư		25 triệu yên&#xB;
+Giám đốc/CEO	Takanori Okamura
+
+Loại hình kinh doanh	Phát triển và bán các thiết bị vi tính hỗ trợ các công cụ           		(CAD / CAM / CAE,…) cho ngành công nghiệp sản xuất
+		Nghiên cứu và phát triển công nghệ kỹ thuật số 3 chiều&#xB;		Lên kế hoạch và đề suất hệ thống dựa trên công nghệ kỹ 			thuật số 3D cho các ngành như công nghiệp sản xuất, công 		nghiệp nặng, y tế, giáo dục và giải trí
+		&#xB;
+Chi nhánh		3DS Co., Ltd. (Yokohama, Japan)
+		DataDesign Solutions Thailand (Bangkok)
+		DataDesign India (Pune)
+		DataDesign Vietnam (HCM City)
+Artec Space Spider
+Máy quét 3D với độ chính xác cao được ứng dụng trong nghành công nghiệp
+Datadesign Artec3D Chính xác đến từng chi tiết
+Một công cụ giúp cải tiến và có độ chính xác cao cho người dùng CAD cùng với các kỹ thuật viên. Artec Space Spider quét hình ảnh 3D với độ phân giải cao sử dụng công nghệ ánh sáng xanh phù hợp cho việc thu hình của các vật thể nhỏ hoặc có các chi tiết phức tạp trong máy móc công nghiệp to lớn và mang lại chất lượng hình ảnh tốt nhất.
+Khác với công nghệ của những sản phẩm khác, Space Spider tạo ra các hình học phức tạp, sắc nét, và có bộ khung mỏng. Những sản phẩm có độ phân giải cao phù hợp để sử dụng công nghệ này bao gồm những tác phẩm nghệ thuật, hợp chất nhân tạo, chìa khóa, đồng xu, và cả đôi tai của con người. Việc hổ trợ đưa ra các mô hình 3D với phần mềm CAD của Space Spider cung cấp không giới hạn hầu hết các lĩnh vực như kỹ thuật đảo ngược, quản lý chất lượng, thiết kế và sản xuất sản phẩm.
+Bộ máy ban đầu được phát triển cho trạm không gian bên ngoài vũ trụ, đến thế hệ máy quét tiếp theo được cải tiến cho việc duy trì nhiệt độ và nâng cao các thiết bị điện tử. Những cải tiến đó không chỉ giúp cho máy quét hoàn thành công việc trong 3 phút mà còn đảm bảo việc lưu trữ dữ liệu trong một thời gian dài. Và trên hết, độ chính xác của thiết bị không bị ảnh hưởng bởi sự thay đổi của môi trường.
+Với khả năng của Artec Space Spider, chúng tôi hoàn toàn tự hào đảm bảo chất lượng quét tốt nhất và tình trạng hoạt động mạnh mẽ nhất của thiết bị.
+
+Datadesign Artec3D
+Đặc điểm của pin
+Chiếc máy quét 3D nặng 0.85 kg cùng với năng lượng được cung cấp hoạt động đến 6 giờ có thể sử dụng ở bất cứ nơi nào dù cho là nơi không có nguồn điện.
+Datadesign Artec3D
+Độ an toàn
+Công nghệ ánh sáng, chất liệu máy phù hợp với môi trường đảm bảo an toàn cho người dùng và sự nguyên vẹn của vật được quét.
+Datadesign Artec3D
+Cách thức hoạt động
+Không cần các thao tác phức tạp, chỉ cần liên kết với máy quét và nhắm tới đối tượng muốn quét một cách dễ dàng.
+Datadesign Artec3D
+Độ tích hợp
+Việc thu hình một vật thể lớn hoặc tạo ra những hệ thống quét tự động cần có sự kết hợp và đồng hóa với nhiều máy quét khát nhau. Sự phối hợp của các máy quét cũng được đưa vào phương pháp tùy chỉnh bằng cách sử dụng miễn phí công cụ SDK Artec.
+Máy quét 3D Artec được sử dụng để quét các vật thể và hiển thị hình ảnh ảo ở định dạng 3D ở nhiều định dạng khác nhau, từ vật thể nhỏ đến con người, xe hơi, thiết bị hạng nặng, xe lửa, máy bay hoặc thậm chí cả cây cầu và tàn tích. Có thể tạo các mô hình kỹ thuật số 3D ở bất cứ đâu mà không cần công nghệ quét chuyên dụng hoặc các thiết bị ngoại vi đặc biệt. "Space Spider" chuyên quét các vật thể nhỏ và độ phân giải cao như Vật thể nghệ thuật, bộ phận cơ thể người, bộ phận công nghiệp nhỏ, v.v ... "Eva" có hiệu quả trong việc quét cơ thể người, ô tô và xe máy. Hoặc thậm chí máy bay lớn, máy móc hạng nặng, tàu, cầu và các tòa nhà cũ "Leo". Máy quét không dây đi kèm với màn hình cảm ứng tương tác giúp dễ dàng mang theo và dễ sử dụng.
+Artec Eva
+Thiết bị quét 3D giá cả vừa phải cho ra kết quả chuyên nghiệp
+Được công nhận là máy quét 3d tốt nhất bởi iReviews
+Máy quét 3D quang học với cơ cấu được thế kế phù hợp cho việc tạo ra mô hình 3D nhanh nhất. Đo chính xác các vật thể có kích thước trung bình như bộ ngực của con người, bánh xe hợp kim, hoặc ống bô xe máy. Thực hiện quét nhanh chóng, với độ chính xác và độ phân giải cao
+Nhẹ, nhanh, và đa dụng là những đặc điểm biến Eva trở nên nổi tiếng trên thị trường trong dòng máy in 3D di động. Sử dụng công nghệ quang học để đảm bảo độ an toàn khi sử dụng. Đồng thời cũng là giải pháp tuyệt vời để thu hình cho tất cả thể loại sản phẩm, kể cả những nơi có bề mặt quá sáng hoặc quá tối.
+Artec Eva dễ sử dụng, nhanh chóng và chính xác. Một thiết bị cần thiết cho nhiều nghành công nghiệp như tạo mẫu nhanh, quản lý chất lượng, CGI, bảo tồn di sản, công nghiệp ô tô, pháp y, khoa học, y tế , chân tay giả, hàng không và vũ trụ. Đây cũng chính là công cụ giúp tạo ra hình ảnh ba chiều của tổng thống Obama.
+Máy tính bảng và bộ pin năng lượng dễ dàng mang đi.
+Liên kết máy quét 3D với máy tính bảng và bộ pin giúp cho thiết bị hoạt động hơn 6 giờ đồng hồ ở bất cứ nơi nào thiếu nguồn điện.
+safe-icon.png
+An toàn sử dụng.
+Eva sử dụng công nghệ ánh sáng xanh, cực kỳ an toàn cho mọi người khi quét, kể cả đối tượng được quét.
+calibration-icon
+Không cần mục tiêu &amp; hiệu chuẩn, chỉ nhắm và tiến hành thu hình.
+Không cần thông qua các quá trình phiền phức. Đơn giản chỉ cần đăng nhập vào máy quét và nhắm vào mục tiêu bằng máy quay.
+bundling-icon
+Tích hợp dễ sử dụng.
+Để thu hình 3D của vật có kích thước lớn hoặc tạo quy trình quét tự động, có thể liên kết nhiều máy quét lại với nhau. Người dùng máy quét cũng có thể tích hợp các thiết bị quét vào giải pháp tùy chỉnh bằng cách sử dụng phần mềm quét Artec SDK miễn phí.
+Artec Eva Lite
+Máy quét 3D giá cả phải chăng cho kết quả chuyên nghiệp
+Eva Lite là phiên bản tiết kiệm của máy quét ánh sáng trắng nổi tiếng Artec Eva 3D. Nó có cùng đặc điểm kỹ thuật chính xác nhưng các chức năng bị giảm. Eva Lite có hình học, theo dõi và chụp độc đáo vì vậy máy quét 3D giá rẻ có thể được sử dụng để quét bề mặt 3D chất lượng cao khi quét các đối tượng hình học như cơ thể người.
+Điều này làm cho Eva Lite trở thành một lựa chọn hấp dẫn và giá cả phải chăng cho các phòng khám sức khỏe với ngân sách hạn chế hoặc bất kỳ ai quan tâm đến việc mua máy quét 3D ánh sáng trắng chuyên nghiệp với giá tiền tiết kiệm.
+Ngoài ra, do Eva Lite không thu được màu, do đó thu thập dữ liệu ít hơn nhiều Eva 3D. Kết quả là, nó sử dụng ít năng lượng hơn và có thể được sử dụng kết hợp với một máy tính giá cả phải chăng hơn. Xem chi tiết về thương hiệu và mẫu được đề xuất trong trung tâm dịch vụ của chúng tôi hoặc liên hệ với nhóm hỗ trợ của chúng tôi để hỏi về từng mặt hàng.
+Datadesign Artec3D Eva Lite có thể được nâng cấp lên Eva bất cứ lúc nào vì sự chênh lệch giá giữa hai máy quét.
+Vì vậy, nếu ngân sách được cho phép sau này Bạn có thể dễ dàng nhận được các chức năng đầy đủ từ máy quét 3D.
+Và đối với các trường học và đại học việc cung cấp thiết bị chuyên nghiệp cho sinh viên với giá phải chăng Là một phần của gói giáo dục Artec, giá cho Eva Lite có thể dễ tiếp cận hơn và bao gồm 20 giấy phép Artec Studio, nâng cấp miễn phí hai năm và bảo hành hai năm.
+
+Đối tác chiến lược	Nhật bản: Vero Software, Hexagon Metrology, 3DSystems&#xB;(hardware/software)	Japan, Autodesk, Microsoft Japan, HP Japan, Japan&#xB;		National Manufacturing Technology Laboratory, Toyota&#xB;		Central Labs&#xB;		Bắc Mỹ: Actify, Alibre Design, CADALOG,
+		DentalWings, Delta Sigma, Luxion, Markforged, MecSoft
+		Châu Âu: Artec Group, Datakit, EGSolutions, Extend3D,
+		Formtec, LAP, Roboris, Vero Software	
+Artec Leo
+Máy quét 3D đơn giản : Trình bày vật thể 3D trực tiếp trên màn hình HD.
+ 
+
+Datadesign Artec3DMáy quét 3D thông minh chuyên nghiệp cho thế hệ người dùng tiếp theo
+ 
+
+Artec Leo là máy quét 3D đầu tiên xử lý dữ liệu tự động mang đến quy trình trực quan nhất, biến việc quét 3D trở nên dễ dàng như quay video. Khi quét, người dùng sẽ thấy thời gian thực hiện trên màn hình cảm ứng của Leo. Quá trình xoay mẫu vật 3D đảm bảo người dùng quét được tất cả bộ phận cần quét và không chừa lại bất cứ chi tiết nào.
+Tốc độ quét lũy tiến
+Với tốc độ xây dựng hình ảnh 80 hình trên giây, Artec Leo trở thành máy in 3D nhanh nhất trên thị trường hiện giờ. Trên hết, góc máy đa dạng của Artec Leo có thể quét và xử lý một vật thể và bối cảnh có kích thước lớn một cách nhanh chóng, chính xác. Để có thể thu được hình ảnh có độ chính xác cao, người dùng có thể đưa máy quét đến gần các chi tiết phức tạp của đối tượng được quét giống như việc phóng to của máy quay phim.
+Trải nghiệm quét di động 
+Artec Leo cho phép người sử dụng tự do quét hình ảnh với bộ xử lý mạnh mẽ và bộ pin mang theo. Không cần phải kết nối với máy tính hoặc liên kết với nguồn điện chính. Người dùng chỉ cần giữ thiết bị trên tay và tự do di chuyển xung quanh. Đối tượng được quét không bị ảnh hưởng bởi dây điện hoặc các thiết bị khác khi gặp sự cố. Chuẩn bị pin dự phòng khi du lịch hoặc đến nơi không có nguồn điện đảm bảo cho việc sử dụng máy quét 3D không giới hạn.
+Máy quét thông minh nhất trên thị trường
+Artec Leo là sự kết hợp các công nghệ tiên tiến như nền tảng NVIDIA® Jetson ™, các thiết bị máy tính bên trong máy quét gồm CPU bốn lõi ARM Cortex®-A57 MPCore và GPU NVIDIA Maxwell ™ 1 TFLOPS với  NVIDIA 256 ® lõi CUDA®. Còn có một hệ thống tích hợp 9 DOF được gắn sẵn như máy đo gia tốc, con quay và la bàn giúp người quét biết được vị trí và điều kiện môi trường. Cuối cùng là hai hệ thống quang học hỗ trợ đo chính xác bề mặt hình học của đối tượng được quét.
+Cấu tạo
+Cùng với pin tích hợp, màn hình cảm ứng và kết nối mạng không dây, Artec Leo đã đưa máy quét di động lên một tầm cao mới. Người dùng hoàn toàn tự do truyền tải một video từ máy quét đến thiết bị thứ hai bằng mạng không dây hoặc mạng cục bộ. Nếu cần trình bày và tải dữ liệu thêm thì chỉ cần nhấn những nút ‘Thêm’ được thiết kế phù hợp cho việc sử dụng một tay dễ dàng và thuận tiện. Và trong tương lai, khách hàng có thể sử dụng một máy quét 3D chuyên nghiệp hơn nữa.
+Ứng dụng
+Vì khả năng thu hình một khu vực rộng lớn và chi tiết, Artec Leo được ứng dụng quét từ những bộ phận cơ khí nhỏ cho đến bộ phận cơ thể con người, ô tô, tàu, thuyền, hoặc cả chứng cứ phạm tội. Giống với những thiết bị quét 3D Artec khác, ‘Leo’ được sử dụng trong rất nhiều lĩnh vực gồm công nghiệp sản xuất, kiểm soát chất lượng, y tế, VR(thực tế ảo) và thương mại điện tử. Ngoài ra, chức năng kết nối mạng không dây mới giúp tích hợp các hệ thống khác nhau và dễ dàng nâng cấp ứng dụng cho bất cứ nghành công nghiệp nào.
+Datadesign Artec3D
+Nâng cao chất lượng màu sắc thu được
+Bằng cách sử dụng công nghệ ánh sáng đột phá của VCSEL, Artec Leo trở nên nổi trội hơn trong việc số hoá các kết cấu và bề mặt phức tạp. Thậm chí, thiết bị cũng có thể hoạt động tốt trong điều kiện quá sáng. Công nghệ cũng cho phép bạn kiểm soát cường độ của đèn flash để cải thiện màu sắc khi quét.
+Không mục tiêu
+Artec Leo sử dụng phương pháp Hybrid Shapes theo dõi bề mặt sản phẩm. Điều đó nói lên rằng chỉ cần nhắm vào đối tượng cần chụp hình mà không cần bám sát từng mục tiêu cụ thể của vật thể (Và rồi chỉ cần xóa đi)
+  Datadesign Artec3D
+Ổ tích hợp SSD
+Ngoài SSD chứa 256GB, người dùng cũng có thể thêm thẻ SD như một kho lưu trữ không giới hạn. Rất lý tưởng cho việc quét 3D.
+  
+Datadesign Artec3D
+3D HDR
+HDR hổ trợ thu hình các đối tượng khó quét. Khi gặp những vùng quá tối hoặc quá chói của vật được quét.
+  Datadesign Artec3D
+Khả năng kết hợp linh hoạt
+Máy quét có thể hoạt động khi gắn vào các cánh tay robot hoặc hệ thống băng tải. Thiết bị quét 3D cũng tự động đồng bộ với nhiều thiết bị khác hỗ trợ cho việc sử dụng nhiều máy quét.
+ Phần mềm hiện đại
+Artec Leo sở hữu 2 chương trình 3D mạnh mẽ và các thuật toán độc quyền của Artec. Ngoài ra, còn có phần mềm quét 3D của Artec Leo cùng với giao diện màn hình cảm ứng đơn giản được cài sẵn trên thiết bị. Dữ liệu thu được sau khi quét được chuyển sang bộ phận Artec Studio để phân tích và xử lý.
+Artec Ray
+Máy laser 3D với độ chính xác cao rất lý tưởng cho việc quét các vật có kích thước lớn một cách chính xác nhất.
+Artec Ray là thiết bị quét tầm xa nhanh nhất và chính xác nhất, thiết bị sử dụng công nghệ laser cho việc thu hình những mục tiêu có kích thước lớn như tuabin máy phát điện gió, cách quạt máy bay, hoặc các công trình kiến trúc. Artec Ray có chất lượng quét 3D hàng đầu. Máy quét Artec Ray cho ra sản phẩm chính xác đén từng milimet và mô tả từng chi tiết phức tạp nhất. Kết quả thu được rõ ràng hơn rõ ràng hơn những máy quét laser 3D khác nhờ giảm độ nhiễu. Sau khi xử lý, tốc độ tăng đáng kể giúp việc quét trở nên đơn giản hơn.
+Tiện lợi thu giữ dữ liệu 3D cho việc sử dụng
+Kích thước nhỏ gọn, dễ dàng mang theo, với giải pháp dài hạn LIDAR dành cho máy quét laser 3D mới nhất. Hệ thống pin tích hợp cho phép quét từ trong nhà cho đến ngoài trời trong thời gian hơn 4 giờ đồng hồ mà không cần gắn vào các nguồn điện gần đó, hoàn hảo cho việc thu hình ở bất cứ nơi nào.Phần mềm nâng cao tương tích
+Quét 3D và xử lý dữ liệu trực tiếp trong phần mềm Artec Studio bằng những công cụ có sẵn, rồi chuyển sang Geomagic Design X chỉ bằng một nút bấm để cung cấp trải nghiệm quét 3D hiệu quả nhất.
+Liên kết quét 3D Kết nối
+Artec Ray với các máy Artec cầm tay khác như Eva và Spider hổ trợ việc chụp hình các khu vực khó tiếp cận như nội thất xe ô tô. Còn có thể thay đổi các chi tiết phức tạp trong mô hình 3D lớn. Tất cả máy quét 3D Artec đều đảm bảo tiềm năng quét không giới hạn của dòng sản phẩm này.
+RoboticScan
+Datadesign Artec3D Mới!
+Trạm quét tự động 3D Artec RoboticScan với độ chính xác cao
+Giới thiệu giải pháp rảnh tay tự động này trong quy trình làm việc của bạn để tạo ra hàng ngàn mô hình 3D chính xác tại thời điểm tiết kiệm và tiết kiệm chi phí nhất.
+Khám phá những cách mới để quét các đối tượng bằng thiết bị quét 3D mang tính cách mạng này, có tính năng quét 3D Artec Space Spider được cài đặt trên cánh tay robot UR3. Đảm bảo hoạt động nhanh hơn và chính xác hơn các thiết bị khác, không giống như các thiết bị quét 3D di động phải được vận hành thủ công
+Hệ thống tự động giảm nhu cầu lao động, mất nhiều thời gian. Với mức độ cầu kỳ cao, bạn có thể chuyển đổi chính xác một số lượng lớn các đối tượng sang kỹ thuật số. RoboticScan là một tài sản quan trọng cho một loạt các ứng dụng, bao gồm kiểm soát chất lượng, thương mại điện tử và bảo tàng tương tác và kết quả nhanh hơn so với chụp ảnh 3D thủ công và loại bỏ nguy cơ lỗi của con người.
+
+Quét thông minh miễn phí
+RoboticScan thực hiện lập kế hoạch đường dẫn trí tuệ, phân tích bề mặt của đối tượng và đảm bảo rằng tất cả các thông tin cần thiết được nắm bắt để tạo ra các mô hình 3D chính xác. Nếu máy quét bị thiếu một số phần trên bề mặt của đối tượng, phần mềm sẽ thiết lập một đường dẫn mới để quét khu vực mong muốn để đảm bảo rằng tất cả các đối tượng được ghi lại hoàn toàn. Đối tượng sau đó sẽ được tạo lại và tự động tải lên đám mây dữ liệu bằng phần mềm. Chế độ này đặc biệt hữu ích khi quét các vật thể lớn có hình dạng và kích thước khác nhau, chẳng hạn như màn hình bảo tàng hoặc khám phá khảo cổ.
+Lập trình chế độ quỹ đạo cố định
+Điều này đòi hỏi người vận hành nhập thông tin về đường quét. Sử dụng chế độ program là một giải pháp tuyệt vời để bắn một lượng lớn các đối tượng được xác định trước, đặc biệt hữu ích cho các ứng dụng như kiểm soát chất lượng và đo lường tại nhà máy sản xuất. Ví dụ, trên băng chuyền yêu cầu quét vật phẩm chính xác và trong thời gian ngắn nhất.
+ Lựa chọn sáng suốt cho dạy học và nghiên cứu
+Sử dụng máy quét 3D trong ngành giáo dục và nghiên cứu để thu thập, trình bày và phân tích dữ liệu 3D, là một phương pháp hiệu quả và đầy sáng tạo. Cho phép tự do sáng tạo với công nghệ quét 3D tiên tiến nhất trên thị trường hiện nay. Với mức giá hấp dẫn, đây là lựa chọn tốt nhất cho việc thực hiện một quy trình liền mạch không bị ngắt quãng khi đang giảng dạy cho kỹ sư, bác sĩ hoặc phi công. Trên hết, các dòng máy quét Artec 3D mới được tích hợp các phần mềm của CAD, CAM và mô hình 3D đảm bảo quyền truy cập các thiết bị và các thuật toán mang đến thành công cho người dùng.
+Giáo dục
+Nếu bạn đang tìm một phương pháp dạy học mới và hấp dẫn người học, không đâu xa cả! Máy quét 3D Artec với phần mềm quét 3D nâng cao sẽ mang đến trải nghiệm học tập vui vẻ và có tính tương tác cao. Thiết bị đảm bảo tính hiện đại và tăng độ tương tác khi dạy học với khả năng thu hình 3D bất kì đối tượng trong thời gian ngắn.
+Các thiết bị quét 3D được thiết kế đảm bảo tính linh hoạt, hiệu quả và dễ sử dụng. Nhờ vào hệ thống tự động mà ngay cả trẻ con cũng có thể sử dụng thiệt bị tạo ra những mô hình 3D có độ phân giải cao.
+  
+Bằng công nghệ quét 3D nâng cao, học sinh được trải nghiệm phương pháp học đáng nhớ và các bài học phức tạp từ mô hình 3D giống nhất. Các nghành như kiến trúc, kỹ thuật, y tế, nghệ thuật, thiết kế và CGI sử dụng thiết bị quét 3D làm cho các công việc đó trở nên thực tế, thú vị, mang đầy kiến thức và tính sáng tạo.
+Quan trọng nhất là sử dụng thiết bị quét 3D tại trường học và trường đại học mang đến cho học sinh cơ hội cải thiện học thêm các kỹ năng cần thiết và kiến thức sát với thực tế qua mô hình 3D giống thật nhất có thể.
+ Nghiên cứu
+Một điều không thể bàn cải đó là phát triển và đổi mới các thiết bị rất cần thiết cho việc nghiên cứu. Nhiều cơ sở giáo dục đã nhận ra vai trò quan trọng của công nghệ 3D nên bắt đầu đầu tư tiền bạc và thời gian vào chúng cho các công cuộc nghiên cứu. Với kinh nghiệm hơn 10 năm trong lĩnh vực quét 3D, Artec 3D hiểu cần làm gì để đưa ra các công cụ đo lường tốt nhất.
+  
+Tất cả thiết bị 3D trong danh mục sản phẩm của chúng tôi đều được thiết kế đảm bảo không có có bất cứ sai sót nào. Dễ sử dụng, chính xác, và linh hoạt phù hợp với những công việc liên quan đến kỹ thuật đảo ngược, quản lý chất lượng, sản suất, lưu trữ truyền thống, CGI trong chăm sóc khỏe, thiết kế và nhiều hơn nữa.</value>
+  </data>
+  <data name="SubContentArtect" xml:space="preserve">
+    <value>Bringing you the best in handheld 3D solutions since 2008</value>
+  </data>
+  <data name="SubContentGeomagic" xml:space="preserve">
+    <value>The profession software for Artec 3D Scanners</value>
+  </data>
+  <data name="SubContentKeyShot" xml:space="preserve">
+    <value>The Best 3D Rendering Software to Create Amazing Visuals</value>
+  </data>
+  <data name="SubContentWorkNC" xml:space="preserve">
+    <value>The premier automatic CNC software for surface or solid models in mold, die and tooling businesses</value>
+  </data>
+  <data name="ContentMarkforged" xml:space="preserve">
+    <value>Markforged was founded on the belief that there is a better way to make things. Manufacturing innovation has stagnated over the last century and the original wave of additive manufacturing driven innovation for manufacturers held a lot of promise, but fell short. These initial forays into additive technology cost too much, took too long, or used materials that yielded parts that were too fragile and short-lived to make an impact in the manufacturing environment. Founder Greg Mark’s belief that a robust additive manufacturing solution could change the world is the premise on which Markforged was born in 2013.</value>
+  </data>
+  <data name="SubContentMarkforged" xml:space="preserve">
+    <value>Changing the pace of human innovation</value>
+  </data>
+  <data name="Slide_description_h1" xml:space="preserve">
+    <value>Data Design Vietnam</value>
+  </data>
+</root>
