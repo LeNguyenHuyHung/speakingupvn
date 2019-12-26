@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Artec Studio";
+    ViewBag.Description = "Phiên bản Artec Studio";
+    ViewBag.Url = "https://datadesign.vn/artecStudio";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Artec Studio version",
+        "description" : "The Artec 3D scanner can work with AS13",
+        "url" : "https://datadesign.vn/artecStudio",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Artec3D",
+        "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

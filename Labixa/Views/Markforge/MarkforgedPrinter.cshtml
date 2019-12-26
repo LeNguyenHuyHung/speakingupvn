@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Máy in 3D Markforged là máy in 3D đặc biệt trong các vật liệu đặc biệt sử dụng phương pháp FDM.Chúng tôi sẽ thúc đẩy sản xuất các bộ phận cuối cùng khi cần bằng lớp phủ composite sử dụng sợi carbon và phương pháp phủ kim loại mới, điều đó kết hợp MIM (phương pháp ép phun bột) và công nghệ AM.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways1.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedPrinter";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+    <link href="~/Content/marforge/css/vdo_background.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link href="~/Content/marforge/cssmenu/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Markforged",
+        "description" : "3D printer that is compatible with carbon fiber / metal",
+        "url" : "https://datadesign.vn/markforgedPrinter",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+
+
+<video autoplay muted loop id="myVideo">
+    <source src="~/Content/marforge/images/markforged/markforged.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

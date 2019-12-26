@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "MoiV3-Datadesign-Việt-Nam";
+    ViewBag.Description = "Công cụ biến dạng dòng chảy Có thể mang hình dạng 3 chiều của mặt phẳng theo mẫu đã được biến đổi theo đường cong đã chuẩn bị Thích hợp để thêm hình dạng có chức năng nhất định, chẳng hạn như thêm hoa văn vào các rãnh hoặc bề mặt hình cầu của cao su để hiển thị như các bề mặt cong hoặc để hiển thị các thiết kế được dự định để trang trí.";
+    ViewBag.Url = "https://datadesign.vn/moi/moiv3";
+    Layout = "~/Views/Shared/_MoI.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+    <link rel="stylesheet" href="/Content/moi/css/body-styles.css">
+    <script src="/Content/moi/MoI site/Scripts/swfobject_modified.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Content/moi/cssmenu/styles.css">
+}
+@if (Model != null)
+{
+    if (cookie.Value==("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+<!--start footer-->

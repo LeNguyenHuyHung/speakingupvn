@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.TitleVi = Model.Title;
+    ViewBag.TitleEng = Model.TitleEng;
+    ViewBag.languageVi = "";
+    ViewBag.Url = "https://datadesign.vn/solutionPage";
+    Layout = "~/Views/Shared/_datadesignlayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+
+
+    <style>
+        .projects {
+            background-image: url(../images/uploaded/3D%20Printing/metal-300x169.jpg) !important;
+            background-size: cover;
+        }
+    </style>
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "LocalBusiness",
+        "name" : "Data Design Viet Nam",
+        "description" : "Data Design Viet Nam",
+        "url" : "https://datadesign.vn/solutionPage",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Data Design Viet Nam",
+        "logo" : "https://datadesign.vn/Content/Datadesign-home/logo(1).png",
+        "telephone" : "(+84) 028 38115290",
+        "address" : {"@@type" : "PostalAddress","addressCountry" : "Viet Nam"},
+        "openingHoursSpecification" : {"@@type" : "OpeningHoursSpecification"},
+        "dayOfWeek" : {
+        "@@type" : "DayOfWeek","name" : "T2 đến T6"},
+        "offers" : {"@@type" : "Offer","price" : "425"
+        }
+        }
+
+        }
+    </script>
+
+}
+<section class="projects " style="
+    height: 200px;
+"></section>
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

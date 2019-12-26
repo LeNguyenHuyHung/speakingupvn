@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Specification";
+    ViewBag.Description = "Ba dòng phù hợp cho ứng dụng...";
+    ViewBag.Image = "https://datadesign.vn/content/autodesk/images/netfabb/netfabb-11.png";
+    ViewBag.Url = "https://datadesign.vn/autodesk/specificationautodesk";
+    Layout = "~/Views/Shared/_Autodesk.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/autodesk/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/autodesk/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Specification",
+        "image" : "https://datadesign.vn/Content/autodesk/images/netfabb/standard.png",
+        "description" : "Three line-ups suitable for application",
+        "url" : "https://datadesign.vn/autodesk/specificationautodesk",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Auto Desk",
+        "logo" : "https://datadesign.vn/Content/autodesk/images/logo/netfabb-1.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

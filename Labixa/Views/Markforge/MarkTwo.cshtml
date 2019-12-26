@@ -1,0 +1,48 @@
+﻿
+@{
+    /**/
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Markforged là một máy in 3D tuyệt vời có thể được đúc với các bộ phận mạnh nhất và linh hoạt nhất của Markforged, được gia cố bằng chiều dài sợi riêng.";
+    ViewBag.Image =  "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways1.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedprinter/marktwo";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/worknc/css/reponsive_pc.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "\"Mark Two",
+        "image" : "https://datadesign.vn/images/markforged/724-wf-a5603b48-22a1-4e5c-8bed-dcf11239416a-0-1024x654.jpg",
+        "description" : "Markforged is an excellent 3D printer that can be molded with the strongest and most versatile parts of Markforged, reinforced with its own fiber length.",
+        "url" : "https://datadesign.vn/marktwo",
+        "brand" : {
+        "@@type" : "Brand",
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

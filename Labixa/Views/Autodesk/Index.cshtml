@@ -1,0 +1,51 @@
+﻿@{
+   
+    ViewBag.Title = "Autodesk";
+    ViewBag.Description = "NETFABB là một phần mềm được sử dụng cùng với ngành công nghiệp. Sản xuất và thiết kế phụ gia của phần mềm này có thể giúp giảm quy trình công việc, giảm lỗi và tạo ra các phần công việc chất lượng để bạn tiếp thị nhanh hơn.";
+    ViewBag.Image =  "https://datadesign.vn/content/autodesk/images/netfabb/netfabb-11.png";                   
+    ViewBag.Url = "https://datadesign.vn/autodesk";
+    Layout = "~/Views/Shared/_Autodesk.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+    <link rel="stylesheet" href="/Content/autodesk/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/autodesk/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "NETFABB",
+        "image" : "https://datadesign.vn/Content/autodesk/images/logo/NetFabb_2017_lockup_OL_1line_no_year_white.png",
+        "description" : "Production software and accessory product design
+        <BR />\n            From 3D design to complete printing of parts",
+        "url" : "https://datadesign.vn/autodesk",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Auto Desk",
+        "logo" : "https://datadesign.vn/Content/autodesk/images/logo/netfabb-1.png"
+        }
+        }
+    </script>
+
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/autodesk/vdo/2018-10-29_14-53-37.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+
+

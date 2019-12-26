@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "MainFunction-Datadesign-Việt-Nam";
+    ViewBag.Description = "Các chức năng chính được sử dụng trong MoI là: 1. Công cụ cong 2. Công cụ rắn 3. Chức năng chỉnh sửa 4. Chức năng hiển thị 5. Chức năng lựa chọn 6. Chức năng xây dựng 7. Chức năng chuyển đổi 8. Chức năng trình duyệt";
+    ViewBag.Image = "https://datadesign.vn/Content/moi/images/moi/func_011.png";
+    ViewBag.Url = "https://datadesign.vn/moi/mainfunction";
+    Layout = "~/Views/Shared/_MoI.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/moi/css/body-styles.css">
+    <script src="MoI%20site/Scripts/swfobject_modified.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Content/moi/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "mainFunction",
+        "image" : "https://datadesign.vn/Content/moi/images/moi/func_01.jpg",
+        "description" : "The main functions used in the MoI are: 1. Curve tool 2. Solid tool 3. Editing function 4. Display function 5. Selection function 6. Construction function 7. Transformation function 8. Browser function",
+        "url" : "https://datadesign.vn/mainFunction",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Moi",
+        "logo" : "https://datadesign.vn/Content/moi/images/logo/mois_logo.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+<!--start footer-->

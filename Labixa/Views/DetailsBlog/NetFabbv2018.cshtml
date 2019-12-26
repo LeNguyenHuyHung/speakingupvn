@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "NetFabbv2018";
+    Layout = "~/Views/Shared/_Autodesk.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/autodesk/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/autodesk/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

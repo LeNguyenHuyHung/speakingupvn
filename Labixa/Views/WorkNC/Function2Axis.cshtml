@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Function2Axis-Datadesign Việt Nam";
+    ViewBag.Description = "Bộ công cụ máy tiện 2 trục / 2,5 trục WorkNC có các chức năng nhận dạng tính năng mạnh mẽ, lấy thông tin cần thiết để gia công từ hình dạng của các lỗ có sẵn trong mô hình 3D hoặc dữ liệu điểm (chỉ tọa độ XY) Đây là việc tạo tự động xử lý thông qua cơ sở dữ liệu, tạo sổ tay mà công nhân có thể tự do thiết lập, tạo bán tự động liên quan đến Có thể";
+    ViewBag.Url = "https://datadesign.vn/worknc/function-2-axis";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "function-2-axis",
+        "image" : "https://datadesign.vn/Content/worknc/images/worknc/2-cam-01.jpg",
+        "description" : "The WorkNC 2-axis / 2.5-axis lathe tool set has powerful feature recognition functions that pull the information needed for machining from the shape of the holes that are available in 3D models or point data (only coordinates XY) It is the creation of automatic processing through the database, creating a manual that the worker can freely set, creating semi-automatic related to Possible",
+        "url" : "https://datadesign.vn/worknc/function-2-axis",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Worknc",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

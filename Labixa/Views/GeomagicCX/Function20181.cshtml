@@ -1,0 +1,176 @@
+﻿
+@{
+    ViewBag.Title = "Function20181";
+    Layout = "~/Views/Shared/_Geomagic.cshtml";
+}
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/geomagiccx/css/body-styles.css">
+
+    <link rel="stylesheet" href="/Content/geomagiccx/cssmenu/styles.css">
+}
+
+<div class="page-container">
+    <div class="content">
+
+        <div class="title_green">Geomagic Control X 2018.1.1 New Features </div>
+        <div class="table4">
+            <div class="title_green30">Improve scanning and checking</div>
+            <div class="detail2">Mesh creation during scanning</div>
+            <div class="detail3">The algorithm for improved segmentation and the polygon structure is created by estimating the curvature of the surface during scanning with LiveCapture. As a result, the accuracy of the area with higher curvature increases.</div>
+            <div class="detail2">Looking for the intersection of two lines</div>
+            <div class="detail3">The operation of creating intersection points from the intersection of the two lines measured by the inspection equipment. You can now navigate by LiveInspect.</div>
+            <div class="detail2">Repeated checks</div>
+            <div class="detail3">When choosing CAD data, referring and using them as automated objects Deviation positions can be recalculated using new measurement data and recalculated.</div>
+
+            <div class="title_green30">Automatic update process</div>
+            <div class="detail3">The installation process by the automatic update will appear in the installation situation display.</div>
+        </div>
+
+
+        <div class="table4">
+            <div class="title_green">Geomagic Control X 2018.1.0 New Features</div>
+            <div class="title_green30">Improve scanning and checking</div>
+            <div class="detail3">Geomagic Control X provides the best way to check machines directly from a computer using LiveInspect. There are many improvements to reduce time and increase freedom in this model.</div>
+
+            <div class="detail2">Update compatibility with hardware devices</div>
+            <div class="detail3">
+                Compatibility with the following scanning devices has been improved.<br>
+                •	AICON 3D Systems (<a href="https://www.aicon3d.com/th-TH" class="link" target="_blank">www.aicon3d.com</a>)<br>
+                •	Creaform (<a href="https://www.creaform3d.com/en" class="link" target="_blank">www.creaform3d.com</a>)<br>
+                •	FARO Technologies (<a href="https://www.faro.com/en-sg/" class="link" target="_blank">www.faro.com</a>)<br>
+                •	Kreon Technologies (<a href="https://kreon3d.com/" class="link" target="_blank">kreon3d.com</a>)<br>
+                •	Nikon Metrology (<a href="http://www.nikonmetrology.com/en-gb/" class="link" target="_blank">www.nikonmetrology.com</a>)<br>
+                •	RPS Metrology (<a href="http://www.rpsmetrology.com/" class="link" target="_blank">www.rpsmetrology.com</a>)
+            </div>
+
+            <div class="detail2">New clipping plane</div>
+            <div class="detail3">
+                The new <span class="detail-blue">Use Clipping Plane</span> option is added to the LiveCapture command. This option specifies the position of the plane and automatically destroys the part of the scanned layer together in the data received while scanning the object using LiveCapture. If the object is placed on the platform You can use the <span class="detail-blue">Capture Plane</span> option to scan the base area and assign it directly to the plane.<br>
+                For details, see LiveInspect> LiveCapture in Geomagic Control X Help.
+            </div>
+            <div class="img-2018-1-1"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-32-14_No-00-768x260.png" width="100%" height="100%" alt="" /></div>
+        </div>
+
+
+        <div class="table4">
+            <div class="detail2">Free check</div>
+            <div class="detail3">Now <span class="detail-blue">LiveScan</span> can receive probe data freely, even without CAD. You can check without a pre-defined test plan. The survey session is grouped by device buttons.</div>
+
+            <div class="detail2">information verification</div>
+            <div class="detail3">Many improvements occur with the use of probe data Probe data received in one project. Can be used for other projects along with the data obtained. In addition, you can use the <span class="detail-blue">Transform </span>data to probe the data with other inspection data or scan data. In addition, Geomagic Control X also has the ability to work with checking data from Other monitoring software</div>
+
+            <div class="detail2">One check point of the circle</div>
+            <div class="detail3">
+                In monitoring with LiveInspect, the detection method of the circle will change to <span class="detail-blue">Single Point Circle</span> (1 point circle) based on the difference between the probing ball diameter and the diameter of the target shape.
+                For details, see LiveInspect> LiveGeometry.
+            </div>
+        </div>
+
+
+        <div class="table4">
+            <div class="title_green30">UI / UX improvements</div>
+            <div class="detail3">One of the main beliefs of Geomagic Control X is to provide high quality monitoring by everyone. Geomagic Control X has the power of high-end quality inspection, providing a user-friendly environment. Geomagic Control X fulfills the needs. High-level complex inspections for everyone, from quick inspections at production plants to rigorous testing at laboratories.</div>
+
+            <div class="detail2">Group scan</div>
+            <div class="detail3">You can now group the scanning elements in the Input Data tab. This method makes it easier to manage and make back-up scanning easier.</div>
+            <div class="img-2018-1-2"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-39-11_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Improved loading and loading of ASCII workflows</div>
+            <div class="detail3">Has been updated so that you can specify the data unit that has the ASCII shape loaded and you can specify the shape using a custom naming scheme In addition, the number of columns can be changed according to the amount of data contained in the file to be read.</div>
+            <div class="img-2018-1-3"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-40-13_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Pairing map</div>
+            <div class="detail3">Creating a pairing map has been improved to be easier than before. The visibility of dual scanning points has been improved and the matching process has become smoother.</div>
+            <div class="img-2018-1-4"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-41-35_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Checkpoints for matching and alignment</div>
+            <div class="detail3">You can now pair with CAD. With the pairing manager, you can reduce the time required to create the desired geometry by yourself in the verification process.</div>
+            <div class="img-2018-1-5"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-42-23_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Result list</div>
+            <div class="detail3">You can optimize the results list and show only the information you need to make it easier to find results. To display more information, you can select and add results statistics using the summary selection.</div>
+            <div class="img-2018-1-6"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-44-48_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">User profile</div>
+            <div class="detail3">Added a <span class="detail-blue">Transform Measured Data</span> Save Current Profile button in the User Profile Management dialog box to be able to quickly save changes made to new user profiles.</div>
+            <div class="img-2018-1-7"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-44-54_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">2D dimension</div>
+            <div class="detail3">The 2D geometry function in the cross section has been greatly improved. It's easier than before and has been improved in an easy-to-understand manner. For example, you can quickly change the display of parts by using the new <span class="detail-blue">Transform Measured Data</span> Save Current Profile Section Visibility group in the Measurement tab.</div>
+            <div class="img-2018-1-8"><img src="/Content/images/geomagic/SnapCrab_NoName_2018-9-18_10-45-37_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Defining geometry in the creation of a new one</div>
+            <div class="detail3">Has been updated to allow you to specify the desired shape properties Depending on the purpose of the examination You can define the geometry created for reference or measurement.</div>
+            <div class="img-2018-1-9"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-45-42_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Report</div>
+            <div class="detail3">Shapes created during the inspection process are automatically grouped and used for reporting. Resulting in reduced preparation time for the audit report and the quality of the report can be improved</div>
+
+            <div class="detail2">Improving anonymous usage statistics</div>
+            <div class="detail3">Incognito usage statistics have been updated to include error report errors as well.</div>
+        </div>
+
+
+        <div class="table4">
+            <div class="title_green30">Deviation position</div>
+            <div class="detail3">Geomagic Control X 2018 has added a new feature called Deviation Position to detect surface defects such as dents, defects, scratches and display such characteristics quickly. In this model, this feature has been improved to be more useful and can be checked with more surface analysis methods.</div>
+            <div class="img-2018-1-10"><img src="/Content/geomagiccx/images/geomagic/SnapCrab_NoName_2018-9-18_10-49-40_No-00.png" width="100%" height="100%" alt="" /></div>
+
+            <div class="detail2">Specify in high resolution</div>
+            <div class="detail3">Object detection has been improved and can detect small defects on the surface.</div>
+
+            <div class="detail2">Improve workflows</div>
+            <div class="detail3">Now you can specify the coordinate plane of a particular point or easily change according to the inspection requirements. In addition, suitable surfaces can be recorded and used in various inspection processes, such as comparison points and 2D comparisons.</div>
+
+            <div class="detail2">Surface measurement</div>
+            <div class="detail3">Can now be measured according to the desired surface</div>
+
+            <div class="detail2">Repeated checks</div>
+            <div class="detail3">When selecting reference CAD data and using it as an automatic object, the deviation position can be recalculated using new measurement data and recalculated.</div>
+
+            <div class="detail2">More controlled annotations</div>
+            <div class="detail3">Setting the display of annotations of deviating positions becomes more detailed and possible features to add features such as Space and volume</div>
+        </div>
+
+
+        <div class="table4">
+            <div class="title_green30">Automation</div>
+            <div class="detail2">Automatic server updates</div>
+            <div class="detail3">The Automation Server can now specify options and start using command line arguments.</div>
+
+            <div class="detail2">Add scanning as a reference to results.</div>
+            <div class="detail3">After the scan has been processed, the resulting measurement data will be sent as a reference of the inspection results. Helps increase the speed of automatic checking to compare scan data and scan data.</div>
+
+            <div class="detail2">Hide Geomagic Control X</div>
+            <div class="detail3">In order to improve the ability to automate checking by custom interfaces, you can now start with a minimized window.</div>
+        </div>
+
+
+
+        <p></p><div class="detail3">Manufacture's website : <a href="https://products.datadesign.co.jp/geomagic-cont/specification/2018-3/" class="link" target="_blank">https://products.datadesign.co.jp/geomagic-cont/specification/2018-3/</a></div>
+
+        <div class="blank">&nbsp;</div>
+        <div class="red-footer-center">Number of visitors</div>
+        <div class="black-footer-center"><span class="statcounter"><a href="https://www.statcounter.com/" target="_blank" class="link-m"><img src="https://c41.statcounter.com/3789625/0/6a7f1e17/0/" alt="web hit counter" border="0" class="statcounter"></a></span></div>
+        <div class="black-footer-center"><a href="https://my.statcounter.com/project/standard/stats.php?project_id=3789625&amp;guest=1" target="_blank" class="link-m">All visitor status</a></div>
+
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-82045312-30', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+    </div><!--end content-->
+</div><!--end page-container-->
+<br>
+

@@ -1,0 +1,45 @@
+﻿
+@{
+    
+    ViewBag.Title = "Specifications-Eurela-DataDesignVN";
+    ViewBag.Description = "Eureka implements a complete 3D modeling machine with G code with an easy-to-use interface.";
+    ViewBag.Image = "https://datadesign.vn/Content/eureka/images/Eureka/Production1.png";
+    ViewBag.Url = "https://datadesign.vn/eureka/specifications";
+    Layout = "~/Views/Shared/_Eureka.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/eureka/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/eureka/cssmenu/styles.css">
+
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "specifications",
+        "image" : "https://datadesign.vn/Content/eureka/images/Eureka/Production.jpg",
+        "description" : "Eureka implements a complete 3D modeling machine with G code with an easy-to-use interface.Eureka's simulation helps to prevent the breakage of materials, tools, holders and processing machines that are expensive due to programming errors.",
+        "url" : "https://datadesign.vn/eureka/specifications",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "eureka",
+        "logo" : "https://datadesign.vn/Content/eureka/images/logo/eureka_logo-2.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

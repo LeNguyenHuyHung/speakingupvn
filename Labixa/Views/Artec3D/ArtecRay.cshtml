@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Artec Ray";
+    ViewBag.Description = "Máy quét tầm xa 3D nhanh nhất và chính xác nhất với công nghệ laser để chụp các vật thể lớn như tuabin gió, cánh quạt, máy bay và các tòa nhà. Sản xuất quét 3D chất lượng cao nhất. Artec Ray quét với độ chính xác của khoảng cách milimet và độ chính xác góc tốt nhất.";
+    ViewBag.Image ="https://datadesign.vn/Content/Artec3D/images/artec/Eva/artec-eva-en1.png";
+    ViewBag.Url = "https://datadesign.vn/artecRay";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/artec-ray-styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/worknc/css/reponsive_pc.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Artec Ray",
+        "image" : "https://datadesign.vn/Content/Artec3D/images/artec/artec-ray/ray_main_photo.png",
+        "description" : "High-precision 3D laser scanner is ideal for capturing precise large objects",
+        "url" : "https://datadesign.vn/artecRay",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Artec3D",
+        "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

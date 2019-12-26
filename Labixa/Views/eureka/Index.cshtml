@@ -1,0 +1,49 @@
+﻿
+@{
+   
+    ViewBag.Title = "Eurela-DataDesignVN";
+    ViewBag.Description = "Eureka không chỉ mô phỏng chuyển động NC của máy 5 trục / máy đa chức năng / robot, mà còn hỗ trợ môi trường đám mây riêng, hỗ trợ đăng ký Bất cứ nơi nào / mọi nơi để mô phỏng kết quả xác nhận. Chia sẻ Cải thiện chất lượng dữ liệu cho thiết bị của chủ sở hữu và nhận ra sự an toàn của máy.";
+    ViewBag.Image = "https://datadesign.vn/Content/eureka/images/logo/eureka_logo-21.png";
+    ViewBag.Url = "https://datadesign.vn/eureka";
+    Layout = "~/Views/Shared/_Eureka.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/eureka/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/eureka/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "eureka",
+        "description" : "Cutting simulation and machine movement mechanism Is a realistic simulation of work",
+        "url" : "https://datadesign.vn/eureka",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "eureka",
+        "logo" : "https://datadesign.vn/Content/eureka/images/logo/eureka_logo-2.png"
+        }
+        }
+    </script>
+}
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/eureka/vdo/2018-10-24_13-26-24.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

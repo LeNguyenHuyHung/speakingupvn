@@ -1,0 +1,848 @@
+﻿@{ ViewBag.Title = "Data Design Viet Nam | Công Ty TNHH Data Design Vietnam"; @*| Artec 3D | Scan3D | 3D scanning*@ ViewBag.TitleVi = "Data Design Viet Nam | Công Ty TNHH Data Design Vietnam"; @*| Artec 3D | Scan3D | 3D scanning*@ ViewBag.TitleEng = "Data Design Viet Nam | Company Data Design Vietnam"; ViewBag.languageVi = "Data Design Việt Nam | Artec 3D | Scan3D | 3D scanning"; ViewBag.languageEn = "en-US"; ViewBag.home = "home"; @*var slug = ViewBag.slug;*@ Layout = "~/Views/Shared/_datadesignlayout.cshtml"; var blog1 = (Outsourcing.Data.Models.Blog)ViewData["blog1"]; var blog2 = (Outsourcing.Data.Models.Blog)ViewData["blog2"]; var blogall = (IEnumerable<Outsourcing.Data.Models.Blog>)ViewData["blogall"]; var blogrecruitment = (IEnumerable<Outsourcing.Data.Models.Blog>)ViewData["blogrecruitment"]; var category = (IEnumerable
+<Outsourcing.Data.Models.ProductCategory>)ViewData["category"]; HttpCookie cookie = Request.Cookies["_culture"];}
+@using PagedList.Mvc;
+@using PagedList;
+@using Outsourcing.Core.Common;
+@section scripts{
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "LocalBusiness",
+        "name" : "Data Design Viet Nam",
+        "image" : "https://datadesign.vn/Content/Datadesign-home/logo(1).png",
+        "description" : "Data Design Viet Nam",
+        "url" : "https://datadesign.vn/Home/Index",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Data Design Viet Nam",
+        "logo" : "https://datadesign.vn/Content/Datadesign-home/logo(1).png",
+        "telephone" : "(+84) 028 38115290"}
+        }
+    </script>
+    @*,
+        "address" : {"@@type" : "PostalAddress","addressCountry" : "Viet Nam"},
+        "openingHoursSpecification" : {"@@type" : "OpeningHoursSpecification"},
+        "dayOfWeek" : {
+        "@@type" : "DayOfWeek","name" : "T2 đến T6"},
+        "offers" : {"@@type" : "Offer","price" : "425}
+        }*@
+
+    <script>
+        /*, ".email", ".subject", "description"*/
+
+    </script>
+}
+<style>
+    .services-content {
+        min-height: 318px;
+    }
+
+    .introduction-icon img {
+        width: 43px !important;
+    }
+    /*#basicSlider .MS-content .item, #basicSlider1 .MS-content .item{
+         width:20%!important;
+     }*/
+</style>
+<!--==================================================================== Start Home =====================================================================-->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="container">
+        <span property="dc:title" content="Professional 3D scanning solutions | Artec3D" class="d-none"></span><span class="d-none">Data Design,Data Design Viêt Nam, 3D Scaning, 3D Scan</span>
+        <div class="row">
+            <div class="col-sm-8 sm-offset-2 mx-auto">
+                <div class="banner-content text-center">
+                    <h2>@Resources.DIGITAL_TRANSFORMATION</h2>
+                    <h1>@Resources.Slide_description_h1</h1><strong>@Resources.Slide_description</strong>
+                </div>
+                <!--End banner-content-->
+            </div>
+            <!--End col-sm-8-->
+        </div>
+        <!--End row-->
+        <div class="drop-down"> <a href="#introduction"> @Resources.scroll_down</a><span class="drop-line"></span> </div>
+        <!--End drop-down-->
+    </div>
+    <!--End container-->
+</section>
+<!--==================================================================== End Home=====================================================================-->
+<!--==================================================================== Start Introduction=====================================================================-->@*
+    <style>
+        .introduction-icon img {
+            width: 43px !important;
+        }
+    </style>*@
+<section class="introduction pt-100 pb-70" id="introduction">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="rectangle-one"></div>
+                <div class="triangle-one"></div>
+                <div class="rectangle-two"></div>
+            </div>
+            <div class="col-lg-12 owl-carousel">
+                <div class="introduction-content">
+                    <div class="introduction-icon color2"> <span class="icon "><img class="lazy" data-src="/images/icon/3dgatoway_color1.png" alt="Data-Design-Viet-Nam" /></span><span class="icon icon-linegraph bg-icon"></span> </div>
+                    <!--End introduction-icon-->
+                    <div class="introduction-inner">
+                        <h4>@Resources.Card_Gate</h4>
+                        <p>@Resources.Card_Gate_detail</p>
+                    </div>
+                    <!--End introduction-inner-->
+                </div>
+                <!--End introduction-content-->
+                <div class="introduction-content">
+                    <div class="introduction-icon color3"> <span class="icon"><img class="lazy" data-src="/Images/icon/3dmanufact_color1.png" alt="Data-Design-Viet-Nam" /></span><span class="icon icon-globe bg-icon"></span> </div>
+                    <!--End introduction-icon-->
+                    <div class="introduction-inner">
+                        <h4>@Resources.Card_Manufacturing</h4>
+                        <p>@Resources.Card_Manufacturing_detail</p>
+                    </div>
+                    <!--End introduction-inner-->
+                </div>
+                <!--End introduction-content-->
+                <div class="introduction-content">
+                    <div class="introduction-icon color4"> <span class="icon"><img class="lazy" data-src="/images/icon/3drealistic_color1.png" alt="Data-Design-Viet-Nam" /></span><span class="icon icon-circle-compass bg-icon"></span> </div>
+                    <!--End introduction-icon-->
+                    <div class="introduction-inner">
+                        <h4>@Resources.Card_Visualization</h4>
+                        <p>@Resources.Card_Visualization_detail</p>
+                    </div>
+                    <!--End introduction-inner-->
+                </div>
+                <!--End introduction-content-->
+                <div class="introduction-content">
+                    <div class="introduction-icon color4"> <span class="icon"><img class="lazy" data-src="/Images/icon/3dprocess_color1.png" alt="Data-Design-Viet-Nam" /></span><span class="icon icon-circle-compass bg-icon"></span> </div>
+                    <!--End introduction-icon-->
+                    <div class="introduction-inner">
+                        <h4>@Resources.Card_Process</h4>
+                        <p>@Resources.Card_Process_detail</p>
+                    </div>
+                    <!--End introduction-inner-->
+                </div>
+            </div>
+            <!--End col-lg-12-->
+            <div class="col-lg-12">
+                <div class="rectangle-three"></div>
+                <div class="triangle-three"></div>
+                <div class="rectangle-four"></div>
+            </div>
+        </div>
+        <!--End row-->
+    </div>
+    <!--End container-->
+</section>
+<!--==================================================================== End Introduction=====================================================================-->
+<!--==================================================================== Start About=====================================================================-->@if (blog1 != null)
+{
+    <div class="about pt-100 pb-100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-20">
+                    <div class="section-title">
+                        <h2>@Resources.Welcome</h2> @if (cookie.Value == "" || cookie.Value == "vi")
+                        {
+                            <h3>@blog1.Title</h3>}
+                        else
+                        {
+                            <h3>@blog1.TitleEng</h3>}
+                    </div>
+                    <!--End section-title-->@if (cookie.Value == "" || cookie.Value == "vi")
+                    {
+                        <p>@blog1.Description</p>}
+                    else
+                    {
+                        <p>@blog1.DescriptionEng</p>} <a class="btn-sm" href="#contact">@Resources.Contact_us</a>
+                    </div>
+                    <div class="col-lg-6 owl-carousel">
+                        <!--image 1-->
+                        <div class="about-img">
+                            <div class="overlay"></div><img class="lazy height-img" data-src="@blog1.BlogImage_Default" alt="Data-Design-Viet-Nam">
+                        </div>
+                        <!--End about-img-->
+                        <!--image 3-->
+                        <div class="about-img">
+                            <div class="overlay"></div><img class="lazy height-img" data-src="@blog1.BlogImage_Option" alt="Data-Design-Viet-Nam">
+                        </div>
+                        <!--End about-img-->
+                        <!--image 2-->
+                        <div class="about-img">
+                            <div class="overlay"></div><img class="lazy height-img" data-src="@blog1.BlogImage_Square" alt="Data-Design-Viet-Nam" />
+                        </div>
+                        <!--End about-img-->
+                    </div>
+                    <!--End col-lg-6-->
+                </div>
+                <!--End row-->
+            </div>
+            <!--End container-->
+        </div>}
+<!--==================================================================== End About=====================================================================-->
+<!--==================================================================== Start Skills=====================================================================-->@if (blog2 != null)
+{
+    <section class="skills pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="skills-video lazy" style="background-size: cover;" data-src="/Content/Datadesign-home/img/skills.jpg">
+                        <div class="overlay">
+                            <iframe width="100%" height="100%" class="lazy" src="" data-src="https://www.youtube.com/embed/3vQtiW5_ISg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> @*
+                                <video width="100%" height="100%" controls>
+                                    <source src="~/Content/Datadesign-home/video/Datadesignvn.mp4" type="video/mp4" posster="~/Content/Datadesign-home/img/skills.jpg"> Your browser does not support the video tag. </video>*@
+                        </div>
+                    </div>
+                    <!--End skills-video-->
+                </div>
+                <!--End col-lg-6-->
+                <div class="col-lg-6">
+                    <div class="skills-content pt-20">
+                        <div class="section-title">
+                            <h2>@Resources.What_we_know</h2> @*
+                                <h3>Meet Our Skills</h3>*@ @if (cookie.Value == "" || cookie.Value == "vi")
+                            {
+                                <h3>@blog2.Title</h3>}
+                            else
+                            {
+                                <h3>@blog2.TitleEng</h3>}
+                            </div>
+                            <!--End section-title-->@if (cookie.Value == "" || cookie.Value == "vi")
+                            {
+                                <p>@Html.Raw(blog2.Content)</p>}
+                            else
+                            {
+                                <p>@Html.Raw(blog2.ContentEng)</p>} <a class="btn-sm" href="#">@Resources.Read_more</a>
+                            </div>
+                            <!--End skills-content-->
+                        </div>
+                        <!--End col-lg-6-->
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End container-->
+            </section>}
+<!--==================================================================== End Skills=====================================================================-->
+<!--==================================================================== Start Services=====================================================================-->
+<section class="services pt-95 pb-70" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lg-offset-2 mx-auto">
+                <div class="section-title text-center">
+                    <h2>@Resources.Our_Services</h2>
+                    <h3>@Resources.What_Can_We_Do</h3>
+                    <p>@Resources.Our_Services_Detail</p>
+                </div>
+                <!--End section-title-->
+            </div>
+            <!--End col-lg-8-->
+        </div>
+        <!--End row-->
+        <div class="row">
+            <!--Service 1-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="services-content">
+                    <div class="services-icon color1"> <span class="icon icon-pencil"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-pencil.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-pencil bg-icon"></span> </div>
+                    <!--End services-icon-->
+                    <div class="services-inner">
+                        <h4>@Resources.User_Interface</h4>
+                        <p>@Resources.User_Interface_detail</p>
+                    </div>
+                    <!--End services-inner-->
+                </div>
+                <!--End services-content-->
+            </div>
+            <!--End col-lg-4-->
+            <!--Service 2-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="services-content">
+                    <div class="services-icon color2"> <span class="icon icon-flag"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-flag.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-flag bg-icon"></span> </div>
+                    <!--End services-icon-->
+                    <div class="services-inner">
+                        <h4>@Resources.User_Experience</h4>
+                        <p>@Resources.User_Experience_detail</p>
+                    </div>
+                    <!--End services-inner-->
+                </div>
+                <!--End services-content-->
+            </div>
+            <!--End col-lg-4-->
+            <!--Service 3-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="services-content">
+                    <div class="services-icon color3"> <span class="icon icon-lightbulb"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-lightbulb.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-lightbulb bg-icon"></span> </div>
+                    <!--End services-icon-->
+                    <div class="services-inner">
+                        <h4>@Resources.Creative_Design</h4>
+                        <p>@Resources.Creative_Design_detail</p>
+                    </div>
+                    <!--End services-inner-->
+                </div>
+                <!--End services-content-->
+            </div>
+            <!--End col-lg-4-->
+            <!--Service 4-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="services-content sub-services-content">
+                    <div class="services-icon color4"> <span class="icon icon-puzzle"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-puzzle.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-puzzle bg-icon"></span> </div>
+                    <!--End services-icon-->
+                    <div class="services-inner">
+                        <h4>@Resources.Clean_Code</h4>
+                        <p>@Resources.Clean_Code_detail</p>
+                    </div>
+                    <!--End services-inner-->
+                </div>
+                <!--End services-content-->
+            </div>
+            <!--Service 5-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="services-content">
+                    <div class="services-icon color3"> <span class="icon icon-tools"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-lightbulb.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-tools bg-icon"></span> </div>
+                    <!--End services-icon-->
+                    <div class="services-inner">
+                        <h4>@Resources.SCANNING_3D</h4>
+                        <p>@Resources.SCANNING_3D_Detail</p>
+                    </div>
+                    <!--End services-inner-->
+                </div>
+                <!--End services-content-->
+            </div>
+            <!--End col-lg-4-->
+            <!--Service 6-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="services-content sub-services-content">
+                    <div class="services-icon color4"> <span class="icon icon-hourglass"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-puzzle.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-hourglass bg-icon"></span> </div>
+                    <!--End services-icon-->
+                    <div class="services-inner">
+                        <h4>@Resources.MODELING_3D</h4>
+                        <p>@Resources.MODELING_3D_Detail</p>
+                    </div>
+                    <!--End services-inner-->
+                </div>
+                <!--End services-content-->
+            </div>
+            <!--End col-lg-4-->
+            <!--Service 5-->
+            <!--End col-lg-4-->
+        </div>
+        <!--End row-->
+    </div>
+    <!--End container-->
+</section>
+<!--==================================================================== End Services=====================================================================-->
+<!--=========================================================================================================================================-->
+<!--==================================================================== Start Tabs=====================================================================-->
+@if (blog2 != null)
+{
+    <section class="Tabs pt-100">
+
+        <div class="container">
+            <div class="section-title text-center">
+                <h3 class="">@Resources.Outstanding_Product</h3>
+            </div>
+            <!-- Nav pills -->
+            <div>
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#Artect3d">Artect3D</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="pill" href="#Keyshot">@Resources.Key_Shot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#Geomagicdx">Geomagic Design X</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#WorkNC">WorkNC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#Markforged">Markforged</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Tab panes -->
+            <div class="tab-content pb-80">
+                <div id="Artect3d" class="container tab-pane active">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>@Resources.SubContentArtect</h3><br>
+                            <p>@Resources.ContentArtect</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="lazy" data-src="/Content/Artec3D/images/artec/space_spider/artec-spider-big-en.png" alt="Data-Design-Viet-Nam" style="width:100%; height:auto" />
+                        </div>
+                    </div>
+                </div>
+                <div id="Keyshot" class="container tab-pane fade">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>@Resources.SubContentKeyShot</h3><br>
+                            <p>@Resources.ContentKeyShot</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12"><img class="lazy" data-src="/Content/Datadesign-home/img/Tabs/ezgif-4-c01d743e39c3.png" alt="Data-Design-Viet-Nam" style="width:100%; height:476px" /></div>
+                    </div>
+                </div>
+                <div id="Geomagicdx" class="container tab-pane fade">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>@Resources.SubContentGeomagic</h3><br>
+                            <p>@Resources.ContentGeomagic</p>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="lazy" data-src="/Content/Datadesign-home/img/Tabs/pipe-sworks-3.png" alt="Data-Design-Viet-Nam" style="width:100%; height:auto" />
+                        </div>
+                    </div>
+                </div>
+                <div id="WorkNC" class="container tab-pane fade">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>@Resources.SubContentWorkNC</h3><br>
+                            <p>@Resources.ContentWorkNC</p>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="lazy" data-src="/Content/worknc/images/worknc/wnc.png" alt="Data-Design-Viet-Nam" style="width:100%; height:auto" />
+                        </div>
+                    </div>
+                </div>
+                <div id="Markforged" class="container tab-pane fade">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>@Resources.SubContentMarkforged</h3><br>
+                            <p>@Resources.ContentMarkforged</p>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="lazy" data-src="../images/markforged/material/A9R55kmig_1k20v5n_8b8.png" alt="Data-Design-Viet-Nam" style="width:100%; height:auto" />
+                        </div>
+                    </div>
+                </div>
+                <div id="ProfileCompany" class="container tab-pane fade d-none">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Data Design Việt Nam</h3>
+                            <h2>@Resources.ProfileCompany</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End container-->
+    </section>}
+<!--==================================================================== Start EndTabs=====================================================================-->
+<!--=========================================================================================================================================-->
+<!--==================================================================== Start Work=====================================================================-->
+<section class="work pt-95 pb-70" id="work">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lg-offset-2 mx-auto">
+                <div class="section-title text-center">
+                    <h2>@Resources.Solution</h2>
+                    <h3>@Resources.Solution_Product_title</h3>
+                    <p>@Resources.Solution_Product_detail</p>
+                </div>
+                <!--End section-title-->
+            </div>
+            <!--End col-lg-8-->
+            <div class="col-sm-12">
+                <div class="work-filter text-center mb-40">
+                    <!-- filter List -->
+                    <ul id="control" class="list-filter">
+                        <li class="active" data-filter="all">All</li> @foreach (var cate in category)
+                        {
+                            <li data-filter="@cate.Id">@cate.Name</li>
+                        } @*
+                            <li data-filter="2">3D Scanning</li>
+                            <li data-filter="3">3D Printing</li>*@
+                    </ul>
+                </div>
+                <!--End work-filter-->
+            </div>
+            <!--End col-sm-12-->
+        </div>
+        <!--end row-->
+        <div id="filtr-container" class="row">
+            <!--work1-->@foreach (var product in category)
+            {
+                foreach (var pro in product.Products.Take(3))
+                {
+                    <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="@pro.ProductCategoryId" data-sort="value">
+                        <div class="work-item popup-img creative-work">
+                            <div class="work-content">
+                                <img class="lazy height-work" data-src="@pro.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="Data-Design-Viet-Nam">
+                                <div class="popup-title">
+                                    <div class="work-inner">
+                                        <a href="@pro.Content" class="title" @*target="_blank" *@>
+                                            <h6 style="color:#E06E31">
+                                                @if (cookie.Value == "vi")
+                                                {@pro.Name}
+                                            else
+                                            {@pro.NameEng}
+                                            </h6>
+                                        </a> @if (cookie.Value == "vi")
+                                        {
+                                            <p class="category">@pro.Description</p>}
+                                        else
+                                        {
+                                            <p class="category">@pro.DescEng</p>}
+                                    </div>
+                                </div>
+                                <!--End popup-title-->
+                            </div>
+                            <!--End work-content-->
+                        </div>
+                        <!--End work-item-->
+                    </div>}
+            }
+        </div>
+        <!--End container-->
+</section>
+<!--==================================================================== End Work=====================================================================-->
+<!--==================================================================== Start BlogHome=====================================================================-->
+<section class="bloghome pt-95 pb-70" id="bloghome">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 lg-offset-2 mx-auto pt-10">
+                <div class="section-title text-center blog-size">
+                    <h2>@Resources.Blog</h2>
+                </div>
+                <!--End section-title-->
+            </div>
+            <!--End col-lg-8-->
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="mixedSlider">
+            <div class="MS-content">
+                @if (blogall != null)
+                {
+                    if (cookie.Value == "vi")
+                    {
+                        foreach (var item in blogall)
+                        {
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle"><a href="/tin-tuc/@item.Slug">@slitString.TruncateAtWord(item.Title, 70)</a></h2>
+                                    <figure title="@item.Title"><img class="lazy height-img-blog" data-src="@item.BlogImage_Default" alt="@item.Title | Data Design Việt Nam" /></figure>
+                                </div>
+                                <p>@slitString.TruncateAtWord(item.Description, 150)</p>
+                                @{ string[] a = item.DateCreated.ToString().Split(' '); }
+                                <p class="text-right">@a[0]</p>
+                                <a href="/tin-tuc/@item.Slug">@Resources.Continue_Reading</a>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        foreach (var item in blogall)
+                        {
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle"><a href="/tin-tuc/@item.Slug">@slitString.TruncateAtWord(item.TitleEng, 70)</a></h2>
+                                    <figure title="@item.TitleEng"><img class="lazy height-img-blog" data-src="@item.BlogImage_Default" alt="@item.TitleEng | Data Design Vietnam" /></figure>
+
+                                </div>
+                                <p>@slitString.TruncateAtWord(item.DescriptionEng, 150)</p>
+                                @{ string[] a = item.DateCreated.ToString().Split(' '); }
+                                <p class="text-right">@a[0]</p>
+                                <a href="/tin-tuc/@item.Slug">@Resources.Continue_Reading</a>
+                            </div>
+                        }
+                    }
+                }
+            </div>
+            <div class="MS-controls">
+                <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+
+        <div class="col-lg-12 section-title pt-50 blog-size" style="text-align:center"><h2><a href="/tin-tuc">>>@Resources.ShowAllBlog<<</a></h2></div>
+    </div>
+</section>
+<!--==================================================================== End BlogHome=====================================================================-->
+<!--==================================================================== Start Recruitment=====================================================================-->
+<section class="recruitment pb-70 pt-70" id="recruitment">
+    <div class="container">
+        @*title-recruitment*@
+        <div class="row">
+            <div class="col-lg-8 lg-offset-2 mx-auto pt-10">
+                <div class="section-title text-center blog-size">
+                    <h2>@Resources.Recruitment</h2>
+                </div>
+                <!--End section-title-->
+            </div>
+            <!--End col-lg-8-->
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="mixedSlider1">
+            <div class="MS-content">
+                @if (blogrecruitment != null)
+                {
+                    if (cookie.Value == "vi")
+                    {
+                        foreach (var item in blogrecruitment)
+                        {
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle"><a href="/tuyen-dung/@item.Slug">@slitString.TruncateAtWord(item.Title, 70)</a></h2>
+                                    <figure title="@item.Title"><img class="lazy height-img-blog" data-src="@item.BlogImage_Default" alt="@item.Title | Data Design Việt Nam" /></figure>
+                                </div>
+                                <p>@slitString.TruncateAtWord(item.Description, 150)</p>
+                                @{ string[] a = item.DateCreated.ToString().Split(' '); }
+                                <p class="text-right">@a[0]</p>
+                                <a href="/tuyen-dung/@item.Slug">@Resources.ApplyNow</a>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        foreach (var item in blogrecruitment)
+                        {
+                            <div class="item">
+                                <div class="imgTitle">
+                                    <h2 class="blogTitle"><a href="/tuyen-dung/@item.Slug">@slitString.TruncateAtWord(item.TitleEng, 70)</a></h2>
+                                    <figure title="@item.TitleEng"><img class="lazy height-img-blog" data-src="@item.BlogImage_Default" alt="@item.TitleEng | Data Design Vietnam" /></figure>
+
+                                </div>
+                                <p>@slitString.TruncateAtWord(item.DescriptionEng, 150)</p>
+                                @{ string[] a = item.DateCreated.ToString().Split(' '); }
+                                <p class="text-right">@a[0]</p>
+                                <a href="/tuyen-dung/@item.Slug">@Resources.ApplyNow</a>
+                            </div>
+                        }
+                    }
+                }
+            </div>
+            <div class="MS-controls">
+                <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+
+        <div class="col-lg-12 section-title pt-50 blog-size" style="text-align:center"><h2><a href="/tuyen-dung">>>@Resources.ShowAllBlog<<</a></h2></div>
+    </div>
+</section>
+<!--==================================================================== End Recruitment=====================================================================-->
+<!--==================================================================== Start Partner=====================================================================-->
+<section class="partner pt-50 pb-110">
+    <div class="container pb-20">
+        <div class="row">
+            <div class="col-lg-8 lg-offset-2 mx-auto pt-10">
+                <div class="section-title text-center blog-size">
+                    <h2>@Resources.Logo_product</h2>
+                    <p class="star-list" style="color:#ffba00">  <i class="fa fa-star yellow-star"></i>  <i class="fa fa-star yellow-star"></i>  <i class="fa fa-star yellow-star"></i>  <i class="fa fa-star yellow-star"></i>  <i class="fa fa-star yellow-star"></i>  </p>
+                </div>
+                <!--End section-title-->
+            </div>
+            <!--End col-lg-8-->
+        </div>
+    </div>
+    <div class="container">
+        <div id="basicSlider">
+            <div class="MS-content">
+                @Html.Action("GetPartner", "Home")
+            </div>
+        </div>
+    </div>
+</section>
+<!--==================================================================== End Partner=====================================================================-->
+<!--==================================================================== Start numbers=====================================================================-->
+<section class="numbers pt-100 pb-100 ">
+    <div class="number-wave lazy" style="background-size: cover;" data-src="/Content/Datadesign-home/img/numbers.jpg"> </div> @*
+        <picture class="number-wave lazy" style="background-size: cover;">
+            <source srcset="/Content/Datadesign-home/img/numbers2x.jpg" media="(min-width: 768px)">
+            <source srcset="/Content/Datadesign-home/img/numbers1.jpg" media="(min-width: 576px)"> <img srcset="/Content/Datadesign-home/img/numbers.jpg" alt="…"> </picture>*@
+    <!--End number-wave-->
+    <div class="container">
+        <div class="row number-outer">
+            <!--number 1-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="number-item text-center">
+                    <div class="number-content">
+                        <h5 class="counter color1">356</h5>
+                        <p>@Resources.Clients</p>
+                    </div>
+                    <!--End number-content-->
+                </div>
+                <!--End number-item-->
+            </div>
+            <!--End col-lg-3-->
+            <!--number 2-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="number-item text-center mt-80">
+                    <div class="number-content">
+                        <h5 class="counter color2">425</h5>
+                        <p>@Resources.Projects</p>
+                    </div>
+                    <!--End number-content-->
+                </div>
+                <!--End number-item-->
+            </div>
+            <!--End col-lg-3-->
+            <!--number 4-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="number-item text-center mt-60">
+                    <div class="number-content">
+                        <h5 class="counter color4">1023</h5>
+                        <p>@Resources.Feedbacks</p>
+                    </div>
+                    <!--End number-content-->
+                </div>
+                <!--End number-item-->
+            </div>
+            <!--End col-lg-3-->
+        </div>
+        <!--End row-->
+    </div>
+    <!--End container-->
+</section>
+<!--==================================================================== End Numbers=====================================================================-->
+<!--=========================================================================================================================================-->
+<!--==================================================================== Start Project=====================================================================-->
+<section class="projects pt-85 pb-110">
+    <div class="number-wave lazy" style="background-size: cover;" data-src="/Content/Datadesign-home/img/projects.jpg"> </div>
+    <!--End number-wave-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 lg-offset 1 mx-auto text-center">
+                <h2>@Resources.Question_Contact_before<span>@Resources.Projects</span> @Resources.Question_Contact_after</h2><a href="#contact" class="btn-sm">@Resources.Contact_us</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==================================================================== End Project=====================================================================-->
+<!--=========================================================================================================================================-->
+<!--==================================================================== Start Contact=====================================================================-->
+<section class="contact pt-95 pb-70" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 lg-offset-2 mx-auto">
+                <div class="section-title text-center">
+                    <h2>@Resources.Contact_us</h2>
+                    <h3>@Resources.Drop_us_message</h3>
+                    <p></p>
+                </div>
+                <!--End section-title-->
+            </div>
+            <!--End col-lg-8-->
+        </div>
+        <!--End row-->
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="contact-content">
+                                <div class="contact-icon color1"> <span class="icon icon-streetsign"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-streetsign.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-streetsign bg-icon"></span> </div>
+                                <!--End contact-icon-->
+                                <div class="contact-inner">
+                                    <h4>@Resources.Visit</h4>
+                                    <p>@Resources.Address_contact</p>
+                                </div>
+                                <!--End contact-inner-->
+                            </div>
+                            <!--End contact-content-->
+                        </div>
+                        <!--End col-sm-12-->
+                        <div class="col-sm-12">
+                            <div class="contact-content">
+                                <div class="contact-icon color2"> <span class="icon icon-phone"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-phone.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-phone bg-icon"></span> </div>
+                                <!--End contact-icon-->
+                                <div class="contact-inner">
+                                    <h4>@Resources.Call</h4>
+                                    <p>(+84) 028 38115290</p>
+                                </div>
+                                <!--End contact-inner-->
+                            </div>
+                            <!--End contact-content-->
+                        </div>
+                        <!--End col-sm-12-->
+                        <div class="col-sm-12">
+                            <div class="contact-content">
+                                <div class="contact-icon color3"> <span class="icon icon-chat"></span>@*<img class="lazy" data-src="/Content/Datadesign-home/icon/icon-chat.png" alt="Data-Design-Viet-Nam" />*@<span class="icon icon-chat bg-icon"></span> </div>
+                                <!--End contact-icon-->
+                                <div class="contact-inner">
+                                    <h4>@Resources.Contact_us_email</h4>
+                                    <p>sales-ddv@datadesign.vn</p>
+                                </div>
+                                <!--End contact-inner-->
+                            </div>
+                            <!--End contact-content-->
+                        </div>
+                        <!--End col-sm-12-->
+                    </div>
+                    <!--End row-->
+                </div>
+                <!--End container-->
+            </div>
+            <!--End col-lg-5-->
+            <div class="col-lg-7">
+                <div class="container">
+                    <form action="/Home/SendMessage" method="post" id="formContacts" class="contact-form">
+                        @*/Home/SendMessage*@
+                        <div class="row">
+                            <input type="hidden" name="Phone" value="0909090909" />
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input class="form-control name" type="text" name="Name" placeholder="@Resources.Your_name">
+                                </div>
+                            </div>
+                            <!--End col-lg-6-->
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input class="form-control email" type="email" name="skype" placeholder="@Resources.Your_email" required id="txtEmail"><span class="msg error">@Resources._Erro_email</span><span class="msg success">@Resources._Success_email</span>
+                                </div>
+                            </div>
+                            <!--End col-lg-6-->
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input class="form-control subject" type="text" name="Yahoo" placeholder="@Resources.Your_Subject">
+                                </div>
+                            </div>
+                            <!--End col-lg-12-->
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea class="form-control description" name="Description" placeholder="@Resources.Type_your_message" required></textarea>
+                                </div>
+                            </div>
+                            <!--End col-lg-12-->
+                            <!--Contact button-->
+
+                            <button type="submit" class="btn-sm" id="form-contact-submit" value="Send">@Resources.Btn_Send_Message</button>
+
+
+                        </div>
+                        <!--End row-->
+                    </form>
+                    <!--End contact-form-->
+                </div>
+                <!--End container-->
+            </div>
+            <!--End col-lg-7-->
+        </div>
+        <!--End row-->
+    </div>
+    <!--End container-->
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 rsemail" style="display:none;text-align:center; color:green">
+                <p> <img src="https://datadesign.vn/Content/Datadesign-home/logo (1).png" alt="Data Design Việt Nam" style="width:30%; height:30%;padding-top:20px; "></p>
+                <span style="padding-top:24px;font-size: 20px;" class="pt-infor">Cảm ơn bạn đã gửi thông tin đến cty chúng tôi.</span>
+                <span style="padding-top:5px;font-size: 20px;">Chúng tôi sẽ gửi thông tin đến bạn. </span>
+                <div class="lds-ring" style="display:block;margin-left: 46%;"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==================================================================== End Contact =====================================================================-->

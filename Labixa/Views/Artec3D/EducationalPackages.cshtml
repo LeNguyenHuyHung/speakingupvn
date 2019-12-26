@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Educational Packages";
+    ViewBag.Description = "Có thể dùng với trường học, trường đại học và các viện nghiên cứu";
+    ViewBag.Image = "https://datadesign.vn/Content/Artec3D/images/artec/educational/education-title@2x1.png";
+    ViewBag.Url = "https://datadesign.vn/educationalPackages";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/educational-packages-styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Education Artec3D",
+        "image" : "https://datadesign.vn/Content/Artec3D/images/artec/educational/education-title%402x.jpg",
+        "description" : "Advanced 3D technology at a great price Can be used with schools, universities and research institutes",
+        "url" : "https://datadesign.vn/educationalPackages",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Artec3D",
+        "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

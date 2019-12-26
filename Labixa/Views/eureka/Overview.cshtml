@@ -1,0 +1,44 @@
+﻿
+@{
+        ViewBag.Title = "Overview-Eurela-DataDesignVN";
+    ViewBag.Description = "NC Simulation Eureka là phần mềm theo dõi các điều kiện cắt và gián đoạn chuyển động của các bộ phận máy bằng cách mô phỏng các máy ảo chuyển động NC của máy xử lý 5 trục, máy tiện tích hợp, robot.";
+    ViewBag.Image = "https://datadesign.vn/Content/eureka/images/Eureka/SnapCrab_NoName_2018-1-29_11-39-10_No-00-11.png";
+    ViewBag.Url = "https://datadesign.vn/eureka/overview";
+    Layout = "~/Views/Shared/_Eureka.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/eureka/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/eureka/cssmenu/styles.css">
+
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "overview",
+        "image" : "https://datadesign.vn/Content/eureka/images/Eureka/B2220695_2.jpg",
+        "description" : "What is the Eureka simulation?",
+        "url" : "https://datadesign.vn/eureka/overview",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "eureka",
+        "logo" : "https://datadesign.vn/Content/eureka/images/logo/eureka_logo-2.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Function3Axis-Datadesign Việt Nam";
+    ViewBag.Description = "Chúng tôi tự động phân loại hình dạng và tự động tạo ra các công cụ có độ chính xác cao bằng cách sử dụng gia công thô phức tạp, gia công thô hiệu suất cao, mô hình ba chiều trong nhận dạng mẫu chứng khoán, không chỉ là độ dốc nghiêng / nhẹ, mà còn với mặt phẳng và mặt phẳng thẳng đứng, phay tự động các khu vực góc để xử lý hoàn thiện chất lượng cao có thể được thực hiện với một nút.";
+    ViewBag.Url = "https://datadesign.vn/worknc/function-3-axis";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "ffunction-3-axis",
+        "image" : "https://datadesign.vn/Content/worknc/images/worknc/3-cam-01.jpg",
+        "description" : "We automatically classify shapes and automatically create high-precision tools using complex, rough machining, high-performance rough machining, three-dimensional patterns in stock pattern identification, not just The inclined / gentle slopes, but also with planes and vertical planes, automatic milling of corner areas for high quality finishing processing can be done with one button.",
+        "url" : "https://datadesign.vn/worknc/function-3-axis",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Worknc",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}    

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Các bộ phận hỗn hợp được làm bằng công nghệ và vật liệu Markforged có sức mạnh vượt trội. Các vật liệu được gia cố bằng cách thêm các sợi dài vào nhựa cơ sở và có thể tạo ra các bộ phận đòi hỏi độ bền cao, độ bền, khả năng chịu nhiệt, ổn định và linh hoạt.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/material/724-wf-cfa139b1-0080-45da-8107-61be343b4fa1-6-768x4322.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedprinter/material";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link href="~/Content/marforge/css/body-styles.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link href="~/Content/marforge/cssmenu/styles.css" rel="stylesheet" />
+    <link href="~/Content/marforge/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Materials",
+        "image" : "https://datadesign.vn/images/markforged/material/724-wf-cfa139b1-0080-45da-8107-61be343b4fa1-6-768x432.jpg",
+        "description" : "This is the main material for the Onyx One and Markforged 3D printers (except Metal X).
+        <BR />\nONYX is a beautiful black fiber that has been added by adding a fine carbon to the tough nylon.",
+        "url" : "https://datadesign.vn/material",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

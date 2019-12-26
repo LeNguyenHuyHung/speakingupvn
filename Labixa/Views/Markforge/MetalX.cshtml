@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Markforged, một máy in 3D tuyệt vời có thể được đúc với các bộ phận mạnh nhất và linh hoạt nhất của Markforged, được gia cố bằng chiều dài sợi riêng.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/metal-x/2017-11-29_11h30_541.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedprinter/metalx";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Metal X",
+        "image" : "https://datadesign.vn/images/markforged/metal-x/metal.png",
+        "description" : "Metal X laminated metal, which combines the new Markforged technology, making it possible to make up.",
+        "url" : "https://datadesign.vn/markforgedPrinter/metalx",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+
+        @*<script type="application/ld+json">
+            {
+            "@@context" : "http://schema.org",
+            "@@type" : "Product",
+            "name" : "\"3D Markforged Printer",
+            "image" : "https://datadesign.vn/images/markforged/logo-horizontal.png",
+            "description" : "The final coating with strength / heat resistance
+            <BR />\nComposite coating and new 3D printer / metal coating method",
+            "url" : "https://datadesign.vn/markforgedPrinter",
+            "brand" : {
+            "@@type" : "Brand",
+            "name" : "Data Design",
+            "logo" : "https://datadesign.vn/Content/Datadesign-home/logo%20(1).png"
+            }
+            }
+        </script>*@
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

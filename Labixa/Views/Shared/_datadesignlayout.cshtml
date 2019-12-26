@@ -1,0 +1,443 @@
+﻿@{ HttpCookie cookie = Request.Cookies["_culture"];}@if (cookie.Value == "vi") { ViewBag.languageVi = "vi-VN"; } else { ViewBag.languageVi = "en-US"; }
+
+<!DOCTYPE html>
+<html lang=@ViewBag.languageVi>
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-58Q2RGD'); console.log(document.documentElement.lang + "1");</script> <!-- End Google Tag Manager -->
+    <script>function setCookie(name, id) { var today = new Date(); var expiry = new Date(today.getTime() + 365 * 24 * 3600 * 1000); /* plus 30 days*/ var element = document.getElementById(id); var elementValue = escape(element.value); document.cookie = name + "=" + elementValue + "; path=/; expires=" + expiry.toGMTString(); alert(@*elementValue*@"Chân thành cảm ơn bạn đã quan tâm trang web của chúng tôi."); } function storeValues(form) { setCookie("email", form.email - field.value); return true; } function displayCookieValue(name) { var value = getCookie(name); var element = document.getElementById("value"); element.innerHTML = "Cookie name: " + name + ", value " + value; } function getCookie(name) { var re = new RegExp(name + "=([^;]+)"); var value = re.exec(document.cookie); return (value != null) ? unescape(value[1]) : null; alert(value); }</script>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Data Design Việt Nam, data design, data design vietnam, Scan3D,Scan 3D,3D scanning, 3D printting, Artec 3D, markforged, Cad/CAM ">
+    <meta name="author" content="Data Design Viet Nam">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="website"><!-- Main Page Title -->
+    <meta name="google-site-verification" content="JD4IaozDQh9h1VPdTEQoJgpFjM2HzrdgLcgQ4nrU3j0" />
+    <meta name="twitter:title" content="Data Design Việt Nam"> @*| Artec 3D | Scan3D | 3D scanning*@
+    <meta name="twitter:site" content="Datadesignvietnam">
+    <meta name="twitter:creator" content="Datadesignvietnam">
+
+    @if (cookie.Value == "vi")
+    {
+        <title>@ViewBag.TitleVi </title>
+    }
+    else
+    {
+        <title>@ViewBag.TitleEng </title>
+    }
+
+    <link rel="icon" href="~/Content/Datadesign-home/logo-favi.png" type="image/x-icon" />
+
+    @RenderSection("scripts", required: true) @{ var returnUrl = Request.RawUrl.Contains('?') ? Request.RawUrl.Replace("/", "") : ViewBag.ReturnUrl; /*var slug = ViewBag.ReturnUrl+"/";*/ var slug = ViewBag.Slug; } @if (ViewBag.Title != null)
+    {
+        <meta property="og:title" content="@ViewBag.Title"><!-- Main Page Title --> }
+    else
+    {
+        <meta property="og:title" content="Data Design Viet Nam"><!-- Main Page Title -->} @if (ViewBag.Description != null)
+    {
+        <meta name="description" content="@ViewBag.Description">
+        <meta property="og:description" content="@ViewBag.Description">
+    }
+    else
+    {
+        <meta property="og:description" content="Data Design Viet Nam Cong ty chuyen cung cap giai phap tong the ve cong nghe 3D Scanning, 3D Scan , Printing , Data Design Viet Nam cung cap cac nghiep vu cho dung mo hinh 3D, in 3D, thiet bi may moc ho tro ve linh vuc 3D"><!-- Main Page Title -->
+        <meta name="description" content="Data Design Viet Nam Cong ty chuyen cung cap giai phap tong the ve cong nghe 3D Scanning, 3D Scan , Printing , Data Design Viet Nam cung cap cac nghiep vu cho dung mo hinh 3D, in 3D, thiet bi may moc ho tro ve linh vuc 3D">
+    } @if (ViewBag.Image != null)
+        {
+            <meta property="og:image" content="@ViewBag.Image">
+        }
+        else
+        {
+            <meta property="og:image" content="https://datadesign.vn/Content/Datadesign-home/logo-favi1.png"><!-- Main Page Title -->} @if (ViewBag.Url != null)
+    {
+        <meta property="og:url" content="@ViewBag.Url">
+        <link rel="canonical" href="@ViewBag.Url">
+
+    }
+    else
+    {
+        <meta property="og:url" content="https://datadesign.vn/"><!-- Main Page Title -->
+        <link rel="canonical" href="https://datadesign.vn/">
+        <link href="https://datadesign.vn/" hreflang="en" rel="alternate">
+        <link href="hhttps://datadesign.vn/" hreflang="vi-VN" rel="alternate">
+
+    }   <!-- Google Font -->
+            @*<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900%7cOpen+Sans:400,600,700,800" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">*@
+            @*<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=vietnamese" rel="stylesheet">*@
+            <!--Bootstrap-->
+            @*<link rel="stylesheet" href="/content/datadesign-home/css/bootstrap.min.css">*@
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            @*<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">*@
+            <!--Owl carousel-->
+            <link rel="stylesheet" href="/content/datadesign-home/css/owl.carousel.min.css">
+            @*<link rel="stylesheet" href="/content/datadesign-home/css/owl.transitions.css">
+                <link rel="stylesheet" href="/content/datadesign-home/css/owl.carousel.css">*@
+            <link rel="stylesheet" href="/Content/Datadesign-home/css/owl.theme.default.min.css">
+            @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">*@
+
+            <!--Etline icons-->
+            <link rel="stylesheet" href="/Content/Datadesign-home/css/et-line.css">
+            <!--Font awesome icons-->
+            <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            @*<link rel="stylesheet" href="/Content/Datadesign-home/css/all.min.css">*@
+            @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">*@
+            <!--Magnific Popup-->
+            <link rel="stylesheet" href="/Content/Datadesign-home/css/magnific-popup.css">
+            @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">*@
+            <!-- Main style css -->
+            @*<link rel="stylesheet" href="/content/datadesign-home/css/main.css">*@
+            <link rel="stylesheet" href="/Content/Datadesign-home/css/main.min.css">
+            <!-- responsive css -->
+            @*<link rel="stylesheet" href="/Content/Datadesign-home/css/responsive.css">*@
+            <link rel="stylesheet" type="text/css" href="/Content/Datadesign-home/css/responsive.min.css">
+            @*<link rel="stylesheet" href="~/Content/Datadesign-home/css/submenu.css">*@
+            <link rel="stylesheet" href="~/Content/Datadesign-home/css/submenu.min.css">
+            @*<link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">*@
+            <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.min.css">
+            @*<link rel="stylesheet" href="~/Content/Datadesign-home/css/googletag.css">*@
+            <link rel="stylesheet" href="~/Content/Datadesign-home/css/googletag.min.css">
+            <link rel="stylesheet" href="~/Content/Datadesign-home/css/multislider.css">
+            <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+            @*<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>*@
+            <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2" as="font" crossorigin>
+            <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font" crossorigin>
+            <script src="/content/datadesign-home/js/jquery.js"></script>
+            <style>
+
+                /* vietnamese */
+                @@font-face {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-display: swap;
+                    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+                    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+                }
+                /* latin */
+                @@font-face {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-display: swap;
+                    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+                    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                .navbar-nav .nav-item .nav-link:hover:after, .navbar-nav .nav-item .nav-link:focus:after, .navbar-nav .nav-item .nav-link.active:after, .navbar-nav .dropdown-menu a:hover:after, .navbar-nav .dropdown-menu a:focus:after {
+                    transform: none !important;
+                }
+
+                .nav-fixed-1 .navbar-nav .active > .nav-link, .nav-fixed-1 .navbar-nav .nav-link.active, .nav-fixed-1 .navbar-nav .nav-link.show, .nav-fixed-1 .navbar-nav .show > .nav-link {
+                    color: #444 !important;
+                }
+
+                .navbar-1 {
+                    position: relative;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    padding: .5rem 1rem;
+                    background-color: black;
+                }
+
+                .navbar-expand-lg-1 {
+                    -ms-flex-flow: row nowrap;
+                    flex-flow: row nowrap;
+                    -ms-flex-pack: start;
+                    justify-content: flex-start;
+                }
+
+                .fixed-top-1 {
+                    position: fixed;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    z-index: 1030;
+                }
+
+                .navbar-1 > .container, .navbar-1 > .container-fluid {
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                }
+
+                .navbar-collapse {
+                    -ms-flex-preferred-size: 100%;
+                    flex-basis: 100%;
+                    -ms-flex-positive: 1;
+                    flex-grow: 1;
+                    -ms-flex-align: center;
+                    align-items: center;
+                }
+
+                .navbar-nav .nav-item-1 .nav-link-1, .navbar-nav .dropdown-menu-1 a {
+                    color: #fff;
+                    font-size: 11px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    padding: 0;
+                    font-family: 'poppins', sans-serif;
+                    margin: 12px 10px;
+                    position: relative;
+                    -webkit-transition: 0.4s ease-in-out;
+                    -moz-transition: 0.4s ease-in-out;
+                    -ms-transition: 0.4s ease-in-out;
+                    -o-transition: 0.4s ease-in-out;
+                    transition: 0.4s ease-in-out;
+                    z-index: 1;
+                    display: block;
+                }
+
+                .dropdown-menu.show-1 {
+                    display: block;
+                }
+
+                .dropdown-menu-1 {
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    z-index: 1000;
+                    display: none;
+                    float: left;
+                    min-width: 10rem;
+                    padding: .5rem 0;
+                    margin: .125rem 0 0;
+                    font-size: 1rem;
+                    color: #212529;
+                    text-align: left;
+                    list-style: none;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid rgba(0,0,0,.15);
+                    border-radius: .25rem;
+                }
+                /*10/10 Quy*/
+                .Tabs a.nav-link {
+                    width: 100%;
+                    height: 37px;
+                }
+
+                .Tabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+                    background-color: #d56a48 !important;
+                }
+                /*10/10 Quy*/
+                .rsemail {
+                    position: absolute;
+                    /*top: 58%;*/
+                    left: 50%;
+                    bottom: 17%;
+                    -webkit-transform: translate(-50%, -50%) scale(0.9);
+                    -moz-transform: translate(-50%, -50%) scale(0.9);
+                    -ms-transform: translate(-50%, -50%) scale(0.9);
+                    -o-transform: translate(-50%, -50%) scale(0.9);
+                    transform: translate(-50%, -50%) scale(0.9);
+                    overflow-y: auto;
+                    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.4);
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                    z-index: 10;
+                    background-color: #fff;
+                    width: 50%;
+                    height: 35%;
+                    position: fixed;
+                }
+
+                /*Loading sending*/
+                .lds-ring {
+                    display: inline-block;
+                    position: relative;
+                    width: 64px;
+                    height: 64px;
+                }
+
+                .lds-ring div {
+                    box-sizing: border-box;
+                    display: block;
+                    position: absolute;
+                    width: 51px;
+                    height: 51px;
+                    margin: 6px;
+                    border: 6px solid gray;
+                    border-radius: 50%;
+                    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+                    border-color: gray transparent transparent transparent;
+                }
+
+                    .lds-ring div:nth-child(1) {
+                        animation-delay: -0.45s;
+                    }
+
+                    .lds-ring div:nth-child(2) {
+                        animation-delay: -0.3s;
+                    }
+
+                    .lds-ring div:nth-child(3) {
+                        animation-delay: -0.15s;
+                    }
+
+                @@keyframes lds-ring {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+            </style> <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+            @*<script type="application/ld+json">
+                    { "@@context" : "http://schema.org","@@type" : "LocalBusiness","name" : "Data Design Viet Nam","brand" : { "@@type" : "Brand","name" : "Data Design","logo" : "https://datadesign.vn/Content/Datadesign-home/logo%20(1).png","telephone" : "(+84) 028 38115290","address" : {"@@type" : "PostalAddress","addressCountry" : "Viet Nam"},"openingHoursSpecification" : {"@@type" : "OpeningHoursSpecification","dayOfWeek" : {"@@type" : "DayOfWeek","name" : "T2 đến T6"}},"url" : "https://datadesign.vn/""offers" : {"@@type" : "Offer","price" : "425"} }
+                </script>*@
+
+        </head>
+<body>
+    <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58Q2RGD" height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <div class="backcup" style="width: 100%;height: 100%;visibility: hidden;z-index: 1;position: absolute;"></div> @Html.Action("HomeCommon", "Home") <!--==================================================================== Start Preloader =====================================================================--> <div class="preloader"> <div class="loader"></div><!--End loader--> </div> <!--End preloader--> <!--==================================================================== End Preloader =====================================================================--> <!--==================================================================== Start Navbar =====================================================================--> <nav class="navbar-1 navbar-expand-lg fixed-top-1 navbar-dark">
+        <div class="container">
+            <a href="/" class="navbar-brand "><img src="~/Content/Datadesign-home/Data-Design-Viet-Nam.png" alt="Data-Design-Viet-Nam" title="Data-Design-Viet-Nam" /></a> <!-- Button Menu --> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggler" aria-controls="navtoggler" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span><span class="navbar-toggler-icon"></span><span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navtoggler">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item-1"><a class="nav-link-1" href="/home">@Resources.Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item-1"><a class="nav-link-1" href="/solutionPage" @*target="_blank"*@>@Resources.Solution</a></li>
+                    <li class="navdropdown dropdown nav-item "> <a class="nav-link" href="#" data-toggle="dropdown" aria-expanded="true">@Resources.Product_Rise</a> <ul class="dropdown-menu menu-product-ul"> <li><a href="/artec3D" target="_blank"> @Resources._SCANNING3D</a></li> <li class="navdropdown dropdown dropright menu-product-ul-li"> <a class="nav-link active" href="#" data-toggle="dropdown" aria-expanded="true" style="color:black;">@Resources._3Dprinting</a> <ul class="dropdown-menu menu-product-ul-li-ul"> <li><a href="/markforgedPrinter" target="_blank">Marforged Mark Two</a></li> <li><a href="/markforgedPrinter/metalx" target="_blank">Marforged Metal-X</a></li> <li><a href="/autodesk" target="_blank">Autodesk Netfabb</a></li> </ul> </li> <li class="navdropdown dropdown dropright menu-product-ul-li"> <a class="nav-link active" href="#" data-toggle="dropdown" aria-expanded="true" style="color:black;">@Resources._3DMODELING</a> <ul class="dropdown-menu menu-product-ul-li-ul"> <li><a href="/geomagic" target="_blank">Geomagic Design</a></li> <li><a href="#" target="_blank">Geomagic FreeForm</a></li> <li><a href="/moi" target="_blank">MoI</a></li> </ul> </li> <li class="navdropdown dropdown dropright menu-product-ul-li"> <a class="nav-link active" href="#" data-toggle="dropdown" aria-expanded="true" style="color:black;">@Resources._MACHING3D</a> <ul class="dropdown-menu menu-product-ul-li-ul"> <li><a href="/worknc" target="_blank">WORKNC</a></li> <li><a href="/eureka" target="_blank">EUREKA</a></li> <li><a href="/surfcam" target="_blank">SURFCAM</a></li> <li><a href="/ncspeed" target="_blank">NCSPEED</a></li> <li><a href="/visualmill" target="_blank">VISUALMIL</a></li> </ul> </li> </ul> </li>
+                    <li class="navdropdown dropdown nav-item "> <a class="nav-link" href="/home/#bloghome">@Resources.Blog</a> @*<ul class="dropdown-menu menu-product-ul"> <li><a href="/blog-list?blog=3"> @Resources.BlogNews</a></li> <li><a href="/blog-list?blog=14"> @Resources.BlogTechnology</a></li> </ul> </li>*@
+                    <li class="nav-item-1"><a class="nav-link-1" href="/home/#services">@Resources.Service</a></li>
+                    <li class="nav-item-1"><a class="nav-link-1" href="/home/#recruitment">@Resources.Recruitment</a></li>
+                    <li class="nav-item-1"><a class="nav-link-1" href="/home/#contact">@Resources.Contacts</a></li> @if (@Resources.Home == "Home")
+                    {
+                        <li class="nav-item-1"> <a class="nav-link-1" href="/set-culture?slug=vi&returnUrl=@returnUrl@slug"><img src="~/Images/uploaded/flag/vietnam.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a> @*@Url.Action("ListBlog","BlogList",new{ slug = returnUrl}) /set-culture?slug=en&returnUrl=@returnUrl*@ </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item-1"><a class="nav-link-1" href="/set-culture?slug=en&returnUrl=@returnUrl@slug"><img src="~/Images/uploaded/flag/united-states.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a></li>
+                    }
+                </ul>
+            </div><!--End navbar-collapse-->
+        </div><!--End container-->
+    </nav> <!--==================================================================== End Navbar =====================================================================--> <!-- End Google Tag Manager (noscript) --> @RenderBody() <!--==================================================================== Start Footer =====================================================================--> <footer class="footer pt-40 pb-40 text-center"> <div class="container"> <div class="row"> <div class="col-sm-12"> <ul> <li><a href="https://www.facebook.com/datadesign.vn/" target="_blank"><i class="fab fa-facebook-f"></i></a></li> <li><a href="https://www.youtube.com/channel/UCO6HYYo3Ssyh6xmFXbcSraQ" target="_blank"><i class="fab fa-youtube"></i></a></li> <li><a href="https://datadesign.vn" target="_blank"><i class="fab fa-dribbble"></i></a></li> @*<li><a href="#"><i class="fab fa-behance"></i></a></li>*@ <li><a href="https://www.linkedin.com/company/datadesignvn" target="_blank"><i class="fab fa-linkedin-in"></i></a></li> </ul> </div><!--End col-sm-12--> <div class="col-sm-12"> <h3><a href="https://datadesign.vn" class="brand">© Data Design Viet Nam<span>.</span></a></h3><p>Developed<span></span> by <strong>Data Design Viet Nam</strong></p> </div><!--End col-sm-12--> </div><!--End row--> </div><!--End container--> </footer> <!--==================================================================== End Footer =====================================================================--> @*<script src="/content/datadesign-home/js/jquery.js"></script> <script src="/content/datadesign-home/js/bootstrap.min.js"></script> <script src="/content/datadesign-home/js/owl.carousel.min.js"></script> <script src="/content/datadesign-home/js/jquery.magnific-popup.min.js"></script> <script src="/Content/Datadesign-home/js/jquery.filterizr.js"></script> <script src="/content/datadesign-home/js/jquery.counterup.min.js"></script> <script src="/Content/Datadesign-home/js/all.min.js"></script> <script src="/Content/Datadesign-home/js/jquery.waypoints.min.js"></script> <script src="/Content/Datadesign-home/js/particles.min.js"></script> <script src="/Content/Datadesign-home/js/app.js"></script> <script src="/Content/Datadesign-home/js/scripts.min.js"></script> <script src="/content/datadesign-home/js/jquery.lazy.min.js"></script> <script src="/Content/Datadesign-home/js/googletag.js"></script>*@ @*<script src="/Content/Datadesign-home/js/particles.js"></script>*@ @*<script src="/Content/BlogList/js/BlogList.js"></script>*@ @*<script src="/Content/Datadesign-home/js/scripts.js"></script>*@
+
+
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>*@                @**v3.3.1*@
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    @*<script src="/content/datadesign-home/js/bootstrap.min.js"></script>*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>    @**v1.2.5*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> @*v1.1.0*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.js"></script>      @**v1.2.5*@
+    <script src="/content/datadesign-home/js/jquery.counterup.min.js"></script>
+    <script src="/Content/Datadesign-home/js/all.min.js"></script>
+    @*<script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>*@
+
+
+    <script src="/Content/Datadesign-home/js/jquery.waypoints.min.js"></script>
+    @*<script src="/Content/Datadesign-home/js/particles.js"></script>*@
+
+   @*A long*@
+    @*<script src="/Content/Datadesign-home/js/particles.min.js"></script>
+        <script src="/Content/Datadesign-home/js/app.js"></script>*@
+    
+
+    @*<script src="/Content/Datadesign-home/js/scripts.js"></script>*@
+    <script src="/Content/Datadesign-home/js/scripts.min.js"></script>
+    @*<script src="/Content/BlogList/js/BlogList.js"></script>*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+    @*<script src="/content/datadesign-home/js/multislider.min.js"></script>*@
+    @*<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>*@
+    <script src="/content/datadesign-home/js/multislider.js"></script>
+
+    <script>
+        /*, ".email", ".subject", "description"*/
+       
+        $("#form-contact-submit").click(function () {
+            
+            if ($("#formContacts")[0].checkValidity()) {
+                console.log("aaaa");
+                
+                $("#formContacts").submit();
+                $(".rsemail").show();
+
+                $("#form-contact-submit").prop('disabled', true);
+            } else {
+                $("#form-contact-submit").prop('disabled', false);
+                console.log("bbb");
+
+            }
+                //var valueName = $(".name").val();
+                //var valueEmail = $(".email").val();
+                //var valueDescription = $(".description").val();
+                //if (valueName != "" && valueEmail != "" && valueDescription != "") {
+                //    $(this).hide();
+                //}
+
+            });
+      
+    </script>
+    <!--multislider-->
+    <script>
+        $('#basicSlider').multislider({
+            continuous: true,
+            duration: 4000
+        });
+        $('#mixedSlider').multislider({
+
+            duration: 500,
+            interval: 0
+        });
+
+        $('#mixedSlider1').multislider({
+            duration: 500,
+            interval: 0
+        });
+        $('#mixedSlider2').multislider({
+            duration: 500,
+            interval: 0
+        });
+    </script>
+    <!--endmutislider-->
+    <script>$(".pop-up .close").click(function () { $(".pop-up").hide(); console.log("hello"); }); $("#cookiesubscribe@*,#defaultInline1*@").click(function () { $(".pop-up").hide(); }); $(document).ready(function () { var notshow = getCookie("checkbox"); if (notshow != null) { $(".pop-up").hide(); } var user = getCookie("email"); if (user != null) { $(".pop-up").hide(); } });</script> @if (cookie.Value == "en")
+    {
+        <script async src="/Content/Datadesign-home/js/googletag.js"></script>
+        <script>console.log("tienganh");</script>
+        cookie.Value = "vi";
+    }
+    else
+    {
+        cookie.Value = "en";
+        <script>console.log("tiengviet");</script>
+    } @*else { <script> $(".pop-up .close").click(function () { $(".pop-up").hide(); console.log("hello1"); }); </script> }*@
+    <script>function init() { var vidDefer = document.getElementsByTagName('iframe'); for (var i = 0; i < vidDefer.length; i++) { if (vidDefer[i].getAttribute('data-src')) { vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src')); } } } window.onload = init;</script>
+    <script>function goto(hashtag) { document.location = hashtag; }</script>
+    <script>$(".backcup").click(function () { $(".backcup").css("visibility", "hidden"); $("ul").removeClass("show"); }); $(".navdropdown>.nav-link").click(function () { $(this.parentElement.parentElement.getElementsByTagName("ul")).removeClass("show"); $(".backcup").css("visibility", "inherit"); /*this.closest('ul').addClass("show");*/ var test = this.parentElement.getElementsByClassName("show")[0]; if (test != null) { var ss = this.parentElement.getElementsByTagName("ul")[0].classList.remove("show"); } else { var s = this.parentElement.getElementsByTagName("ul")[0].classList.add("show"); console.log(this.parentElement.getElementsByTagName("ul")); } /*alert(this);*/ }); /*$(document).ready(function () { }); */ /*$(".nav-link-1").click(function () { var urrl = window.location.pathname; var slug = urrl.split('/'); var link = ""; for (var i = slug.length; i < slug.length; i++) { link += slug[i] + "/"; } location.href = "/set-culture?slug=vi&returnUrl=" + link.substr(0, link.length - 1); });*/</script> <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script>
+    </script>
+</body>
+        <!--multislider-->
+        @*<script type="text/javascript">
+
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-36251023-1']);
+                _gaq.push(['_setDomainName', 'jqueryscript.net']);
+                _gaq.push(['_trackPageview']);
+
+                (function () {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+
+            </script>*@
+    </html>

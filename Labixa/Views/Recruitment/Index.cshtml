@@ -1,0 +1,192 @@
+﻿ @{
+     ViewBag.TitleVi = "recruitment-Data-Design-Việt-Nam";
+     ViewBag.Url = "https://datadesign.vn/recruitment";
+     
+     ViewBag.languageVi = "";
+     ViewBag.Bloglist = "/Content/Datadesign-home/js/googletag.js";
+     Layout = "~/Views/Shared/_datadesignlayout.cshtml";
+     HttpCookie cookie = Request.Cookies["_culture"];
+}
+@using PagedList.Mvc;
+@using PagedList;
+@model IPagedList<Outsourcing.Data.Models.Blog>
+@using Outsourcing.Core.Common;
+@{
+    var returnUrl = ViewBag.ReturnUrl;
+    //var blogId = Request.Url.AbsoluteUri.Split('?')[1].Substring(5, 1);
+}
+@section scripts{
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+    @*<link rel="apple-touch-icon" href="/Content/DetailsBlog/img/favicon/apple-touch-icons.png" sizes="180x180">
+        <link rel="icon" type="image/png" href="/Content/DetailsBlog/img/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/Content/DetailsBlog/img/favicon/favicon-16x16.png" sizes="16x16">*@
+    <!-- all css here -->
+    <!--Etline icons-->
+    <!-- bootstrap v4.1.3 css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/fontawesome.min.css">
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/flaticon.css">
+    <!-- owl-carousel css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/owl.theme.default.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/animate.min.css">
+    <!-- venobox css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/venobox.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/style.css">
+    <!-- modernizr js -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/Recruitment/css/Recruitment.css">
+    @*<script src="/Content/DetailsBlog/Content/DetailsBlog/js/vendor/modernizr-custom.js"></script>*@
+    @*<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>*@
+
+}
+
+<div class="vertical-line" datasqstyle="{&quot;top&quot;:null}" datasquuid="53d38c68-0b8e-4904-ac5e-ee5032a8206b" datasqtop="40" style="top: 40px;">
+    <div class="line-move">
+        <div class="single-line">&nbsp;</div>
+
+        <div class="single-line">&nbsp;</div>
+
+        <div class="single-line">&nbsp;</div>
+
+        <div class="single-line">&nbsp;</div>
+    </div>
+</div>
+
+<section class="breadcrumb-area">
+    <div class="breadcrumb-shape-one"><img alt="img" src="/Content/DetailsBlog/img/about/1.jpg"></div>
+    <!-- Strat Breadcrumb Content -->
+
+    <div class="breadcrumb-content-block">
+        <div class="breadcrumb-content text-center">
+            <h2>@Resources.Recruitment</h2>
+        </div>
+    </div>
+    <!-- End Breadcrumb Content -->
+</section>
+
+<section class="blog-sidebar-area leftbar section-padding">
+    <div class="container">
+
+
+
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+
+                @if (Model != null && Model.Count() > 0)
+                {
+                    if (cookie.Value == "vi")
+                    {
+
+
+                        foreach (var item in Model)
+                        {
+                            <div class="single-news-block">
+                                <div class="single-news">
+                                    <div class="blog-content Recruiment">
+                                        <h4><a href="/tuyen-dung/@item.Slug">@Html.Raw(item.Title)</a></h4>                                       
+                                        <p>@slitString.TruncateAtWord(item.Description, 300)</p>
+                                        @{ string[] a = item.DateCreated.ToString().Split(' '); }
+                                        <p class="text-right">@a[0]</p>
+                                        @*<h3>September 20, 2019</h3>
+                                            <h3>Engineering | Location:Ho Chi Minh</h3>*@
+                                        <a class="read-text btn btn-primary" href="/tuyen-dung/@item.Slug">@Resources.ApplyNow</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+
+                    }
+                    else
+                    {
+
+                        foreach (var item in Model)
+                        {
+                            <div class="single-news-block">
+                                <div class="single-news">
+                                    <div class="blog-content Recruiment">
+                                        <h4><a href="/tuyen-dung/@item.Slug">@Html.Raw(item.TitleEng)</a></h4>
+                                        <p>@slitString.TruncateAtWord(item.DescriptionEng, 300)</p>
+                                        @{ string[] a = item.DateCreated.ToString().Split(' '); }
+                                        <p class="text-right">@a[0]</p>
+                                        @*<h3>September 20, 2019</h3>
+        <h3>Engineering | Location:Ho Chi Minh</h3>*@
+                                        <a class="read-text btn btn-primary" href="/tuyen-dung/@item.Slug">@Resources.ApplyNow</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    }
+                }
+
+
+                <!-- Start Pagination Area -->
+                <!-- End Pagination Area -->
+            </div>
+        </div>
+        <div class="pagination-block text-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", "Recruitment", new { blog = Request.QueryString["blog"], page, searching = Request.QueryString["searching"] }))
+                </ul>
+            </nav>
+        </div>
+    </div>
+    @*@Html.PagedListPager(Model, page => Url.Action("Index", "DetailsBlog", new { page }))*@
+</section>
+
+<script type="text/javascript">
+
+
+    $(".js-example-tags").select2({
+        tags: true
+    });
+
+
+</script>
+
+@*<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    <script src="/Content/DetailsBlog/js/jquery-3.1.1.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/jquery-ui.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/popper.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/bootstrap.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/page-scroll.js"></script>
+
+    <script src="/Content/DetailsBlog/js/smooth-scroll.js"></script>
+
+    <script src="/Content/DetailsBlog/js/owl.carousel.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/jquery.bxslider.min.js"></script>
+    <script src="/Content/DetailsBlog/js/jquery.appear.js"></script>
+
+    <script src="/Content/DetailsBlog/js/jquery.easing.1.3.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/venobox.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/jquery.countTo.js"></script>
+
+    <script src="/Content/DetailsBlog/js/wow.min.js"></script>
+
+    <script src="/Content/DetailsBlog/js/plugins.js"></script>*@
+
+
+@*<script src="/Content/Datadesign-home/js/googletag1.js"></script>*@
+
+
+@*<script src="/Content/DetailsBlog/js/main.js"></script>*@<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-up"></i></a>
+
+
+
+

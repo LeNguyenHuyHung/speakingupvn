@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Máy in 3D hiệu quả về chi phí thích hợp cho các mô hình 3D trong văn phòng thiết kế, văn phòng lập kế hoạch và phát triển hoặc văn phòng nói chung.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/onyx-one2.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedPrinter/overView";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <link rel="stylesheet" href="../css/styles-menu.css">
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Product Overview",
+        "image" : "https://datadesign.vn/images/markforged/wf-4oepr9zl-3.gif",
+        "description" : "Product overview",
+        "url" : "https://datadesign.vn/overView",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

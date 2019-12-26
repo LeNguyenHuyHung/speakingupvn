@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Sợi tổng hợp Eiger. Nền tảng trực tuyến tuyệt vời của Markforged cho phép bạn dễ dàng kiểm soát sức mạnh của mô hình và chất lượng của từng người dùng.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/724-wf-6ea9c6d3-f69e-42d1-b411-0e9c1fb6c2d5-0-1024x6401.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedPrinter/eiger";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+}
+@if (Model != null)
+{
+    if (cookie.Value =="vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

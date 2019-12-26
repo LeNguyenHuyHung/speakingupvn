@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Máy in 3D để bàn với giá cả rất phải chăng Được thiết kế để tạo ra các bộ phận màu đen carbon đẹp, chất lượng cao trong thị trường máy in 3D.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/724-wf-1f39761f-956c-42d4-be49-6d30f26ce88d-0-1024x6542.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedprinter/onyxone";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    @*<script src="/Content/marforge/code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="/Content/marforge/jsmenu/script.js"></script>*@
+
+    <link href="/Content/marforge/netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Onyx One",
+        "image" : "https://datadesign.vn/images/markforged/724-wf-1f39761f-956c-42d4-be49-6d30f26ce88d-0-1024x654.jpg",
+        "description" : "Máy in 3D để bàn giá tiết kiệm &quot;ONYX series&quot;",
+        "url" : "https://datadesign.vn/onyxone",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

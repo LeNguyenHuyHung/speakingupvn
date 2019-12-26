@@ -1,0 +1,170 @@
+﻿
+@{
+    ViewBag.Title = "BlogOverview";
+    Layout = "~/Views/Shared/_datadesignlayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model IEnumerable<Outsourcing.Data.Models.Blog>
+
+@section scripts{
+
+
+
+    <!-- Favicon -->
+    @*<link rel="apple-touch-icon" href="/Content/DetailsBlog/img/favicon/apple-touch-icons.png" sizes="180x180">
+        <link rel="icon" type="image/png" href="/Content/DetailsBlog/img/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/Content/DetailsBlog/img/favicon/favicon-16x16.png" sizes="16x16">*@
+    <!-- all css here -->
+    <!-- bootstrap v4.1.3 css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/fontawesome.min.css">
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/flaticon.css">
+    <!-- owl-carousel css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/owl.theme.default.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/animate.min.css">
+    <!-- venobox css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/venobox.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="/Content/DetailsBlog/css/style.css">
+    <!-- modernizr js -->
+    <script src="/Content/DetailsBlog/js/vendor/modernizr-custom.js"></script>
+}
+@*@if (Model != null)
+    {
+        if (cookie.Value == "vi")
+        {
+            @Html.Raw(Model.Content)
+        }
+        else
+        {
+            @Html.Raw(Model.ContentEng)
+        }
+    }*@
+
+<!-- Start Vertical Line -->
+<div class="vertical-line">
+    <div class="line-move">
+        <div class="single-line">&nbsp;</div>
+
+        <div class="single-line">&nbsp;</div>
+
+        <div class="single-line">&nbsp;</div>
+
+        <div class="single-line">&nbsp;</div>
+    </div>
+</div>
+<!-- End Vertical Line --><!-- Start Header Area --><!-- End Header Area --><!-- Strat Breadcrumb Area -->
+
+<section class="breadcrumb-area">
+    <div class="breadcrumb-shape-one"><img alt="img" src="/Content/DetailsBlog/img/about/1.jpg" /></div>
+    <!-- Strat Breadcrumb Content -->
+
+    <div class="breadcrumb-content-block">
+        <div class="breadcrumb-content text-center">
+            <h2>Blog Details</h2>
+        </div>
+    </div>
+    <!-- End Breadcrumb Content -->
+</section>
+<!-- End Breadcrumb Area --><!-- Start Blog Right Sidebar Area -->
+
+<section class="blog-sidebar-area blog-details section-padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                @if (Model != null && Model.Count() > 0)
+                {
+                    foreach (var item in Model)
+                    {
+                        <div class="single-news-block">
+                            <div class="single-news">
+                                <figure title="@item.Title"><img alt="Img" src="@item.BlogImage_Default" /></figure>
+
+                                <div class="blog-content">
+
+
+                                    <h4><a href="/blog/@item.Slug">@item.Title</a></h4>
+                                    <p>TruncateAtWord(item.Content)</p>
+
+                                    @*<div class="quote-content">
+                                        <p>A good project manager also pays special attention to the client feedback and makes improvements upon it, making the process as seamless and smooth as possible for everyone involved. Ultimately, each project manager wants the client to be happy and exceed their expectations.</p>
+                                    </div>
+
+                                    <p>Project Managers are the backbone of any project, be it an e-learning program, a financial services platform or a translation job. This is because they are the ones who are coordinating the project from the start to the end. They play a major part in the successful delivery of any project.</p>*@
+
+                                    <div class="tag-share-area">
+                                        <div class="tag-area">
+                                            <h6>Tag</h6>
+
+                                            <ul class="tag-list list-style">
+                                                <li><a href="#">Creative Design</a></li>
+                                                <li><a href="#">Business</a></li>
+                                                <li><a href="#">Marketing</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="share-area">
+                                            <h6>Share</h6>
+
+                                            <ul class="social-list list-style">
+                                                <li>&nbsp;</li>
+                                                <li>&nbsp;</li>
+                                                <li>&nbsp;</li>
+                                                <li>&nbsp;</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start Comment Author -->
+
+                        <div class="nextprev-area"><a href="#">Previous</a> <a href="#">Next</a></div>
+                        <!-- End Next Previous Button --><!-- Start Comments Area --><!-- End Comments Area --><!-- Start Comment Add Area --><!-- End Comment Add Area -->
+                    }
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- all js here -->
+<!-- jquery version -->
+<script src="/Content/DetailsBlog/js/jquery-3.1.1.min.js"></script>
+<!-- jquery-ui js -->
+<script src="/Content/DetailsBlog/js/jquery-ui.min.js"></script>
+<!-- popper js -->
+<script src="~/Content/DetailsBlog/js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="~/Content/DetailsBlog/js/bootstrap.min.js"></script>
+<!-- page-scroll js -->
+<script src="~/Content/DetailsBlog/js/page-scroll.js"></script>
+<!-- smooth-scroll js -->
+<script src="~/Content/DetailsBlog/js/smooth-scroll.js"></script>
+<!-- owl.carousel js -->
+<script src="~/Content/DetailsBlog/js/owl.carousel.min.js"></script>
+<!-- bxslider js -->
+<script src="~/Content/DetailsBlog/js/jquery.bxslider.min.js"></script>
+<script src="~/Content/DetailsBlog/js/jquery.appear.js"></script>
+<!-- easing js -->
+<script src="~/Content/DetailsBlog/js/jquery.easing.1.3.min.js"></script>
+<!-- venobox js -->
+<script src="~/Content/DetailsBlog/js/venobox.min.js"></script>
+<!-- countTo js -->
+<script src="~/Content/DetailsBlog/js/jquery.countTo.js"></script>
+<!-- wow js -->
+<script src="~/Content/DetailsBlog/js/wow.min.js"></script>
+<!-- plugins js -->
+<script src="~/Content/DetailsBlog/js/plugins.js"></script>
+<!-- main js -->
+<script src="~/Content/DetailsBlog/js/main.js"></script>

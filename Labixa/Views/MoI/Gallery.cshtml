@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Gallery";
+    Layout = "~/Views/Shared/_MoI.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+    <link rel="stylesheet" href="/Content/moi/css/body-styles.css">
+    <link rel="stylesheet" href="/Content/moi/cssmenu/styles.css">
+    <script src="/Content/moi/MoI site/Scripts/swfobject_modified.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Content/moi/MoIsite/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/Content/moi/MoI site/js/jssor.slider.mini.js"></script>
+    <script type="text/javascript" src="/Content/moi/js/slide-image.js"></script>
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "gallery",
+        "image" : "https://datadesign.vn/Content/moi/images/moi/func_01.jpg",
+        "url" : "https://datadesign.vn/gallery",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Moi",
+        "logo" : "https://datadesign.vn/Content/moi/images/logo/mois_logo.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

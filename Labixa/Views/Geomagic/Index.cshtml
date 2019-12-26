@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Geogic-DataDesignVN";
+    ViewBag.Description = "Geomagic Design X là một công cụ mô hình ngược cho thiết kế 3D hoàn chỉnh. Dựa trên dữ liệu quét 3D và các mô hình đa giác hiện có, chúng tôi sẽ thúc đẩy quy trình thiết kế 3D mới bằng cách thêm các tính năng lịch sử và thiết kế. Trong dữ liệu được ghi lại.";
+    ViewBag.Image = "https://datadesign.vn/Content/geomagic/2018032213572471.png";
+    ViewBag.Url = "https://datadesign.vn/geomagic";
+    Layout = "~/Views/Shared/_Geomagic3d.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+    <link rel="stylesheet" href="/Content/geomagic/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/geomagic/cssmenu/styles.css">
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Geomagic Design X",
+        "image" : "https://datadesign.vn/images/logo/gdx_logo_white.png",
+        "description" : "is a reverse modeling tool for full 3D design. Based on 3D scanning data and existing polygon models, we will promote the new 3D design process by adding history and design features. In the recorded data",
+        "url" : "https://datadesign.vn/geomagic",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Geomagic Design X",
+        "logo" : "https://datadesign.vn/images/logo/201803221357247.png"
+        }
+        }
+    </script>
+}
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/geomagic/vdo/2018-10-26_8-18-33.mp4" type="video/mp4">
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

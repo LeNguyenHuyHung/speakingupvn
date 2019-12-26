@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "SoftWare";
+    ViewBag.Description = "Ngoài việc sản xuất máy quét 3D chuyên nghiệp, Artec còn phát triển phần mềm quét 3D thông minh được thiết kế tỉ mỉ để đáp ứng nhu cầu của người dùng mới và người dùng có kinh nghiệm.";
+    ViewBag.Image = "https://datadesign.vn/Content/Artec3D/images/artec/3d_software/3d-software1.png";
+    ViewBag.Url = "https://datadesign.vn/3dsoftWare";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/3d-software-styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/worknc/css/reponsive_pc.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "3D Software",
+        "image" : "https://datadesign.vn/Content/Artec3D/images/artec/3d_software/3d-software.png",
+        "description" : "In addition to producing professional 3D scanners, Artec also develops intelligent 3D scanning software designed meticulously to meet the needs of new users and experienced users.",
+        "url" : "https://datadesign.vn/3dsoftWare",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Artec3D",
+        "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+@*<div class="page-container">
+        <div class="content-studio13">
+            <main>
+                <div class="tab-studio">
+                    <div class="tab-a">
+                        <div class="tab-a-left"><h51><a href="/Artec3D" class="link-orange-menu">Home</a> <h52>⟩</h52> <a href="/softWare" class="link-orange-menu">@Resources._Software3D</a> <h52>⟩</h52>  Artec Studio 13</h51></div>
+                        <!-- Navigational collection of links to sections below -->
+                        <div class="tab-a-right">
+                            <ul data-tabscrollnavcontainer="">
+                                <li><a href="#overview" class="text-link">@Resources._Overview</a></li>
+                                <li><a href="#whats-new" class="text-link">What's new</a></li>
+                                <li><a href="#as-of-sensors" class="text-link">AS of sensors</a></li>
+                                <li><a href="#specifications" class="text-link">@Resources._Specification</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- collection of sections -->
+
+            </main>
+        </div>
+    </div>*@
+
+
+

@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Overview-Visualmill-Datadeign";
+    ViewBag.Description = "Phần mềm CAM thông thường để xử lý hình dạng VisualCAD / CAM là phần mềm 3D-CAM thông thường để xử lý hình dạng được phát triển bởi MecSoft, Hoa Kỳ. Bằng cách kết hợp các chức năng CAD và các chức năng CAM cần thiết để xử lý 2D / 3D, có thể tạo môi trường CAD / CAM phù hợp với nhu cầu của người dùng.";
+    ViewBag.Image = "https://datadesign.vn/Content/visualmill/images/visualmill/VisualCADCAMProductPageImage1.png";
+    ViewBag.Url = "https://datadesign.vn/visualmill/overview";
+    Layout = "~/Views/Shared/_Visualmill.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/visualmill/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/visualmill/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "overview",
+        "image" : "https://datadesign.vn/Content/visualmill/images/visualmill/VisualCADCAMProductPageImage.jpg",
+        "description" : "The CAM has many functions, but the high-end CAM has a high cost, low-end CAM level, with a lower cost than the mid-range CAM, which is between high-end CAM and low-end CAM. VisualMill can buy various functions.",
+        "url" : "https://datadesign.vn/visualmill/overview",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "visualmill",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

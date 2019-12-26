@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    ViewBag.Description = "Phần mềm CAM thông thường để xử lý hình dạng VisualCAD / CAM là phần mềm 3D-CAM thông thường để xử lý hình dạng được phát triển bởi MecSoft, Hoa Kỳ. Bằng cách kết hợp các chức năng CAD và các chức năng CAM cần thiết để xử lý 2D / 3D, có thể tạo môi trường CAD / CAM phù hợp với nhu cầu của người dùng.";
+    ViewBag.Image = "https://datadesign.vn/Content/visualmill/images/visualmill/VisualCADCAMProductPageImage1.png";
+    ViewBag.Url = "https://datadesign.vn/visualmill/index";
+    Layout = "~/Views/Shared/_Visualmill.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/visualmill/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/visualmill/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "visualmill",
+        "description" : "3D-CAM software with full support from operations And excellent cost performance",
+        "url" : "https://datadesign.vn/visualmill",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "visualmill",
+        "logo" : "https://datadesign.vn/images/logo/vm_logo.png"
+        }
+        }
+    </script>
+}
+
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/visualmill/vdo/2018-10-25_9-04-58.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+
+@*<div class="red-footer-center">Number of visitors</div>
+    <div class="black-footer-center"><span class="statcounter"><a href="https://www.statcounter.com/" target="_blank" class="link-m"><img src="https://c41.statcounter.com/3789625/0/6a7f1e17/0/" alt="web hit counter" border="0" class="statcounter"></a></span></div>
+    <div class="black-footer-center"><a href="https://my.statcounter.com/project/standard/stats.php?project_id=3789625&amp;guest=1" target="_blank" class="link-m">All visitor status</a><br><br></div>*@
+
+
+
+

@@ -1,0 +1,53 @@
+﻿
+@{
+    /**/
+    ViewBag.Title = "WorkNC-Datadesign Việt Nam";
+    ViewBag.Description = "WorkNC là phần mềm hỗ trợ xử lý chỉnh sửa, có thể tự động theo dõi các quy trình tự động hóa phức tạp của CAM và có thể dễ dàng tạo cùng một dữ liệu xử lý chất lượng chỉ bằng một nút bấm. Là tiêu chuẩn 3D-CAM được sử dụng phổ biến nhất, được sử dụng bởi các nhà sản xuất và nhà sản xuất khuôn mẫu lớn trên thế giới.";
+    ViewBag.Image = "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small1.png";
+    ViewBag.Url = "https://datadesign.vn/worknc";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/worknc/css/reponsive_pc.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Worknc",
+        "image" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png",
+        "description" : "Intelligent CAM, which makes complex 3D-CAM processes easier Specifically for processing curve shape surfaces",
+        "url" : "https://datadesign.vn/worknc",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Worknc",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/worknc/vdo/2018-10-31_15-30-04.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

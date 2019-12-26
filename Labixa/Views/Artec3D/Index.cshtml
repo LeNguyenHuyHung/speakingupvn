@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Artect3D";
+    ViewBag.Description = "Một quy trình kỹ thuật số mới bắt đầu bằng quét 3D có thể hiển thị một hình ảnh ảo trước mặt bạn.";
+    ViewBag.Image = "https://datadesign.vn/content/artec3d/images/artec/3dprintingartec3d-logo1.png";
+    ViewBag.Url = "https://datadesign.vn/artec3D";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+    <link rel="stylesheet" href="/Content/Artec3D/css/vdo_background.css">
+
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Artec3D",
+        "image" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo1.png",
+        "description" : "A new digital workflow that starts with 3D scans can show a virtual image in front of you.",
+        "url" : "https://datadesign.vn/overview3d",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Data Design",
+        "logo" : "https://datadesign.vn/Content/Datadesign-home/logo%20(1).png"
+        }
+        }
+    </script>
+
+}
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/Artec3D/vdo/2018-11-05_15-35-39.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+<div class="detail"></div>

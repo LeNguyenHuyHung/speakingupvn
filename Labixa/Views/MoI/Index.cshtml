@@ -1,0 +1,47 @@
+﻿
+@{
+     ViewBag.Title = "Moi-Datadesign-Việt-Nam";
+    ViewBag.Description = "MoI 3D có thể tạo các mô hình bề mặt 3D phức tạp với các cảm giác như tạo PowerPoint và Excel làm tài liệu có giá trị. Là một công cụ thiết kế 3D hữu ích có thể học trong 2-3 giờ với giao diện dễ sử dụng hỗ trợ chức năng của máy tính bảng.";
+    ViewBag.Image = "https://datadesign.vn/Content/moi/images/logo/mois_logo1.png";
+    ViewBag.Url = "https://datadesign.vn/moi";
+    Layout = "~/Views/Shared/_MoI.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+    <link rel="stylesheet" href="/Content/moi/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/moi/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Moi",
+        "description" : "Creating complex surface models with only 50 CAD instructions.Individual 3D models that are easy to understand.",
+        "url" : "https://datadesign.vn/moi",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Moi",
+        "logo" : "https://datadesign.vn/Content/moi/images/logo/mois_logo.png"
+        }
+        }
+    </script>
+}
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/moi/vdo/2018-10-22_14-57-30.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+<!--start footer-->

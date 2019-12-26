@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Ncspeed-DataDesignVN";
+    ViewBag.Description = "Ncspeed phù hợp với kiểm tra chất lượng, tối ưu hóa và các điều kiện cắt hiện có bằng cách gõ, thêm / nhận cập nhật tự động thu thập dữ liệu cho mỗi điều kiện được biên dịch, điều kiện cắt và cắt để hiển thị giải pháp sử dụng một giải pháp để sử dụng.";
+    ViewBag.Image = "https://datadesign.vn/Content/ncspeed/images/logo/NCspeed_logo.png";
+    ViewBag.Url = "https://datadesign.vn/ncspeed";
+    Layout = "~/Views/Shared/_Ncspeed.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/ncspeed/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/ncspeed/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "ncspeed",
+        "image" : "https://datadesign.vn/Content/ncspeed/images/ncspeed/NCSPEED1.gif",
+        "description" : "NCSPEED conforms to quality checks, optimizations and existing cutting conditions by tapping down the add / update given to automatically collect data per compiled, cutting conditions and cutting the knowledge to visualize the image creation / analysis for Analyze into modules We therefore propose a solution to use. "Integration of knowledge" in the cutting process.",
+        "url" : "https://datadesign.vn/ncspeed",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "ncspeed",
+        "logo" : "https://datadesign.vn/images/logo/NCspeed_logo.jpg"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+@*  <p></p><div class="red-footer-center">Number of visitors</div>
+    <div class="black-footer-center"><span class="statcounter"><a href="https://www.statcounter.com/" target="_blank" class="link-m"><img src="https://c41.statcounter.com/3789625/0/6a7f1e17/0/" alt="web hit counter" border="0" class="statcounter"></a></span></div>
+    <div class="black-footer-center"><a href="https://my.statcounter.com/project/standard/stats.php?project_id=3789625&amp;guest=1" target="_blank" class="link-m">All visitor status</a></div>*@
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-82045312-30', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+    </div><!--end content-->
+</div><!--end page-container-->
+<br>
+

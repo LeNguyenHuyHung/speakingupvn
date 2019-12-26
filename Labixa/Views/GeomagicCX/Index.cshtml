@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Geogic-DataDesignVN";
+    ViewBag.Description = "Geomagic Design X là một công cụ mô hình ngược cho thiết kế 3D hoàn chỉnh. Dựa trên dữ liệu quét 3D và các mô hình đa giác hiện có, chúng tôi sẽ thúc đẩy quy trình thiết kế 3D mới bằng cách thêm các tính năng lịch sử và thiết kế. Trong dữ liệu được ghi lại.";
+    ViewBag.Image = "https://datadesign.vn/Content/geomagic/2018032213572471.png";
+    ViewBag.Url = "https://datadesign.vn/geomagic";
+    Layout = "~/Views/Shared/_Geomagic.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Blog
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/geomagiccx/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/geomagiccx/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    
+
+}
+
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/geomagiccx/vdo/2018-10-18_10-21-39.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-82045312-30', 'auto');
+    ga('send', 'pageview');</script>
+

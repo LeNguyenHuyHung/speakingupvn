@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "WorkNCDesigner-Datadesign Việt Nam";
+    ViewBag.Description = "WorkNC Designer lấp đầy khoảng cách giữa CAD và CAM. WorkNC Designer là giải pháp CAD tốt nhất để nhập hình học vào sản xuất.";
+    ViewBag.Url = "https://datadesign.vn/worknc/worknc-designer";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+}
+
+@if (Model != null)
+{
+    if (cookie.Value==("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

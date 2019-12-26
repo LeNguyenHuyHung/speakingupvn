@@ -1,0 +1,42 @@
+﻿
+@{   
+    ViewBag.Title = "Function5Axis-Datadesign Việt Nam";
+    ViewBag.Description = "Bạn có thể tạo đường dẫn công cụ bằng cách dễ dàng xác định các góc. Gia công 5 trục sử dụng lập chỉ mục được chấp nhận để gia công các phần sâu và cắt.";   
+    ViewBag.Url = "https://datadesign.vn/worknc/function-5-axis";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "five-axis-machining",
+        "image" : "https://datadesign.vn/Content/worknc/images/worknc/7-cam-10.jpg",
+        "description" : "WorkNC supports the processing of parts that require the use of 5-axis machines simultaneously, including the aircraft. Unlike shape processing, you can set the gesture according to the shape.",
+        "url" : "https://datadesign.vn/worknc/five-axis-machining",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Worknc",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

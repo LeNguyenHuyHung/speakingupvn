@@ -67,7 +67,6 @@ namespace Labixa.Controllers
         
         public ActionResult Index()
         {
-          
             return View();
             //return View();
         }

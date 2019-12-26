@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Markforged, một máy in 3D tuyệt vời có thể được đúc với các bộ phận mạnh nhất và linh hoạt nhất của Markforged, được gia cố bằng chiều dài sợi riêng.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/x-series/795316b92fc766b0181f6fef074f03fa-768x2821.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedprinter/industrialseries";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "X series",
+        "image" : "https://datadesign.vn/images/markforged/x-series/795316b92fc766b0181f6fef074f03fa-768x282.png",
+        "description" : "X-series printers (X3 / X5 / X7) including leveling, forming tables and forming inspection systems using laser devices that can reduce material and time loss in modeling, failure and Realize the accuracy as determined by the use in the industry.",
+        "url" : "https://datadesign.vn/industrialseries",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

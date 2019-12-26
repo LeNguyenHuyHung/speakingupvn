@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "StandardNetFabb";
+          ViewBag.Description = "NETFABB là một phần mềm được sử dụng cùng với ngành công nghiệp. Sản xuất và thiết kế phụ gia của phần mềm này có thể giúp giảm quy trình công việc, giảm lỗi và tạo ra các phần công việc chất lượng để bạn tiếp thị nhanh hơn.";
+    ViewBag.Image =  "https://datadesign.vn/content/autodesk/images/netfabb/netfabb-11.png";                   
+    ViewBag.Url = "https://datadesign.vn/StandardNetFabb";
+    Layout = "~/Views/Shared/_Autodesk.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/autodesk/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/autodesk/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "image" : "https://datadesign.vn/Content/autodesk/images/netfabb/func_01_new.png",
+        "description" : "Standard interfaces such as CATIA, NX, PTC Creo, SOLIDWORKS, SOLIDEDGE, IGES, STEP, which are standard formats of 3D data as standard equipment.",
+        "url" : "https://datadesign.vn/standardNetFabb",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Auto Desk",
+        "logo" : "https://datadesign.vn/Content/autodesk/images/logo/netfabb-1.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value.Equals("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

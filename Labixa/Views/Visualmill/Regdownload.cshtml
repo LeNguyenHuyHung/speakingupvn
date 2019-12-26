@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Regdownload";
+    Layout = "~/Views/Shared/_Visualmill.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/visualmill/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/visualmill/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "regdownload",
+        "description" : "Download Program Try Version",
+        "url" : "https://datadesign.vn/visualmill/regdownload",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "visualmill",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+
+

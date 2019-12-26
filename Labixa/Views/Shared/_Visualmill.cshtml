@@ -1,0 +1,137 @@
+﻿<!doctype html>
+<html lang="vi-VN">
+
+<!-- Mirrored from datadesign.co.th/visualmill/visualmill.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2019 01:26:31 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Data Design Việt Nam, data design, data design vietnam, Scan3D,Scan 3D,3D scanning, 3D printting, Artec 3D, markforged, Cad/CAM, datadesign">
+    <meta name="author" content="Data Design Viet nam">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="website"><!-- Main Page Title -->
+    <!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+    <script src="/code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="/Content/visualmill/jsmenu/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/icon/cropped-icon-180x180.png">
+    <title>Visualmill | Data Design VietNam Co.,Ltd</title>
+
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">
+    <link rel="stylesheet" href="css/styles-menu.css">-->
+
+    @RenderSection("scripts", required: false)
+    @{
+        var returnUrl = ViewBag.ReturnUrl;
+    }
+    @if (ViewBag.Title != null)
+    {
+        <meta property="og:title" content="@ViewBag.Title"><!-- Main Page Title -->
+    }
+    else
+    {
+        <meta property="og:title" content="Visual CAD/CAM "><!-- Main Page Title -->
+    }
+
+    @if (ViewBag.Description != null)
+    {
+        <meta name="description" content="@ViewBag.Description">
+        <meta property="og:description" content="@ViewBag.Description">
+
+    }
+    else
+    {
+        <meta property="og:description" content="visual cad / cam là phần mềm máy quay 3d được hỗ trợ bởi một loạt người dùng từ mức khởi đầu của các công ty khởi đầu và các nhà sản xuất của tất cả các công cụ máy móc sang các bộ phận / xử lý. Dữ liệu xử lý hình dạng có thể được tạo ra từ hình học như bề mặt, rắn, đa giác."><!-- Main Page Title -->
+        <meta name="description" content="visual cad / cam là phần mềm máy quay 3d được hỗ trợ bởi một loạt người dùng từ mức khởi đầu của các công ty khởi đầu và các nhà sản xuất của tất cả các công cụ máy móc sang các bộ phận / xử lý. Dữ liệu xử lý hình dạng có thể được tạo ra từ hình học như bề mặt, rắn, đa giác. ">
+    }
+    @if (ViewBag.Image != null)
+    {
+        <meta property="og:image" content="@ViewBag.Image">
+    }
+    else
+    {
+        <meta property="og:image" content="https://datadesign.vn/Content/visualmill/images/logo/vm_logo1.png"><!-- Main Page Title -->@**@
+    }
+    @if (ViewBag.Url != null)
+    {
+        <meta property="og:url" content="@ViewBag.Url">
+        <link rel="canonical" href="@ViewBag.Url">
+    }
+    else
+    {
+        <meta property="og:url" content="https://datadesign.vn/visualmill"><!-- Main Page Title -->
+        <link rel="canonical" href="https://datadesign.vn/visualmill">
+    }
+
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+    </style>
+
+    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+    <script>var __adobewebfontsappname__ = "dreamweaver"</script>
+
+</head>
+
+<body>
+    @Html.Action("HomeCommon", "Home")
+    <div class="top_bar">
+        <div class="logo">
+            <div class="table-logo">
+                <a href="/home"><img src="~/Content/Datadesign-home/Data-Design-Viet-Nam.png" id="logo-size" alt="Data Design Viet Nam" /></a>
+
+                <div class="title-top-right"><img src="../images/logo/vm_logo.png" id="logo-visual-size" alt="logo-visual" /><br>3D-CAM software for getting started</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-menu">
+        <div id="cssmenu">
+            <ul>
+                <li class="button-home"><a href="/visualmill">VisualMILL</a></li>
+                <li><a href="/visualmill/overview">@Resources._Overview</a></li>
+                <li><a href="/visualmill/specification">@Resources._Specification</a></li>
+                <li><a href="https://visualmill.jp/casestudy/" target="_blank">Case study</a></li>
+                @*<li class="download"><a href="/visualmill/regdownload"><span class="icon-download-cloud"></span>@Resources._Download</a></li>*@
+                @if (@Resources.Home == "Home")
+                {
+                    <li class="nav-item-1">
+                        <a href="/set-culture?slug=vi&returnUrl=@returnUrl"><img src="~/Images/uploaded/flag/vietnam.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a>
+
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item-1">
+                        <a href="/set-culture?slug=en&returnUrl=@returnUrl"><img src="~/Images/uploaded/flag/united-states.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <!--start footer-->
+    <div class="footer">
+        Data Design VietNam Co., Ltd.<span style="margin-left: 15px; font-family: CordiaNew;">Copyright &#169; 2019 All Rights Reserved.</span>
+    </div><!--end footer-->
+
+</body>
+
+<!-- Mirrored from datadesign.co.th/visualmill/visualmill.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2019 01:26:37 GMT -->
+</html>

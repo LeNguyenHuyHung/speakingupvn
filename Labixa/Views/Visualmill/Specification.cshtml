@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Specification-Visualmill-DataDesign";
+    ViewBag.Description = "Giải pháp CAD / CAM trực quan để biến các công cụ CAD / CAM 3D thành 3D với chi phí / hiệu quả Với mục đích chuyển môi trường thiết kế và sản xuất từ 2D sang 3D Là một giải pháp 3D trong tương lai hỗ trợ mô hình 3D, dập nổi và lồng và cắt tạo dữ liệu thành một mô hình lớp 3D để sử dụng cá nhân. Chúng tôi có một mô-đun có thể được sử dụng trong CAD 3D nói chung như Tê giác, SOLIDWORKS cho các ứng dụng kinh doanh bằng phiên bản đầy đủ của VisualCAD.";
+    ViewBag.Image = "https://datadesign.vn/Content/visualmill/images/visualmill/VisualMILLScreenShot600W-1-(1)1.png";
+    ViewBag.Url = "https://datadesign.vn/visualmill/specification";
+    Layout = "~/Views/Shared/_Visualmill.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/visualmill/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/visualmill/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "specification",
+        "image" : "https://datadesign.vn/Content/visualmill/images/visualmill/VisualCADImage.png",
+        "description" : "Visual CAD / CAM solution to make 3D CAD / CAM tools into 3D with cost / efficiency With the aim of moving the design and production environment from 2D to 3D",
+        "url" : "https://datadesign.vn/visualmill/specification",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "visualmill",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

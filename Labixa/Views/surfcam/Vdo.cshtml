@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Video-Surfcam-DataDesignVN";
+    ViewBag.Description = "Hướng dẫn đào tạo Surfcam 2016 R2";
+    ViewBag.Image = "https://datadesign.vn/Content/surfcam/images/logo/Surfcam_logo_small1.png";
+    ViewBag.Url = "https://datadesign.vn/surfcam/vdo";
+    Layout = "~/Views/Shared/_Surfcam.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/surfcam/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/surfcam/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "vdo",
+        "description" : "Guide Training Surfcam 2016 R2",
+        "url" : "https://datadesign.vn/surfcam/vdo",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "surfcam",
+        "logo" : "https://datadesign.vn/Content/surfcam/images/logo/Surfcam_logo_small.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

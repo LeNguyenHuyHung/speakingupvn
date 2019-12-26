@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Scan To Solidworks";
+    ViewBag.Description = "Artec 3D hợp tác với SOLIDWORKS, thị trường phần mềm CAD hàng đầu, để cung cấp cho các kỹ sư và nhà thiết kế sản phẩm trải nghiệm 3D tốt nhất có thể. Bây giờ bạn có thể chụp các đối tượng với máy quét Artec. Tạo các mô hình 3D có độ chính xác cao và xuất chúng sang các môi trường SOLIDWORKS chỉ bằng một cú nhấp chuột.";
+    ViewBag.Image = "https://datadesign.vn/Content/Artec3D/images/artec/solidworks-cad/optimal-scan-to-CAD-solutions1.png";
+    ViewBag.Url = "https://datadesign.vn/scanToSolidworks";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/solidworks-cad-styles.css">
+
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "SOLIDWORKS",
+        "image" : "https://datadesign.vn/Content/Artec3D/images/artec/solidworks-cad/optimal-scan-to-CAD-solutions1.jpg",
+        "description" : "Artec 3D collaborates with SOLIDWORKS, the leading CAD software market, to provide engineers and product designers with the best 3D experience possible.",
+        "url" : "https://datadesign.vn/scanToSolidworks",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Artec3D",
+        "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo1.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

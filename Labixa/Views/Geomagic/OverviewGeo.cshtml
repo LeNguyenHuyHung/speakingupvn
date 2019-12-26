@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Overview-Geomagic-DataDesignVN";
+    ViewBag.Description = "Geomagic Design X là một phần mềm kỹ thuật đảo ngược chuyên nghiệp với sự kết hợp thông minh giữa xử lý dữ liệu quét 3D và dựa trên CAD lịch sử, cho phép bạn tạo các mô hình vững chắc và có thể chỉnh sửa tương thích. Với phần mềm CAD hiện tại của bạn.";
+    ViewBag.Image = "https://datadesign.vn/Content/images/geomagic/geomagic-design-x/fastest__left1.png";
+    ViewBag.Url = "https://datadesign.vn/geomagic/overviewgeo";
+    Layout = "~/Views/Shared/_Geomagic3d.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    @*<link rel="stylesheet" href="/Content/geomagic/css/body-styles.css">*@
+    <link rel="stylesheet" href="~/Content/geomagic/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/geomagic/css/geomagic_dx_styles.css">
+    <link rel="stylesheet" href="/Content/geomagic/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/geomagic/css/footer.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Geomagic Design X",
+        "image" : "https://datadesign.vn/images/geomagic/geomagic-design-x/fastest__left.png",
+        "description" : "Geomagic Design X is a professional reverse engineering software with a clever combination of historical CAD based with 3D scanning data processing, allowing you to create solid and editable models that are compatible.",
+        "url" : "https://datadesign.vn/geomagic/overviewgeo",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Gemagic Design X",
+        "logo" : "https://datadesign.vn/images/logo/201803221357247.png"
+        }
+        }
+    </script>
+
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

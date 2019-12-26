@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="vi-VN">
+
+<!-- Mirrored from www.datadesign.co.th/geomagicx/geomagicdx.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jul 2019 02:50:54 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    @*<meta property="og:description" content="Geomagic® Control X ™ là phần mềm phần mềm toàn diện, cung cấp các tính năng tốt nhất trong ngành này với hoạt động đơn giản. Nếu thiết lập kiểm tra bằng cách sử dụng kiểm soát geomagic x, bạn có thể tạo traceability và lặp lại quy trình. Phân tích báo cáo kiểm toán có thể trình bày nhanh chóng và chính xác. ">*@<!-- Main Page Title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Data Design Việt Nam, data design, data design vietnam, Scan3D,Scan 3D,3D scanning, 3D printting, Artec 3D, markforged, Cad/CAM, datadesign ">
+    @*<meta name="description" content="Geomagic® Control X ™ là phần mềm phần mềm toàn diện, cung cấp các tính năng tốt nhất trong ngành này với hoạt động đơn giản. Nếu thiết lập kiểm tra bằng cách sử dụng kiểm soát geomagic x, bạn có thể tạo traceability và lặp lại quy trình. Phân tích báo cáo kiểm toán có thể trình bày nhanh chóng và chính xác. ">*@
+    <meta name="author" content="Data Design Viet nam">
+    <meta property="og:locale" content="vi_VN">
+    @*<link rel="canonical" href="http://datadesign.vn/geomagiccx">*@
+    <meta property="og:type" content="website"><!-- Main Page Title -->
+    @*<meta property="og:image" content="~/Content/geomagiccx/201803221352409.png">*@<!-- Main Page Title -->
+    @*<meta property="og:url" content="http://datadesign.vn/geomagiccx">*@<!-- Main Page Title -->
+    @*<meta property="og:title" content="Nền tảng đo lường 3d tự động">*@<!-- Main Page Title -->
+    @*<script src="/code.jquery.com/jquery-1.11.3.min.js"></script>*@
+
+    <link rel="icon" type="image/png" href="/images/icon/cropped-icon-180x180.png">
+    <title>@ViewBag.title</title>
+    <script src="/code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="/Content/geomagiccx/jsmenu/script.js"></script>
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">
+    <link rel="stylesheet" href="css/styles-menu.css">-->
+    @RenderSection("scripts", required: false)
+    @{
+        var returnUrl = ViewBag.ReturnUrl;
+    }
+    @if (ViewBag.Title != null)
+    {
+        <meta property="og:title" content="@ViewBag.Title"><!-- Main Page Title -->
+    }
+    else
+    {
+        <meta property="og:title" content="Mô hình 3d được hỗ trợ   "><!-- Main Page Title -->
+
+    }
+
+    @if (ViewBag.Description != null)
+    {
+        <meta name="description" content="@ViewBag.Description">
+        <meta property="og:description" content="@ViewBag.Description">
+
+    }
+    else
+    {
+        <meta property="og:description" content="thiết kế geomagic x là một công cụ mô hình đảo ngược cho thiết kế 3d. Dựa trên dữ liệu quét 3d và mô hình đa giác hiện có, chúng tôi sẽ quảng bá quy trình thiết kế 3d mới bằng cách thêm lịch sử và tính năng thiết kế. Trong dữ liệu ghi chép "><!-- Main Page Title -->
+        <meta name="description" content="thiết kế geomagic x là một công cụ mô hình đảo ngược cho thiết kế 3d. Dựa trên dữ liệu quét 3d và mô hình đa giác hiện có, chúng tôi sẽ quảng bá quy trình thiết kế 3d mới bằng cách thêm lịch sử và tính năng thiết kế. Trong dữ liệu ghi chép ">
+
+    }
+    @if (ViewBag.Image != null)
+    {
+        <meta property="og:image" content="@ViewBag.Image">
+    }
+    else
+    {
+        <meta property="og:image" content="https://datadesign.vn/Content/geomagic/2018032213572471.png"><!-- Main Page Title -->
+
+    }
+    @if (ViewBag.Url != null)
+    {
+        <meta property="og:url" content="@ViewBag.Url">
+        <link rel="canonical" href="@ViewBag.Url">
+    }
+    else
+    {
+        <meta property="og:url" content="http://datadesign.vn/geomagic"><!-- Main Page Title -->
+        <link rel="canonical" href="http://datadesign.vn/geomagic">
+    }
+    @*<script src="/Content/geomagic/jsmenu/script.js"></script>
+        <script src="/Content/geomagic/code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>*@
+
+    <!--slide-->
+    <!--<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/slide_css.css">
+    <!--end-->
+
+    <style type="text/css">
+
+        body, td, th {
+            font-family: CSChatThai;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+    </style>
+
+    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+    <script>var __adobewebfontsappname__ = "dreamweaver"</script>
+
+</head>
+
+<body>
+    @Html.Action("HomeCommon", "Home")
+    <div class="top_bar">
+        <div class="logo">
+            <div class="table-logo">
+                <a href="/"><img src="~/Content/Datadesign-home/Data-Design-Viet-Nam.png" id="logo-size" alt="Data Design Viet Nam" /></a>
+
+                <div class="title-top-right"><img src="/images/logo/201803221357247.png" id="logo-control-size" alt="201803221357247" /><br>Solid-supported 3D models</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-menu">
+        <div id="cssmenu">
+            <ul>
+                <li class="button-home"><a href="/geomagic">Geomagic Freeform</a></li>
+                <li><a href="/geomagic/overviewgeo">@Resources._Overview</a></li>
+                <li><a href="/geomagic/specification">@Resources._Specification</a></li>
+                <li><a href="https://products.datadesign.co.jp/geomagic-designx/casestudy/" target="_blank">Case study</a></li>
+                @*<li><a href="/" target="_blank">Contact Us</a></li>*@
+
+                @if (@Resources.Home == "Home")
+                {
+                    <li class="nav-item-1">
+                        <a href="/set-culture?slug=vi&returnUrl=@returnUrl"><img src="~/Images/uploaded/flag/vietnam.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a>
+
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item-1">
+                        <a href="/set-culture?slug=en&returnUrl=@returnUrl"><img src="~/Images/uploaded/flag/united-states.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    @RenderBody()
+    <!--start footer-->
+    <div class="footer">
+        Data Design VietNam Co., Ltd.<span style="margin-left: 15px; font-family: CordiaNew;">Copyright &#169; 2019 All Rights Reserved.</span>
+    </div><!--end footer-->
+
+</body>
+
+<!-- Mirrored from www.datadesign.co.th/geomagicx/geomagicdx.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jul 2019 02:50:58 GMT -->
+</html>

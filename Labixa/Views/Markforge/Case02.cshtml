@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Arrow Global Inc., có trụ sở tại Wisconsin, thực hiện các thiết kế đơn giản, bền bỉ và tuyệt vời để giữ an toàn cho tài xế và hành khách trên đường.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/casestudy/prototyping/512-wf-08dccc14-cc82-49fe-b2cb-050aa38270d9-0-768x4321.jpg";
+    ViewBag.Url = "https://datadesign.vn/case02";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

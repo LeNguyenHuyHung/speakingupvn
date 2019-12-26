@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Spinfire.cshtml";
+}
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/spinfire/css/vdo_background.css">
+    <link rel="stylesheet" href="/Content/spinfire/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/spinfire/css/reponsive_pc.css">
+}
+
+<video autoplay muted loop id="myVideo">
+    <source src="/Content/spinfire/vdo/2018-10-24_10-04-56.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+    <div class="background-black">
+        <div class="img_logo"><img src="/Content/spinfire/images/logo/splogo2.png" width="100%" id="img_logo" alt="" /></div>
+        <div class="text24">Multi-CAD compatible 3D image display system</div>
+        <div class="text30">
+            3D data connection and digital process<br>
+            Create a 3D visualization environment in the future.
+        </div>
+        <div class="text22">SpinFire is a multi-lingual global visualizer used by 6,000 companies and over 210,000 users worldwide.</div>
+        <div class="content-button"><a href="/spinfire/overview" class="button">Product overview</a></div>
+    </div>
+</div>
+
+
+<div class="detail">
+    <div class="background">
+        <div class="size">
+            <h30>3D Web view that supports all 2D and 3D-CAD formats</h30>
+            <h24>SpinFire is a multi-lingual global visualizer used by 6,000 companies and over 210,000 users worldwide. Various 3D / 3D-CAD data are displayed at high speeds with intelligent devices, web browsers, etc. and "3D info" such as Design elements, design requirements, production process data, quality control information and the information contained therein are separated, which is possible to divide real-time data across the entire network. Inside and outside the company In addition, by expanding the "Centro" server for sharing "3D info" with partner companies and subcontractors Which includes foreign bases We continue to be aware of the safe communication environment with 3D data in an index format.</h24>
+        </div>
+    </div>
+</div>
+
+
+<div class="red-footer-center">Number of visitors</div>
+<div class="black-footer-center"><span class="statcounter"><a href="https://www.statcounter.com/" target="_blank" class="link-m"><img src="https://c41.statcounter.com/3789625/0/6a7f1e17/0/" alt="web hit counter" border="0" class="statcounter"></a></span></div>
+<div class="black-footer-center"><a href="https://my.statcounter.com/project/standard/stats.php?project_id=3789625&amp;guest=1" target="_blank" class="link-m">All visitor status</a><br><br></div>
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-82045312-30', 'auto');
+    ga('send', 'pageview');
+
+</script>
+

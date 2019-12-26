@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+@if (Model.Any() && Model!=null)
+{
+    foreach (var item in Model)
+    {
+        <div class="item"> <a href="@item.LinkUrl" target="_blank"> <img src="@item.Value" class="lazy" style="width:150px;height:60px" alt="@item.Title" /> </a> </div>
+    }
+}

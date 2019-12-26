@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Artec Studio 13";
+    ViewBag.Description = "Phần mềm giành giải thưởng trong ngành Để quét 3D chuyên nghiệp Và xử lý dữ liệu";
+    ViewBag.Image = "https://datadesign.vn/Content/Artec3D/images/artec/artec%20studio/13/manual-mode31.png";
+    ViewBag.Url = "https://datadesign.vn/artecStudio13";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    @*<link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+        <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">*@
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/studio-13-styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.min.css">
+    <link href="css/sticky.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/tab-studio-styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "image" : "https://datadesign.vn/Content/Artec3D/images/artec/artec%20studio/13/as-easy-3d-scanning.jpg",
+        "description" : "Artec Studio 13 Award-winning software in the industry For professional 3D scanning And data processing",
+            "url" : "https://datadesign.vn/artecStudio13",
+            "brand" : {
+            "@@type" : "Brand",
+            "name" : "Artec3D",
+            "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo.png"
+            }
+            }
+    </script>
+}
+
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

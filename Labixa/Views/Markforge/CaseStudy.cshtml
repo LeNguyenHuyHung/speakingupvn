@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Với Markforged, bạn có thể tăng năng suất của mình. Các sản phẩm của Markforged cho thấy thế giới thực của các kỹ sư để tạo ra các công cụ độc đáo và thiết bị lắp đặt bền bỉ với giá gấp 10 và 10 lần.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/casestudy/kougu_to_jigu-12.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedPrinter/casestudy";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Case study",
+        "image" : "https://datadesign.vn/images/markforged/casestudy/kougu_to_jigu-1.jpg",
+        "description" : "What can Markforged do?",
+        "url" : "https://datadesign.vn/casestudy",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

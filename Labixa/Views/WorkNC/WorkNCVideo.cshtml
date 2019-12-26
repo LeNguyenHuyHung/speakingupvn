@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Video-WorkNC-DataDesignVN";
+    ViewBag.Description = "WorkNC là phần mềm hỗ trợ việc chỉnh sửa có thể tự động theo dõi các quá trình tự động hóa phức tạp của cam và có thể dễ dàng tạo ra dữ liệu xử lý chất lượng với chỉ một nút. Là tiêu chuẩn phổ biến nhất được sử dụng nhiều nhất, được sử dụng bởi các nhà sản xuất nấm chính và các nhà sản xuất trên khắp thế giới.  ";
+    ViewBag.Image = "https://datadesign.vn/Content/Content/worknc/images/worknc/wnc1.png";
+    ViewBag.Url = "https://datadesign.vn/WorkNC/worknc_vdo";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "worknc_vdo",
+        "description" : "Wave Form Roughing VS Global Roughing",
+        "url" : "https://datadesign.vn/WorkNC/worknc_vdo",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Worknc",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

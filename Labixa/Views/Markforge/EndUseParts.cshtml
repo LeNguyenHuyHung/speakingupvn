@@ -1,0 +1,29 @@
+﻿
+@{
+    /**/
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Được sử dụng để tùy chỉnh các sản phẩm Onyx";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/casestudy/end-use-parts/end-use-parts31.jpg";
+    ViewBag.Url = "https://datadesign.vn/markforgedPrinter/EndUseParts";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+}
+@if (Model != null)
+{
+    if (cookie.Value =="vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

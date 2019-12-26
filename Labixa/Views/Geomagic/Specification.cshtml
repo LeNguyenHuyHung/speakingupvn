@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Specification-Geomagic-DataDesignVN";
+    ViewBag.Description = "Bộ công cụ Geomagic Design X có các khả năng cần thiết để áp dụng cho các dự án như chức năng CAD đáng tin cậy và chức năng xử lý dữ liệu quét cao nhất trong ngành. Ngoài ra, có các chức năng xử lý hàng tỷ điểm quét và có thể tạo các mô hình CAD trực tiếp từ tiêu điểm mà không cần phải có lưới.";
+    ViewBag.Image = "https://datadesign.vn/Content/images/geomagic/3DSystems-Software-DX-massive-point-cloud-features-thumbnail1.png";
+    ViewBag.Url = "https://datadesign.vn/geomagic/specification";
+    Layout = "~/Views/Shared/_Geomagic3d.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link href="~/Content/geomagic/css/body_styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Content/geomagic/cssmenu/styles.css">
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Specification",
+        "image" : "https://datadesign.vn/images/geomagic/3DSystems-Software-DX-Exact-Surface-Features-Thumbnail.jpg",
+        "description" : "The Geomagic Design X tool kit has the capabilities necessary to apply to projects such as reliable CAD functions and the industry's highest scanning data processing functions.",
+        "url" : "https://datadesign.vn/geomagic/specification",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Gemagic Design X",
+        "logo" : "https://datadesign.vn/images/logo/201803221357247.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+
+

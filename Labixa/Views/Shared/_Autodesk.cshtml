@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="vi-VN">
+<!-- Mirrored from datadesign.co.th/netfabb/netfabb.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2019 03:35:07 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    @*<meta property="og:description" content="netfabb là phần mềm được sử dụng cùng với công nghiệp. Sản xuất và thiết kế phần mềm này có thể giúp giảm công việc công việc, giảm các lỗi và tạo ra các tác phẩm chất lượng cho bạn để thị trường nhanh hơn. ">*@<!-- Main Page Title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Data Design Việt Nam, data design, data design vietnam, Scan3D,Scan 3D,3D scanning, 3D printting, Artec 3D, markforged, Cad/CAM, datadesign ">
+    <meta name="description" content="netfabb là phần mềm được sử dụng cùng với công nghiệp. Sản xuất và thiết kế phần mềm này có thể giúp giảm công việc công việc, giảm các lỗi và tạo ra các tác phẩm chất lượng cho bạn để thị trường nhanh hơn. ">
+    <meta name="author" content="Data Design Viet nam">
+    <meta property="og:locale" content="vi_VN">
+    <link rel="canonical" href="https://datadesign.vn/autodesk">
+    <meta property="og:type" content="website"><!-- Main Page Title -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/icon/cropped-icon-180x180.png">
+    <title>NETFABB | Data Design VietNam Co.,Ltd</title>
+    <script src="/code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="/Content/autodesk/jsmenu/script.js"></script>
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">
+    <link rel="stylesheet" href="css/styles-menu.css">-->
+
+
+
+    @RenderSection("scripts", required: false)
+    @{
+        var returnUrl = ViewBag.ReturnUrl;
+    }
+
+    @if (ViewBag.Title != null)
+    {
+        <meta property="og:title" content="@ViewBag.Title"><!-- Main Page Title -->
+    }
+    else
+    {
+        <meta property="og:title" content="Các giải pháp thiết kế và phân tích cho mô hình 3D có thể được sử dụng với tất cả các máy in 3D."><!-- Main Page Title -->
+    }
+
+    @if (ViewBag.Description != null)
+    {
+        <meta name="description" content="@ViewBag.Description">
+        <meta property="og:description" content="@ViewBag.Description">
+
+    }
+    else
+    {
+        <meta property="og:description" content= "NETFABB là một phần mềm được sử dụng cùng với ngành công nghiệp. Sản xuất và thiết kế phụ gia của phần mềm này có thể giúp giảm quy trình công việc, giảm lỗi và tạo ra các phần công việc chất lượng để bạn tiếp thị nhanh hơn."><!-- Main Page Title -->
+        <meta name="description" content="NETFABB là một phần mềm được sử dụng cùng với ngành công nghiệp. Sản xuất và thiết kế phụ gia của phần mềm này có thể giúp giảm quy trình công việc, giảm lỗi và tạo ra các phần công việc chất lượng để bạn tiếp thị nhanh hơn.">
+    }
+    @if (ViewBag.Image != null)
+    {
+        <meta property="og:image" content="@ViewBag.Image">
+    }
+    else
+    {
+        <meta property="og:image" content= "https://datadesign.vn/content/autodesk/images/netfabb/netfabb-11.png"><!-- Main Page Title -->@**@
+    }
+    @if (ViewBag.Url != null)
+    {
+        <meta property="og:url" content="@ViewBag.Url">
+        <link rel="canonical" href="@ViewBag.Url">
+    }
+    else
+    {
+        <meta property="og:url" content="https://datadesign.vn/autodesk"><!-- Main Page Title -->
+        <link rel="canonical" href="https://datadesign.vn/autosesk">
+    }
+    <style type="text/css">
+
+        body, td, th {
+            font-family: CSChatThai;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+    </style>
+    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+    <script>var __adobewebfontsappname__ = "dreamweaver"</script>
+</head>
+<body>
+    @Html.Action("HomeCommon", "Home")
+    <div class="top_bar">
+        <div class="logo">
+            <div class="table-logo">
+                <a href="/home"><img src="~/Content/Datadesign-home/Data-Design-Viet-Nam.png" id="logo-size" alt="Data Design Viet Nam" /></a>
+
+                <div class="title-top-right"><img src="/Content/autodesk/images/logo/netfabb-1.png" id="logo-net-size" alt="netfabb-1" /><br>Design / analysis software for 3D modeling</div>
+            </div>
+        </div>
+    </div>
+    <div class="background-menu">
+        <div id="cssmenu">
+            <ul>
+                <li class="button-home"><a href="/autodesk">NetFabb</a></li>
+                <li><a href="/autodesk/overviewnetfabb">@Resources._Overview</a></li>
+                <li><a href="/autodesk/specificationautodesk">@Resources._Specification</a></li>
+                <li><a href="https://products.datadesign.co.jp/netfabbcasestudy/" target="_blank">@Resources._Case_Study</a></li>
+                @if (@Resources.Home == "Home")
+                {
+                    <li class="nav-item-1">
+                        <a href="/set-culture?slug=vi&returnUrl=@returnUrl"><img src="~/Images/uploaded/flag/vietnam.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a>
+
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item-1">
+                        <a href="/set-culture?slug=en&returnUrl=@returnUrl"><img src="~/Images/uploaded/flag/united-states.png" title="Data Design Viet Nam" alt="Data Design Viet Nam"></a>
+                    </li>
+                }
+                @*<li><a href="regdownload_netfabb.html">Download</a></li>
+                    <li><a href="https://datadesign.co.th/support.php">Log In</a></li>*@
+            </ul>
+        </div>
+    </div>
+    @RenderBody()
+
+    <!--start footer-->
+    <div class="footer">
+        Data Design VietNam Co., Ltd.<span style="margin-left: 15px; font-family: CordiaNew;">Copyright &#169; 2019 All Rights Reserved.</span>
+    </div><!--end footer-->
+
+</body>
+<!-- Mirrored from datadesign.co.th/netfabb/netfabb.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2019 03:35:12 GMT -->
+</html>

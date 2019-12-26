@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Robotic Scan";
+    ViewBag.Description = "Giới thiệu giải pháp rảnh tay tự động này trong quy trình làm việc của bạn để tạo ra hàng ngàn mô hình 3D chính xác tại thời điểm tiết kiệm và tiết kiệm chi phí nhất.";
+    ViewBag.Image = "https://datadesign.vn/Content/Artec3D/images/artec/roboticscan/artec-robotic1.png";
+    ViewBag.Url = "https://datadesign.vn/roboticscan";
+    Layout = "~/Views/Shared/_Artec3D.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/Artec3D/css/body-styles1.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/roboticscan-styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    <link rel="stylesheet" href="/Content/Artec3D/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "RoboticScan",
+        "description" : "Artec RoboticScan 3D automatic scanning station with high accuracy",
+        "url" : "https://datadesign.vn/roboticScan",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Artec3D",
+        "logo" : "https://datadesign.vn/Content/Artec3D/images/artec/3dPrintingartec3d-logo.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

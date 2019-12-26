@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "ProtoTyping";
+    ViewBag.Description = "Mark One giúp giảm chi phí trong ngành dệt may.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/casestudy/prototyping/prototype31.png";
+    ViewBag.Url = "https://datadesign.vn/markforgedPrinter/prototyping";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "Modeling the prototype",
+        "image" : "https://datadesign.vn/images/markforged/casestudy/prototyping/prototype3.jpg",
+        "description" : "Mark Two is used for glass maintenance.",
+        "url" : "https://datadesign.vn/markforgedPrinter/prototyping",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Markforged",
+        "logo" : "https://datadesign.vn/Content/marforge/images/markforged/MarkforgedLogoSideways.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "CaseStudy";
+    Layout = "~/Views/Shared/_Eureka.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/eureka/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/eureka/cssmenu/styles.css">
+
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "casestudy",
+        "image" : "https://datadesign.vn/Content/eureka/images/Eureka/cloud.jpg",
+        "description" : "Simulated functions that correspond to every processor With private cloud functionality, simulated registration can be done from multiple PCs.",
+        "url" : "https://datadesign.vn/eureka/casestudy",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "eureka",
+        "logo" : "https://datadesign.vn/Content/eureka/images/logo/eureka_logo-2.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

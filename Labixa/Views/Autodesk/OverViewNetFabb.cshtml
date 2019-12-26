@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "OverViewNetFabb";
+    ViewBag.Description = "Mô hình 3D nhanh để tăng hiệu quả sản xuất Và như một công cụ phụ trợ để hỗ trợ các thiết kế sáng tạo.";
+    ViewBag.Image =  "https://datadesign.vn/content/autodesk/images/netfabb/netfabb-11.png"; 
+    ViewBag.Url = "https://datadesign.vn/autodesk/overviewnetfabb";
+    Layout = "~/Views/Shared/_Autodesk.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/autodesk/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/autodesk/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+    @*<script src="/Content/autodesk/code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="/Content/autodesk/jsmenu/script.js"></script>*@
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+<script type="application/ld+json">
+    {
+    "@@context" : "http://schema.org",
+    "@@type" : "Product",
+    "name" : "NETFABB",
+    "image" : [ "https://datadesign.vn/Content/autodesk/images/netfabb/netfabb_main.png", "https://datadesign.vn/Content/autodesk/images/netfabb/netfabb_kadai-1024x466.png" ],
+    "description" : "Quick 3D modeling to increase production efficiency And as an auxiliary tool to support innovative designs.",
+    "url" : "https://datadesign.vn/autodesk/overviewnetfabb",
+    "brand" : {
+    "@@type" : "Brand",
+    "name" : "Auto Desk",
+    "logo" : "https://datadesign.vn/Content/autodesk/images/logo/netfabb-11.png"
+    }
+    }
+</script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

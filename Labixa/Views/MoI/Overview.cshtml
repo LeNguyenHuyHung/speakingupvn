@@ -1,0 +1,45 @@
+﻿
+@{
+     ViewBag.Title = "Moi-Datadesign-Việt-Nam";
+    ViewBag.Description = "MoI là một công cụ thiết kế cá nhân 3D dễ sử dụng, có thể tạo hình ảnh trực tiếp dưới dạng 3D. Sử dụng mô hình bề mặt cong gọi là NURBS, được sử dụng rộng rãi trong các thiết kế sản phẩm công nghiệp như Xe hơi và thiết bị gia dụng Và có thể hiển thị các bề mặt phức tạp sử dụng ít điểm kiểm soát Menu hoạt động khá khác so với phần mềm 3D-CAD thông thường và sử dụng giao diện bảng màu. là phù hợp cho máy tính bảng bút. Có thể sử dụng mô hình bề mặt và mô hình rắn và tạo ra mô hình tốt nhất dựa trên ứng dụng.";
+    ViewBag.Image = "https://datadesign.vn/Content/moi/images/moi/adv_01-1024x5501.jpg";
+    ViewBag.Url = "https://datadesign.vn/moi/overview";
+    Layout = "~/Views/Shared/_MoI.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/moi/css/body-styles.css">
+    <script src="MoI%20site/Scripts/swfobject_modified.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Content/moi/cssmenu/styles.css">
+    <link rel="stylesheet" href="/Content/Artec3D/css/reponsive_mobile.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "overViewMoI",
+        "image" : "https://datadesign.vn/Content/moi/images/moi/adv_01-1024x550.jpg",
+        "description" : "MoI uses NURBS (Non-Uniform Rational Basic Spline) in surface form as well as CAD software for full industrial design.",
+        "url" : "https://datadesign.vn/overViewMoI",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Moi",
+        "logo" : "https://datadesign.vn/Content/moi/images/logo/mois_logo.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
+<!--start footer-->

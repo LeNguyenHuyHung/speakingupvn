@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "CADFunction-Datadesign Việt Nam";
+    ViewBag.Description = "WorkNC đi kèm với một mô-đun CAD để hỗ trợ CAM. Kiểm tra hình dạng cần thiết cho hoạt động CAM và sửa đổi bề mặt sẽ xảy ra với thao tác đơn giản.";
+    ViewBag.Url = "https://datadesign.vn/worknc/cad-function";
+    Layout = "~/Views/Shared/_WorkNC.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+
+    <link rel="stylesheet" href="/Content/worknc/css/body_styles.css">
+    <link rel="stylesheet" href="/Content/worknc/cssmenu/styles.css">
+
+    <!-- Đánh dấu JSON-LD được tạo bởi Trình trợ giúp đánh dấu dữ liệu có cấu trúc của Google. -->
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "Product",
+        "name" : "cad-function",
+        "image" : "https://datadesign.vn/Content/worknc/images/worknc/1-cad-01.jpg",
+        "description" : "WorkNC comes with a CAD module to support CAM. Checking the shape needed for CAM operation and surface modification will occur with simple operation. ",
+        "url" : "https://datadesign.vn/worknc/cad-function",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "Worknc",
+        "logo" : "https://datadesign.vn/Content/worknc/images/logo/worknc_logo_small.png"
+        }
+        }
+    </script>
+}
+@if (Model != null)
+{
+    if (cookie.Value == ("vi"))
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}

@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Markforged-DatadesignVn";
+    ViewBag.Description = "Keith Durand của Markforged là một nhạc sĩ làm việc trong Dàn nhạc Mercury, Dàn nhạc Giao hưởng Longwood, Bay Colony Brass và các nhóm khác khi ông không phát minh ra công nghệ mới như một kỹ sư cơ khí cao cấp.";
+    ViewBag.Image = "https://datadesign.vn/Content/marforge/images/markforged/casestudy/prototyping/724-wf-5c411804-1bf6-434d-82ce-2190b15df7fd-9-300x2001.jpg";
+    ViewBag.Url = "https://datadesign.vn/case03";
+    Layout = "~/Views/Shared/_MarkforgeLayout.cshtml";
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+@model Outsourcing.Data.Models.Product
+@section scripts{
+    <link rel="stylesheet" href="/Content/marforge/css/body-styles.css">
+    <!--<link rel="stylesheet" href="../css/styles-menu.css">-->
+    <!--<link rel="stylesheet" href="fontello-172baab5/css/fontello.css">-->
+
+    <link rel="stylesheet" href="/Content/marforge/cssmenu/styles.css">
+}
+
+@if (Model != null)
+{
+    if (cookie.Value == "vi")
+    {
+        @Html.Raw(Model.Content)
+    }
+    else
+    {
+        @Html.Raw(Model.ContentEng)
+    }
+}
